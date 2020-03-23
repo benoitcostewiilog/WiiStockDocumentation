@@ -21,17 +21,17 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Documentation projet WiiStock', // Title for your website.
+  tagline: 'Site pour les utilisateurs et administrateurs de l\'application',
+  url: 'https://wiilog.fr/doc', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'WiiStockDocumentation',
+  organizationName: 'wiilog',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -39,23 +39,21 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {blog: true, label: 'Versions'},
   ],
 
   // If you have users set above, you add it here:
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/fgt_blanc.png',
+  footerIcon: 'img/fgt_blanc.png',
+  favicon: 'img/fgt_blanc.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#382901',
-    secondaryColor: '#271c00',
+    primaryColor: '#2E5492',
+    secondaryColor: '#1B1464',
   },
 
   /* Custom fonts for website */
@@ -73,7 +71,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Wiilog`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

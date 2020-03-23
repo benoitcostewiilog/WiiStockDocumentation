@@ -30,7 +30,7 @@ class Footer extends React.Component {
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
                 alt={this.props.config.title}
-                width="66"
+                width="200"
                 height="58"
               />
             )}
@@ -38,36 +38,36 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+              Premiers pas
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+              Paramétrages
             </a>
             <a href={this.docUrl('doc3.html', this.props.language)}>
               API Reference (or other categories)
             </a>
           </div>
           <div>
-            <h5>Community</h5>
+            <h5>Patenaires</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+              L'équipe Wiilog
             </a>
             <a
               href="https://stackoverflow.com/questions/tagged/"
               target="_blank"
               rel="noreferrer noopener">
-              Stack Overflow
+              GT Logistics
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
             <a
               href="https://twitter.com/"
               target="_blank"
               rel="noreferrer noopener">
-              Twitter
+              Wiilog
             </a>
           </div>
           <div>
-            <h5>More</h5>
+            <h5>Plus</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
             <a href="https://github.com/">GitHub</a>
             <a
@@ -104,19 +104,6 @@ class Footer extends React.Component {
             )}
           </div>
         </section>
-
-        <a
-          href="https://opensource.facebook.com/"
-          target="_blank"
-          rel="noreferrer noopener"
-          className="fbOpenSource">
-          <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
-            alt="Facebook Open Source"
-            width="170"
-            height="45"
-          />
-        </a>
         <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
