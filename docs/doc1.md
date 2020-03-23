@@ -10,6 +10,8 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepots
 
+![Premier pas](assets/premier.png)
+
 ## Cas d'usage - Outil de gestion de stock stand-alone
 
 ```
