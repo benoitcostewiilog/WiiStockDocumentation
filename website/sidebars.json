@@ -1,10 +1,11 @@
 {
   "docs": {
-    "Premiers pas": ["doc1"],
-    "Parmétrage": ["doc2"],
-    "Fonctionnalités": ["doc3", "doc6", "doc7", "doc8"]
+    "Premiers pas": ["premierspas"],
+    "Parmétrage": ["parroles","parutilisateurs","parparametragesglobal","parautres"],
+    "Fonctionnalités Web": ["webgeneralites", "webtracabilites", "webqualites", "webdemandes","webordres","webstocks","webreferentiels"],
+    "Fonctionnalités Mobile" : ["mobgeneralites", "mobtracabilites", "mobordres", "mobstock"]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "equipe": {
+    "Les développeurs du projet": ["developpeurs"]
   }
 }
