@@ -8,7 +8,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Follow GT / Wiistock scvsmdkljghsdlkjghlkjksdfg
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepots
+Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
 
 ![Premier pas](assets/premier.png)
 
