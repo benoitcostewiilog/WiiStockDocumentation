@@ -37,14 +37,11 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('doc1.html', this.props.language)}>
+            <a href={this.docUrl('premierspas', this.props.language)}>
               Premiers pas
             </a>
-            <a href={this.docUrl('doc2.html', this.props.language)}>
+            <a href={this.docUrl('parparametragesglobal', this.props.language)}>
               Paramétrages
-            </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
             </a>
           </div>
           <div>
@@ -53,14 +50,14 @@ class Footer extends React.Component {
               L'équipe Wiilog
             </a>
             <a
-              href="https://stackoverflow.com/questions/tagged/"
+              href="https://www.gt-logistics.fr"
               target="_blank"
               rel="noreferrer noopener">
               GT Logistics
             </a>
             <a href="https://discordapp.com/">Project Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://www.wiilog.fr/"
               target="_blank"
               rel="noreferrer noopener">
               Wiilog
