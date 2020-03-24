@@ -1,12 +1,12 @@
 ---
 id: doc1
-title: Latin-ish
+title: Guide utilisateur Follow GT
 sidebar_label: Premiers pas
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Follow GT / Wiistock 
+## Follow GT / Wiistock scvsmdkljghsdlkjghlkjksdfg
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepots
 
