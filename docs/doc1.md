@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Guide utilisateur Follow GT
-sidebar_label: Premiers pas
+sidebar_label: Premiers pas ou pas
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
