@@ -1,7 +1,7 @@
 ---
-id: doc1
-title: Guide utilisateur Follow GT
-sidebar_label: Premiers pas ou pas
+id: mobgeneralites
+title: Mobile - Généralités
+sidebar_label: Généralités
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
