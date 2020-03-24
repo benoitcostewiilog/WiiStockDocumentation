@@ -6,7 +6,7 @@ sidebar_label: Premiers pas ou pas
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
-## Follow GT / Wiistock scvsmdkljghsdlkjghlkjksdfg
+## Follow GT / Wiistock 
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
 
@@ -14,7 +14,6 @@ Une application de gestion de stock et flux logistiques en entrepots pour faclit
 
 ## Cas d'usage - Outil de gestion de stock stand-alone
 
-```
 Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. ```
 
 ## Cas d'usage - Outil WMS interfacé avec un ERP
