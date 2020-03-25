@@ -48,6 +48,7 @@ Pour créer une demande de livraion, cliqué sur
     * Livraison
         * Nouvelle livraison
             * Remplissé le fomualire de livraison 
+              * 
 
 Vous venez de créer une demande de livraison. Vous aller pouvoir retouver l'ordre dans Ordre de préparation. 
 
