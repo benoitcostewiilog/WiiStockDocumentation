@@ -8,7 +8,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Demandes
 
-L'appliaction Wiistock permet d'envoyer des demandes de collecte, livraison et service. Chaqu'une vas créer dans l'appliaction des ordres, afin de réaliser les actions demandées. 
+*L'appliaction Wiistock permet d'envoyer des demandes de collecte, livraison et service. Chaqu'une vas créer dans l'appliaction des ordres, afin de réaliser les actions demandées.*
 
 ![Premier pas](assets/premier.png)
 
