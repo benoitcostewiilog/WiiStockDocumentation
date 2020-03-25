@@ -15,26 +15,26 @@ L'appliaction Wiistock permet d'envoyer des demandes de collectes, livraisons et
 La demande de collecte permet de rapatrier des articles de votre production à votre stock ou de les détruire.
 Les demandes sont crées sur ordinateur. Les ordres peuvent s'éfféctuer sur l'application web ou mobile. 
 
-Pour créer une demande de collecte, cliqué sur 
+Pour créer une demande de collecte, cliqué sur :
 * Demande
 * Collecte
-Nouvelle collecte
-Remplissage du formulaire de la demande de collecte
-Ajout des articles/références
-Valider 
+* Nouvelle collecte
+* Remplissage du formulaire de la demande de collecte
+* Ajout des articles/références
+* Valider 
 
 Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collectes. 
 
 Vous pouvez inspecter la collecte avec le bouton en forme d'oeil. 
 
 La page est sous forme de tableau. Vous y retrouverait : 
-* L'action,
-* La date de création,
-* Le demandeur de la collecte,
-* Son numéro,
-* L'objet,
-* Le statut,
-* Le type. 
+* L'action
+* La date de création
+* Le demandeur de la collecte
+* Son numéro
+* L'objet
+* Le statut
+* Le type
 
 ## Demandes de livraison
 
@@ -57,9 +57,9 @@ La demande de service permette, de réclamer l'aide d'une ou plusieurs personnes
 
 Pour créer une demande de service, cliqué sur 
 * Demande 
-    * Demande de service
-        * Nouvelle demande 
-            * Remplissé le formulaire de demande de service
+* Demande de service
+* Nouvelle demande
+* Remplissé le formulaire de demande de service
 
 Vous venez de créer une demande de service. Toute les demandes de service se trouve sur la même page.
 Chaque demande se voie attribuer un staut. Cella permet de voir celle qui sont traité et celle qui ne le sont pas.  
