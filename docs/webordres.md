@@ -92,10 +92,30 @@ Si la collecte doit être supprimer, vous pouvez le faire grace au bouton suppri
 
 Quand vous venez de recevoir des colis, il faut ensuite les ajouter au stock. 
 Pour cella vous pourrez utiliser la fonctionnalité, récéption. 
-Celle-ci vas vous permettre, de
+Celle-ci vas vous permettre, de voir l'ensemble des récéptions que votre stock a enregistré.
 
 ### Créer une réception
 
+Pour créer une récéption, cliquez sur le bouton, **nouvelle récéption**, puis vous remplissez les champs dont vous avez besoins. 
+
+Après avoir validé la création, vous arriverez dans le détail de la récéption pour pouvoir y ajouter des piéces.
+Pour les ajouter, il faut cliquer sur le bouton ajouter piéce. Si une ou plusieurs de vos piéces sont litigieuses, alors vous pouvez créer un litige sur c'est piéce la. Cella vas permettre d'alerter et qu'un logisticien s'occupe imédiatement de la ou les piéces concernées. Ensuite après avoir séléctionné une piéce, vous devrez cliquer sur le bouton récéption. Qui vous permettra de valider l'ajout d'une référence dns votre stock. 
+
+Vous trouverez en haut de la page, les informations concernant votre récéption 
+
+* Numero de réception
+* Fournisseur
+* Emplacement
+* Date commande
+* Numéro de commande
+* Date de création 
+* Date de fin d'une réception 
+* Commentaire
+
+Vous pouvez ensuite soit supprimer, modifier ou bien finnir la récéption grace au bouton situé en au a droite de votre écran. 
+
 ### Filtrer les réceptions
+
+En haut de la liste de vos récéptions, vous toruverez, tous les filtres. Vous pouvez combiner autant de filtre que vous souhaitez. Ensuite pour appliquer c'est filtres, vous cliquez sur filtrer. 
 
 ### Réceptionner des articles ou références
