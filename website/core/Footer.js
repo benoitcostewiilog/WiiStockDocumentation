@@ -25,7 +25,7 @@ class Footer extends React.Component {
     return (
       <footer className="nav-footer" id="footer">
         <section className="sitemap">
-          <a href={this.props.config.baseUrl} className="nav-home">
+          {/*<a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
               <img
                 src={this.props.config.baseUrl + this.props.config.footerIcon}
@@ -35,6 +35,7 @@ class Footer extends React.Component {
               />
             )}
           </a>
+            */}
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('premierspas', this.props.language)}>
@@ -55,7 +56,7 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               GT Logistics
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            {/*<a href="https://discordapp.com/">Project Chat</a>*/}
             <a
               href="https://www.wiilog.fr/"
               target="_blank"
