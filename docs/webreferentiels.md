@@ -9,7 +9,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 ## Génératlités
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
-
+test 
 ## Emplacements
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
