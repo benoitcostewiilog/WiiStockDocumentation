@@ -20,9 +20,15 @@ L'appliaction Wiistock utilise des étiquettes QR Code ou Code 128, pour attribu
 
 ### Configuration des exports CSV
 
+L'application Wiistock permet de modifier l'encodage de vos export CSV
+
 ### Préfixage des nom de demandes
 
+
+
 ### Configuration du serveur mail
+
+
 
 ### Paramétrage réceptions
 
