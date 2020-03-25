@@ -16,6 +16,8 @@ Une application de gestion de stock et flux logistiques en entrepots pour faclit
 
 ### Configuration des etiquettes
 
+L'appliaction Wiistock utilise des étiquettes QR Code ou Code 128, pour attribuer une références a chaque colis, emplacements et ordres. Cette fonctionnalité vous permettre de modifier le format ainsi que le type d'étiquette  
+
 ### Configuration des exports CSV
 
 ### Préfixage des nom de demandes
