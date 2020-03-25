@@ -176,30 +176,132 @@ cliquer sur le bouton
 
 ## Champs libres
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Le système de champs libre est un fort outil de personnalisation. Ce dernier permet aux administrateurs de l'application d'enrichir des données typées sur des entitées typées le permettant.
+
+Ainsi il est possible d'enrichir des données sur : 
+- Les types de références de stock
+- les articles liés aux types de références
+- Les types de demandes de livraison
+- Les types de demandes de collecte
+- Les arrivages
+- Les réceptions
+
+#### Les types de données
+
+Les types de données disponibles sont : 
+
+Type | Format | Exemple et détail
+------------ | ------------- | -------------
+Date | JJ/MM/AA | 25/03/20 : l'année peut être reprise facilement sous excel
+Texte | texte de 250 caractères | le texte peut être limité en affichage sur la taille des champs
+Oui/Non | Coche | les imports et export se font avec les caractères "Oui" et "Non"
+Date et heure | JJ/MM/AA HH:MM | 25/03/20 17:53
+Liste | Choix unique | La données se selectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
+Liste multiple | Choix multiple | la donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgul : "Valeur1;Valeur2"
+Nombre | NNNN | Exemple : 12345
+
+#### Ajouter un champ libre
+
+Pour ajouter un champ libre sur un type, aller dans le menu `Paramétrage / Champ libre` : la liste des types disponible s'ouvre.
+-  Ouvrir un type existant via le bouton avec l'oeil
+ou 
+-  Cliquer sur le bouton `Aller vers la création d'un type`
+
+Une fois dans la liste des champs libres, 
+2. Cliquer sur le bouton `+ Nouveau Champ Libre` le formulaire de création s'ouvre et vous demande de : 
+- Choisir le nom : Il doit être unique
+- Choisir l'entitée sur l'aquelle s'applique le champ libre
+- Typage : choisir le type de donnée
+- Oligatoire à la création : Choisir si l'utilisateur est obligé de saisir cette donnée à la création de l'entitée
+- Obligatoire à la modification : Choisir si l'utilisateur est obligé de saisir cette donnée à la modification de l'entitée.
+
+Le champ est ensuite visible dans la liste des champs et une prévisualisation permet de voir à quoi il ressemblera.
+
+> Note : Il n'est pas possible de muter un typage de champ, ex : un champ typé en texte ne pourra pas être modifié pour être passé en date ou autre type
+
+
+
+#### Supprimer un champ libre
+
+**Attention : Un champ peut être supprimé via ce paramétrage. Il est très important de savoir que la suppression d'un champ est irréversible, les données saisies seront perdus.**
+
+Penser à exporter vos données avant d'effectuer une eventuelle suppression de champ.
+
+Pour effectuer la suppression, cliquer sur le bouton avec la corbeille dans la liste des champs.
+
 
 ## Export des données
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Les exports de données se trouvent en général sur les listes des demandes/ordres ou autres entitées de données.
+
+Le sous menu d'export des données comporte l'export des références et articles présents dans le stock complet embarquant les champs libres.
+
+Le système de champ libre multiplie les requetes dans la base de données, c'est pourquoi l'export total de la base peut prendre un certain temps.
+
 
 ## Inventaires
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+La paramétrage des inventaires a été placé dans le menu paramétrage car il génèrent des automatismes de calculs et peut comme l'export des données multiplier les requetes sur la base de données.
+
+L'inventaire fonctionne via un système de génération automatiques de missions suivant une cathégorisation ABC.
+
+Les cathégories sont associés aux fréquences et permettent de générer automatiquement les mission toutes les semaines suivant la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantitée retenue).
+
+#### Nouvelle fréquence
+
+Via le bouton `+Nouvelle fréquence`, il est possible de créer une nouvelle fréquence en nombre de mois.
+
+Cela permet de déterminer qu'une catégorie de référence sera à inventorier au plus rapide, 1 fois par mois et au plus tard, 1 fois tous les XX mois (illimité).
+
+#### Nouvelle catégorie
+
+Via le bouton `+Nouvelle catégorie`, il est possible de créer une catégorie et de l'associer à une fréquence.
+
+> Cette catégorisation peut se faire en dehors de l'application suivant vos règles : Valeur produit / nombre mouvement / nombre de réappo / nombre de régularisation / autre
+
+Une fois vos catégorie créée, il est possible d'importer et mettre à jour les références pour leur affecter une catégorie.
+
+#### Import pour mise à jour
+
+Vous pourrez télécharger le modèle d'import attendu en cliquant sur le bouton `Modèle d'import`.
+
+Ce dernier attend 2 colonnes : 
+1. Référence
+2. Catégorie
+
+l'outil d'import attend un fichier d'import au format csv encodé en UTF-8. Une fois votre fichier pret, vous pouvez le charger via le bouton `Import excel`.
+
+En cas de problème, l'outil d'import vous informera du déroulé de la mise à jour des catégories.
 
 
+## Statuts litiges
 
-## Status litiges
+Les status des litiges sont paramétrables via le menu `Paramétrage / Statuts litiges`.
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Un statut de litige est à différencier d'une type de litige.
+Exemple de type : *Manque BL*, *Problème Quantité*
+
+Le statut est fait pour paramétrer un workflow, soit les étapes succésivent permettant d'aller vers la résolution d'un litige. Ces statuts peuvent être différents suivant les litiges d'arrivage et réception.
+
+Il est possible de créer un statut en cliquant sur `+Nouveau statut`, voici les fonctionnalités disponibles : 
+
+Champ paramétrage litige | Description
+------------ | -------------
+Catégorie | Permet se sélectionner arrivage ou réception
+Label | Permet de choisir le nom :ex : "en attente fournisseur", "En attende contrôle qualité"
+Commentaire | Champ texte qui sera ajouté automatiquement dans l'historique du litige lors du passage sur ce statut.
+Statut de type "litige traité" | Permet d'identifier que le statut de requiert plus d'actions utilisateurs (filtre disponible sur les liste des litiges)
+Envoi de mails aux acheteurs | Permet de spécifier que le passage sur ce statut envoi directement un mail d'information d'avancement aux acheteurs associés au litige
+Ordre | Permet de spécifier l'ordre dans la liste des statut pour assister les utilisateurs sur le changement de statut
 
 ## Nature des colis
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+A compléter 
 
 ## Champ fixes
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+A compléter 
 
 ## Import et mise à jour
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+A compléter 
