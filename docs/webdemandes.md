@@ -16,8 +16,8 @@ La demande de collecte permet de rapatrier des articles de votre production à v
 Les demandes sont crées sur ordinateur. Les ordres peuvent s'éfféctuer sur l'application web ou mobile. 
 
 Pour créer une demande de collecte, cliqué sur 
-Demande
-Collecte
+* Demande
+* Collecte
 Nouvelle collecte
 Remplissage du formulaire de la demande de collecte
 Ajout des articles/références
