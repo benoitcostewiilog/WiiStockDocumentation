@@ -8,13 +8,13 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Les ordres
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+La fonctionnalité de ordre regroupent les ordres de collecte et de livraison. Il permet aussi de récéptionner
 
 ![Premier pas](assets/premier.png)
 
 ## Ordre de préparation
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Après une demande de livraiosn, l'ordre de prépartion s'affiche dans le tableau. Il est possible de l'éfféctuer en cliquant sur le petit oeil. Vous pouvez finalisez 
 
 ### Picking sur référence
 

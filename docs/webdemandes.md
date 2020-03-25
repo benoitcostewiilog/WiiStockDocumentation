@@ -8,24 +8,22 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Demandes
 
-L'appliaction Wiistock permet d'envoyer des demandes de collecte, livraison et service. Chaqu'une vas créer dans l'appliaction des ordres, afin de réaliser les actions demandées. 
-
-![Premier pas](assets/premier.png)
+L'appliaction Wiistock permet d'envoyer des demandes de collectes, livraisons et services. Chaqu'une des demandes créer dans l'appliaction des ordres, afin de réaliser les actions demandées. 
 
 ## Demandes de collecte
 
-La demande de collecte permet de rapatrier des articles dans votre stock ou de les détruire.
-Les demandes sont crées sur ordinateur. Les ordres s'éfféctue sur le nomade. 
+La demande de collecte permet de rapatrier des articles de votre production à votre stock ou de les détruire.
+Les demandes sont crées sur ordinateur. Les ordres peuvent s'éfféctuer sur l'application web ou mobile. 
 
 Pour créer une demande de collecte, cliqué sur 
-* Demande
-  * Collecte
-    * Nouvelle collecte
-      * Remplissage du formulaire de la demande de collecte
-        * Ajout des articles/références
-          * Valider 
+Demande
+Collecte
+Nouvelle collecte
+Remplissage du formulaire de la demande de collecte
+Ajout des articles/références
+Valider 
 
-Félicitation vous avez réussi créer une demande de collecte.Vous pouvez la retrouver il faut aller dans les ordres de collectes. 
+Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collectes. 
 
 Vous pouvez inspecter la collecte avec le bouton en forme d'oeil. 
 
@@ -41,9 +39,9 @@ La page est sous forme de tableau. Vous y retrouverait :
 ## Demandes de livraison
 
 La demande de livraison permette :
-            *D'envoyer des articles de votre stock à vos clients.
+            * D'envoyer des articles de votre stock à vos clients.
 
-            *D'envoyer des articles de votre stock à votre production/magazin.
+            * D'envoyer des articles de votre stock à votre production/magazin.
 
 Pour créer une demande de livraion, cliqué sur 
 * Demande
