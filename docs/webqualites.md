@@ -12,8 +12,6 @@ La fonctionnalité litiges, permet de traier la gestion des colis/articles non c
 
 Ce module regroupe sous forme de tableau tous les litiges sur arrivages et récéptions. 
 
-![Premier pas](assets/premier.png)
-
 ## Litiges sur arrivage
 
 Pour attribuer un litige sur un arrivage, il vous faut créer un arrivage dans la fonctionnalité "Arrivage", "Nouvelle arrivage". Puis vous remplissez le formulaire de création. Après la création, il vous sera possible d'assimiler un litige ou plusieurs, sur un ou plusierus colis. IL vous faudra cliquez sur "Nouveau litige". Un formaulaire s'ouvrira, et vous permettra de créer votres litige, sur le ou les colis. Vous pourez aussi renseignier le statut et le type de votre litige.

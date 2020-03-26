@@ -8,16 +8,24 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Génératlités
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Le menu référentiel, permet de regrouper tous les emplacements, fournisseurs, et transporteurs qui sont liées à votre entreprise. Cella pemret de lier l'appliaction a vos fournisseurs, transporteurs et fournisseurs. 
 
 ## Emplacements
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Cette fonctionnalité permet de regrouper tous les emplacmenet qui sont dans votre bases de données.
+Il est possible d'importer une liste de vos emplacements, mais aussi de les créer à la main. 
+De plus si vous souhaitez modifier un emplamcent, il possible de le faire.  
+
+C'est ici aussi que vous pourez attribuer un emplacment d'encours. "LIEN VERS LES ENCOURS" 
 
 ## Fournisseur
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Cette fonctionnalité permet de regrouper tous les fournissuers qui sont dans votre bases de données. 
+Il est possible d'importer une liste de vos fournisseurs, mais aussi de les créer à la main.
+De plus vous pouvez aussi les modifier. 
 
 ## Transporteur
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Cette fonctionnalité permet de regrouper tous les transporteurs qui sont dans votre bases de données. 
+Il est possible d'importer une liste de vos transporteurs, mais aussi de les créer à la main.
+De plus vous pouvez aussi les modifier. 
