@@ -4,7 +4,7 @@ title: Les demandes de livraison / collecte / service
 sidebar_label: Demandes
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+
 
 ## Demandes
 
