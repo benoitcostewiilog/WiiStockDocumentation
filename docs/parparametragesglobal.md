@@ -8,24 +8,24 @@ sidebar_label: Paramétrage global
 
 La paramétrage global est important d'être revu lors du démarrage sur l'application. Ce paramétrage permet de personnaliser l'application et ses fonctionnalités pour qu'elles puissent fonctionner suivant votre besoin.
 
-Ces paramétrages ne sont pas des données en tant que tel. Il convient donc de les reporter sur vos environnent de recette et environnement de production pour retrouver le même comportement de l'application
+Ces paramétrages ne sont pas des données en tant que tels. Il convient donc de les reporter sur vos environnements de recette et environnements de production pour retrouver le même comportement de l'application
 
->Note : Certains paramétrages s'enregistrent lors de leur modifications, d'autres s'enregistrent au clique sur un bouton check vert.
+>Note : Certains paramétrages s'enregistrent lors de leur modification, d'autres s'enregistrent au clique sur un bouton check vert.
 
 ## Paramétrage global
 
-### Configuration des etiquettes
+### Configuration des étiquettes
 
-La configuration des etiquettes est commune aux etiquettes de traçabilité, de stock et d'emplacement.
+La configuration des étiquettes est commune aux étiquettes de traçabilité, de stock et d'emplacement.
 
 Paramètre | Description
 ------------ | -------------
-Hauteur mm | spécifie la hauteur en milimetre de l'etiquette (entier)
+Hauteur mm | spécifie la hauteur en milimetre de l'étiquette (entier)
 Largeur mm | spécifie la largeur en milimetre de l'étiquette (entier)
-Champ libre présent sur etiquette | Permet d'ajouter un champ libré lié à un type de référence sur une etiquette d'article. Sert par exemple pour ajouter un part number ou bon de livraison à réception d'article
-Champ libre sur etiquette | A définir
-Type d'étiquette | Permet de spécifier le type de code barré généré sur les etiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
-Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les etiquettes générées
+Champ libre présent sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un part number ou bon de livraison à réception d'article
+Champ libre sur étiquette | A définir
+Type d'étiquette | Permet de spécifier le type de code barré généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
+Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
 
 
 ### Configuration des exports CSV
@@ -38,7 +38,7 @@ Ce choix permet de limiter les effets d'accents "hiéroglyphe"
 ### Préfixage des nom de demandes
 
 - Type de demande : Demande de livraison
-Permet de choisir un préfixe demande les code de demande générés. 
+Permet de choisir un préfixe des codes de demande générés. 
     ex : DL => pour demande de livraison / CDE pour commande / Autres suivant besoin
 
 
@@ -67,9 +67,9 @@ Paramètre | Description
 Créer une demande de livraison après réception | Permet d'ajouter automatiquement les articles générés et réceptionnés dans une nouvelle demande de livraison lors de la réception d'un conditionnement. Ne fonctionne pas avec la réception de quantité sur référence.
 Créer une préparation après demande de livraison | Permet de limiter la création automatique d'une préparation lors de la validation d'une demande de livraison
 Statut litige par défaut | Permet de spécifier le statut d'un litige lors de sa création sur une réception
-Emplacement de réception par défaut | Permet de choisir l'emplacement vers lequel une mouvement de stock va être créé initialement
+Emplacement de réception par défaut | Permet de choisir l'emplacement vers lequel un mouvement de stock va être créé initialement
 
-Il est ensuite possible de modifier les libellés des statuts de réceptions pour collecter au vocabulaire de votre supply.
+Il est ensuite possible de modifier les libellés des statuts de réceptions pour qu'ils correspondent à votre vocabulaire. 
 1. En attente de réception
 2. Réception partielle
 3. Réception totale
@@ -83,7 +83,7 @@ Cliquer sur le bouton check vert pour valider la personalisation des libellés
 Paramètre | Description
 ------------ | -------------
 Redirection vers l'arrivage créé | Permet de rediriger l'utilisateur vers le détail de l'arrivage une fois l'arrivage créé
-Impression cochée par défaut | Permet l'impression systématique des etiquettes pdf colis d'arrivage
+Impression cochée par défaut | Permet l'impression systématique des étiquettes pdf colis d'arrivage
 Envoyer un mail après nouvel arrivage | Permet l'envoi systématique d'un mail aux acheteurs renseignés dans l'arrivage
 Statut arrivage par défaut | Permet choisir le statut par défaut lors de la création d'une arrivage
 Staut litige par défaut | Permet de choisir le statut par défaut lors de la création d'un litige sur arrivage
@@ -91,9 +91,9 @@ Staut litige par défaut | Permet de choisir le statut par défaut lors de la cr
 
 ### Paramétrage des heures travaillées
 
-Le paramétrage des heures travaillées joue sur le calculs des en-cours et délais sur emplacement.
+Le paramétrage des heures travaillées joue sur le calcul des en-cours et délais sur emplacement.
 
-Ainsi le délais positionné sur les emplacements ser en heures ouvrés en fonction de ces plages horaires.
+Ainsi le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
 
 2 plages horaires sont à paramétrer par jours.
 - 1 plage horaire le matin
@@ -103,13 +103,13 @@ Ceci pour les 7 jours de la semaine
 
 ### Personnalisation des libellés
 
-La personnalisation des libellés ou aussi appelé module de traduction permet d'appliquer le vocabulaire utilisé par votre supply dans l'application sur les fonctionnalités suivantes : 
+La personnalisation des libellés ou aussi appelée module de traduction permet d'appliquer le vocabulaire utilisé par votre supply dans l'application sur les fonctionnalités suivantes : 
 
 - Traçabilité / Arrivages
 - Traçabilité / Urgences
 - Stock / Ordre de réceptions
 
-Pour détecter les libellés qui peuvent être renommé, il vous suffit de laisser quelques secondes votre pointeur de souris sur un libellé.
+Pour détecter les libellés qui peuvent être renommés, il vous suffit de laisser quelques secondes votre pointeur de souris sur un libellé.
 
 Si le libellé peut être renommé, un `tooltip` s'affiche comportant la clé de traduction que vous retrouverez dans ce menu.
 
@@ -120,9 +120,9 @@ La configuration des tableau de bord est principalement faite pour les tableaux 
 1. Réception à quai
 2. Réception administrative
 
-Ces tableau de bord ont été réalisés pour les flux d'arrivages pour un site de Safran. Ces tableaux sont utilisables dans l'application ou en lien externe pour une utilisation sur écran sur quai d'entrepot.
+Ces tableau de bord ont été réalisés pour les flux d'arrivages pour un site de Safran. Ces tableaux sont utilisables dans l'application ou en lien externe, en l'occurence pour une utilisation sur écran d'affichage sur quai d'entrepôt.
 
-Voici les prinipaux diagrammes et indicateurs paramétrables : 
+Voici les principaux diagrammes et indicateurs paramétrables : 
 
 #### Réception à quai
 
@@ -134,19 +134,19 @@ Emplacements colis en attente dédouanement | Permet de voir le nombre de colis 
 Emplacement colis dédouanés et dispo | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
 Emplacement colis à déposer en DropZones | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
 
-Le bouton Dashboard réceptioni quai permet d'ouvrir le chemin chiffré vers le dashboard sans authentifications pour affichage sur écran temps réel.
+Le bouton Dashboard réception quai permet d'ouvrir le chemin chiffré vers le dashboard sans authentification pour affichage sur écran en temps réel.
 
 #### Réception administrative
 
 Paramètre | Description
 ------------ | -------------
-Nature de colis 1er graphe | Permet de préciser 1 nature de colis a surveiller sur le premier graphe.
-Natures de colis 2eme graphe | Permet de préciser 1 ou plusieurs natures de colis àsurveiller sur le deuxième graphe
-Emplacement Urgence restant à traiter | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacement Lignes en litiges | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacement Colis en attente de dédouament | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacement entrées à effectuer 1er graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
-Emplacement entrées à effectuer 2eme graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
+Nature de colis 1er graphe | Permet de préciser 1 nature de colis à surveiller sur le premier graphe.
+Natures de colis 2eme graphe | Permet de préciser 1 ou plusieurs natures de colis à surveiller sur le deuxième graphe
+Emplacement Urgence restant à traiter | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement Lignes en litiges | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement Colis en attente de dédouament | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement entrées à effectuer 1er graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
+Emplacement entrées à effectuer 2eme graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
 
 Toutes les statistiques sont basées sur les mouvements de traçabilités.
 
@@ -156,7 +156,7 @@ Toutes les statistiques sont basées sur les mouvements de traçabilités.
 
 ### Paramétrage mouvements traça
 
-- Vider et rester sur la modate de création de mouvement : Ce comportement permet une saisie en rafale des mouvements de traçabilité côté web. L'utilisateu n'a ainsi pas besoin de cliquer sur nouveau mouvement.
+- Vider et rester sur la modale de création de mouvement : Ce comportement permet une saisie en rafale des mouvements de traçabilité côté web. L'utilisateur n'a ainsi pas besoin de cliquer sur nouveau mouvement.
 
 ## Types
 
@@ -180,7 +180,7 @@ Le système de champs libre est un fort outil de personnalisation. Ce dernier pe
 
 Ainsi il est possible d'enrichir des données sur : 
 - Les types de références de stock
-- les articles liés aux types de références
+- Les articles liés aux types de références
 - Les types de demandes de livraison
 - Les types de demandes de collecte
 - Les arrivages
@@ -196,7 +196,7 @@ Date | JJ/MM/AA | 25/03/20 : l'année peut être reprise facilement sous excel
 Texte | texte de 250 caractères | le texte peut être limité en affichage sur la taille des champs
 Oui/Non | Coche | les imports et export se font avec les caractères "Oui" et "Non"
 Date et heure | JJ/MM/AA HH:MM | 25/03/20 17:53
-Liste | Choix unique | La données se selectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
+Liste | Choix unique | La données se sélectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
 Liste multiple | Choix multiple | la donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgul : "Valeur1;Valeur2"
 Nombre | NNNN | Exemple : 12345
 
@@ -210,22 +210,22 @@ ou
 Une fois dans la liste des champs libres, 
 2. Cliquer sur le bouton `+ Nouveau Champ Libre` le formulaire de création s'ouvre et vous demande de : 
 - Choisir le nom : Il doit être unique
-- Choisir l'entitée sur l'aquelle s'applique le champ libre
+- Choisir l'entitée sur laquelle s'applique le champ libre
 - Typage : choisir le type de donnée
 - Oligatoire à la création : Choisir si l'utilisateur est obligé de saisir cette donnée à la création de l'entitée
 - Obligatoire à la modification : Choisir si l'utilisateur est obligé de saisir cette donnée à la modification de l'entitée.
 
-Le champ est ensuite visible dans la liste des champs et une prévisualisation permet de voir à quoi il ressemblera.
+Le champ est ensuite visible dans la liste des champs et une prévisualisation permet d'avoir un aperçu. 
 
-> Note : Il n'est pas possible de muter un typage de champ, ex : un champ typé en texte ne pourra pas être modifié pour être passé en date ou autre type
+> Note : Il n'est pas possible de muter un typage de champ, ex : un champ typé en texte ne pourra pas être modifié en date ou autre type
 
 
 
 #### Supprimer un champ libre
 
-**Attention : Un champ peut être supprimé via ce paramétrage. Il est très important de savoir que la suppression d'un champ est irréversible, les données saisies seront perdus.**
+**Attention : Un champ peut être supprimé via ce paramétrage. Il est très important de savoir que la suppression d'un champ est irréversible, les données saisies seront perdues.**
 
-Penser à exporter vos données avant d'effectuer une eventuelle suppression de champ.
+Penser à exporter vos données avant d'effectuer une éventuelle suppression de champ.
 
 Pour effectuer la suppression, cliquer sur le bouton avec la corbeille dans la liste des champs.
 

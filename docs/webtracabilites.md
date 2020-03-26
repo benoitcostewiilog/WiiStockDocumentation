@@ -31,7 +31,7 @@ IL est possible qu'un de vos collaborateurs ai besoin de colis en urgence. Pour 
 * Fournisseur 
 * Transporteur
 
-L'urgence pourra ce déclencher lors de la récéption d'un arrivage. Quand vous remplirai les champs, 
+L'urgence pourra se déclencher lors de la réception d'un arrivage, lorsque vous remplirez les champs, 
 * Fournisseur 
 * Transporteur
 * Numéro commande

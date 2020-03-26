@@ -18,28 +18,28 @@ La traçabilité des objets et des oppérations consiste à prendre des objets d
 
 Ainsi il est possible de tracer l'opération effectuée par un opérateur dans le temps et dans l'espace.
 
-Il est surtout possible de savoir ou a été identifié pour la dernière fois un objet flashé.
+Il est surtout possible de savoir où a été identifié pour la dernière fois un objet flashé.
 
-**Note importante** : L'application a été dévelooppée pour permetre la flash de n'importe quel code barre. Il est donc possible de scanner des objets : colis/articles/produit/numéro de tracking transporteur/ numéro d'ordre de transfert / tout autre numéro. De cette manière la traçabilité peut s'effectuer sur tous les systèmes existants du moment ou un code barre existe.
+**Note importante** : L'application a été développée pour permettre le flash de n'importe quel code barre. Il est donc possible de scanner des objets : colis/articles/produit/numéro de tracking transporteur/ numéro d'ordre de transfert / tout autre numéro. De cette manière la traçabilité peut s'effectuer sur tous les systèmes existants du moment où un code barre existe.
 
 
 ## Application de Stock / WMS
 
-Le block fonctionnel de gestion de stock est plus restrictif. Il permet d'oppérer les ordres d'entrée de stock / transfert de stock / sortie de stock : à travers les préparations et livraison. 
+Le bloc fonctionnel de gestion de stock est plus restrictif. Il permet d'opérer les ordres d'entrée de stock / transfert de stock / sortie de stock : à travers les préparations et livraison. 
 
 Les mouvements de stock sont restrictifs et permettent aux opérateurs de leur donner toutes les indications pour effectuer leur travail. 
 
-*Note : L'application a été pensée pour fonctionner à 100% sur les mobiles. Si les opérateurs travaillent sur l'application web pour exécuter des ordres, ils se peut que vous utilisiez mal l'application. *
+*Note : L'application a été pensée pour fonctionner à 100% sur les mobiles. Si les opérateurs travaillent sur l'application web pour exécuter des ordres, il se peut que vous utilisiez mal l'application. *
 
 Les chapitres suivants décrivent avec précision le fonctionnement de l'application mobile.
 
 ## Connexion
 
-L'application est disponible sur l'hébergement wiilog [Répertoire DL](http://wiilog.fr/dl) . Sur cette espace, l'Application compilé pour Android est disponible en téléchargement en version de production et version de recette.
+L'application est disponible sur l'hébergement Wiilog [Répertoire DL](http://wiilog.fr/dl) . Sur cette espace, l'application compilée pour Android est disponible en téléchargement en version de production et en version de recette.
 
-Cliquer sur un fichier .apk pour le télécharger et l'installer sur votre mobile.
+Cliquez sur un fichier .apk pour la télécharger et l'installer sur votre mobile.
 
-Une fois effectué demarrer l'application.
+Une fois effectué démarrez l'application.
 
 ### Paramétrage de l'url de l'application
 
@@ -51,7 +51,7 @@ Au premier lancement, si l'application n'a jamais été installée elle vous pro
 
 Une fois l'url saisie, l'application vérifie que votre version mobile correspond à la version de votre instance.
 
-*Si ce n'est pas le cas, l'application vous redirige vers le téléchargement de la version mobile adequate.*
+*Si ce n'est pas le cas, l'application vous redirige vers le téléchargement de la version mobile adéquate.*
 
 L'application vous propose ensuite de vous authentifier.
 
