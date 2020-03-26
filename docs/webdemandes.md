@@ -8,14 +8,14 @@ sidebar_label: Demandes
 
 ## Demandes
 
-L'appliaction Wiistock permet d'envoyer des demandes de collectes, livraisons et services. Chaqu'une des demandes créer dans l'appliaction crer des ordres. C'est ordres permettent de réaliser les actions demandées. 
+L'application Wiistock permet de génerer des demandes de collectes, de livraisons et de services. Chaqu'une des demandes créées dans l'application génere à son tour des ordres. Ces ordres permettent de réaliser les actions demandées. 
 
 ## Demandes de collecte
 
 La demande de collecte permet de rapatrier des articles de votre production ou magasin à votre stock ou de les détruire.
-Les demandes sont crées sur ordinateur. Les ordres peuvent s'éfféctuer sur l'application web ou mobile. 
+Les demandes sont crées sur l'application web. Les ordres peuvent s'effectuer sur l'application web ou mobile. 
 
-Pour créer une demande de collecte, cliqué sur :
+Pour créer une demande de collecte, cliquez sur :
 * Demande, 
 * Collecte
 * Nouvelle collecte
@@ -23,11 +23,11 @@ Pour créer une demande de collecte, cliqué sur :
 * Ajout des articles/références
 * Valider 
 
-Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collectes. 
+Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collecte. 
 
-Vous pouvez inspecter la collecte avec le bouton en forme d'oeil. 
+Vous pouvez inspecter le détail de la collecte avec le bouton en forme d'oeil. 
 
-La page est sous forme de tableau. Vous y retrouverait : 
+La page est sous forme de tableau. Vous y retrouverez : 
 * L'action
 * La date de création
 * Le demandeur de la collecte
@@ -41,27 +41,27 @@ La page est sous forme de tableau. Vous y retrouverait :
 La demande de livraison permet :
             * D'envoyer des articles de votre stock à vos clients.
 
-            * D'envoyer des articles de votre stock à votre production/magazin.
+            * D'envoyer des articles de votre stock à votre production/magasin.
 
-Pour créer une demande de livraion, cliqué sur 
+Pour créer une demande de livraion, cliquez sur 
 * Demande
 * Livraison
 * Nouvelle livraison
-* Remplissé le fomualire de livraison  
+* Remplissez formulaire de livraison  
 
-Vous venez de créer une demande de livraison. Vous aller pouvoir retouver l'ordre dans Ordre de préparation. 
+Vous venez de créer une demande de livraison. Vous aller pouvoir retouver l'ordre associé dans Ordre de préparation. 
 
 ## Demandes de service
 
-La demande de service permet, de réclamer l'aide d'une ou plusieurs personnes pour une durée et un travil que vous leurs confiez 
+La demande de service permet de générer une demande divers à une date attendue, par exemple cela peut être une demande de manutention d'un mobilier qui n'est pas présent dans votre stock.   
 
 Pour créer une demande de service, cliquez sur 
 * Demande 
 * Demande de service
 * Nouvelle demande
-* Remplissé le formulaire de demande de service
+* Remplissez le formulaire de demande de service
 
 Vous venez de créer une demande de service. Toute les demandes de service se trouve sur la même page.
-Chaque demande se voit attribuer un staut. Cella permet de voir celle qui sont traité et celle qui ne le sont pas.  
+Chaque demande est caractérisé par un statut selon l'état de traitement (traité ou à traiter) 
 
-L'appliaction posséde des filtres sur chaque fonctionnalité, la page des demandes de services, en est equipé. Vous pouvez faire plusieurs combinaisons de filtres. Pour valider les filtres il vous suffit de cliquez sur valider.
+Une barre de filtre est présente en en-tête de page de chaque fonctionnalité, cela permet de filtrer la liste des occurences selon diffèrents critères (dates, statut, demandeurs...) 
