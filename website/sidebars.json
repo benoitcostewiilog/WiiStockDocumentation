@@ -1,7 +1,7 @@
 {
   "docs": {
     "Premiers pas": ["premierspas"],
-    "Parmétrage": ["parroles","parutilisateurs","parparametragesglobal","parautres"],
+    "Paramétrage": ["parroles","parutilisateurs","parparametragesglobal","parautres"],
     "Fonctionnalités Web": ["webgeneralites", "webtracabilites", "webqualites", "webdemandes","webordres","webstocks","webreferentiels"],
     "Fonctionnalités Mobile" : ["mobgeneralites", "mobtracabilites", "mobordres", "mobstock"]
   },
