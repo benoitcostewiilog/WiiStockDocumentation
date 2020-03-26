@@ -4,27 +4,90 @@ title: Mobile - Généralités
 sidebar_label: Généralités
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+## Avant de commencer
 
-## Follow GT / Wiistock scvsmdkljghsdlkjghlkjksdfg
+L'application Mobile/Nomade va de pair avec l'application web. Elle permet d'effectuer toutes les opérations d'entrée/de transfert/de sortie de stock via un mobile Android.
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+L'application a été développée pour fonctionner avec les terminaux Zebra TC dans le but de simplifier les flash laser 1D/2D. Il en résulte un gain de productivité important.
 
-![Premier pas](assets/premier.png)
+L'application est découpée en 3 blocs fonctionnels
 
-## Cas d'usage - Outil de gestion de stock stand-alone
+## Application de traçabilité 
 
-```
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. ```
+La traçabilité des objets et des oppérations consiste à prendre des objets dans un emplacement, puis de les déposer dans un autre emplacement.
 
-## Cas d'usage - Outil WMS interfacé avec un ERP
+Ainsi il est possible de tracer l'opération effectuée par un opérateur dans le temps et dans l'espace.
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+Il est surtout possible de savoir ou a été identifié pour la dernière fois un objet flashé.
 
-## Orci
+**Note importante** : L'application a été dévelooppée pour permetre la flash de n'importe quel code barre. Il est donc possible de scanner des objets : colis/articles/produit/numéro de tracking transporteur/ numéro d'ordre de transfert / tout autre numéro. De cette manière la traçabilité peut s'effectuer sur tous les systèmes existants du moment ou un code barre existe.
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
 
-## Phasellus
+## Application de Stock / WMS
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+Le block fonctionnel de gestion de stock est plus restrictif. Il permet d'oppérer les ordres d'entrée de stock / transfert de stock / sortie de stock : à travers les préparations et livraison. 
+
+Les mouvements de stock sont restrictifs et permettent aux opérateurs de leur donner toutes les indications pour effectuer leur travail. 
+
+*Note : L'application a été pensée pour fonctionner à 100% sur les mobiles. Si les opérateurs travaillent sur l'application web pour exécuter des ordres, ils se peut que vous utilisiez mal l'application. *
+
+Les chapitres suivants décrivent avec précision le fonctionnement de l'application mobile.
+
+## Connexion
+
+L'application est disponible sur l'hébergement wiilog [Répertoire DL](http://wiilog.fr/dl) . Sur cette espace, l'Application compilé pour Android est disponible en téléchargement en version de production et version de recette.
+
+Cliquer sur un fichier .apk pour le télécharger et l'installer sur votre mobile.
+
+Une fois effectué demarrer l'application.
+
+### Paramétrage de l'url de l'application
+
+Au premier lancement, si l'application n'a jamais été installée elle vous propose de saisir l'url : 
+- Url de l'instance.
+    - Ex : https://XXXX.follow-gt.fr
+    - Ex : https://XXXX.wiilog.fr
+    - Ex : https://XXXX.votrenomdedomaine.fr
+
+Une fois l'url saisie, l'application vérifie que votre version mobile correspond à la version de votre instance.
+
+*Si ce n'est pas le cas, l'application vous redirige vers le téléchargement de la version mobile adequate.*
+
+L'application vous propose ensuite de vous authentifier.
+
+### Authentification
+
+L'application vous propose de vous authentifier en saisissant : 
+
+Champ | Description
+--------- | ----------
+Login | Correspond au nom d'utilisateur de votre compte utilisateur
+Mot de passe | Correspond au mot de passe de votre utilisateur
+
+Une fois connecté et en fonction de vos droits, vous entrez sur le menu principal de l'application mobile.
+
+### 3 principaux menus
+
+#### Menu Traçabilité
+
+Permet d'aller vers le sous menu de traçabilité permettant de :
+- Faire une prise
+- Faire une dépose
+
+#### Menu Stock
+
+Permet d'aller vers le sous menu de stock permettant de : 
+- Faire un transfert
+- Faire une préparation
+- Faire une livraison
+- Faire une collecte
+- Faire un inventaire
+
+#### Menu Demande de service
+
+Permet d'accéder directement au traitement des demandes de services (manutention)
+
+Le clique sur le bouton ouvre directement la liste des demandes `A traiter`
+
+Il est ensuite possible d'entrer sur les demandes pour les compléter et les traiter.
+
