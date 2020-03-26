@@ -4,35 +4,34 @@ title: Visualisation et actions sur le stock
 sidebar_label: Stock
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Références
 
-Il s'agit la des références de vos articles, produits,... qui vous pouvez importer ou créer directement, en cliquant sur le bouton "Nouvel article de référence". Puis vous pouvez remplir le formulaire de création. 
-Vous pouvez aussi modifier ou supprimer votre références. 
+Il s'agit des références de vos articles, produits,... que vous pouvez importer ou créer manuellement, en cliquant sur le bouton "Nouvel article de référence". Puis vous pouvez remplir le formulaire de création. 
+Vous pouvez aussi modifier ou supprimer votre référence. 
 
-Vous y retrouverai aussi toutes vos références. 
+Vous y retrouverez aussi toutes vos références. 
 
 ## Articles
 
-IL s'agit de la liste des articles qui constitue votre stock. Vous pouvez importer une liste, ou bien créer à la main un article. Pour cella cliquez sur "Nouvelle article", puis assimilier lui une références. Enfin vous pourrez finaliser la création de l'article. 
+IL s'agit de la liste des articles qui constitue votre stock. Vous pouvez importer une liste, ou bien créer à la main un article. Pour cela cliquez sur "Nouvelle article" et attribuez à cette article une référence. Enfin vous pourrez finaliser la création de l'article. 
 
-Enfin vous pouvez imprimer l'étiquette de l'article, le modifer ou le supprimer. 
-Vous pouvez aussi modiifer les colonnes que vous souhaitez mettre ou enlever. 
+Enfin vous pouvez imprimer l'étiquette de l'article. Vous pouvez aussi modifier ou supprimer l'article. 
+Vous pouvez aussi choisir les colonnes visibles sur la liste des articles.  
 ## Articles fournisseur
 
 ## Mouvements de stock
 
-La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraions, de collectes et récéptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référnece, la quantité, l'opérateur de l'action, la déstination, l'origine et sont type.
-IL permet d'avoir un oeil sur tous les mouvements de votre stock. 
+La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraions, de collectes et réceptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
+
 ## Inventaire
 
 La fonctionnalité inventaire, permet de créer un inventaire, avec les articles et références que vous souhaitez inventorier. 
-Cella crée une mission d'inventaire, qui est éffectué par un logisticien sur site avec l'appliaction mobile. 
-Il est possible de créer des fréquences d'inventaire, dans les "PARAM2TRAGES GLOBAUX". 
+Cela crée une mission d'inventaire, qui est effectuée par un logisticien sur site avec l'application mobile. 
+Il est possible de créer des fréquences d'inventaire, dans les "PARAMETRAGES GLOBAUX". 
 
 ## Alerte
 
-Les aletres sont attribuées a des références. Il existe deux seuils d'alerte. 
-* Seuil d'alerte, 
-* Seuil de s'écurité. 
+Les alertes sont attribuées à des références. Il existe deux types de seuil de quantité minimum : 
+* Seuil d'alerte
+* Seuil de sécurité

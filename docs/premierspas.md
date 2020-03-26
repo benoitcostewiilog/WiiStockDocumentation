@@ -6,25 +6,25 @@ sidebar_label: Premiers pas
 
 ## Une application de gestion de stock orientée WMS
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens / opérateurs en entrepots.
+Une application de gestion de stock et flux logistiques en entrepôt pour facliter le métier des logisticiens / opérateurs. 
 
-l'application permet d'effectuer des livraison bord de ligne sur des préparations simples multi références avec prise totale ou partielle du stock.
+**L'application permet d'effectuer des livraisons bord de ligne sur des préparations simples multi références avec prise totale ou partielle du stock.**
 
 
 ## Une application de traçabilité des flux
 
-Une application permettant de traçer des flux d'arrivage (avant réception administratives) des flux intersite te interentrepots d'objets ou produits non tracés dans aucuns systèmes d'information.
+Une application permettant de traçer des flux d'arrivage (avant réception administratives) des flux intersite ou intra entrepôt d'objets ou de produits non tracés dans les systèmes d'information. 
 
-Cette traçabilité permet de retrouver ces objets et aux utilisateurs demandeurs de savoir ou ils se trouvent. 
+Les utilisateurs peuvent ainsi connaitre en temps réel l'emplacement de ces articles et de suivre leur acheminement à travers les diffèrents flux. 
 
-L'application de traçabilité permet aussi une gestion des urgences et litiges. Cette dernière permet un traitement collaboratifs avec des acheteurs, fournisseurs, client.
+L'application de traçabilité permet aussi une gestion des urgences et litiges. Cette dernière permet un traitement collaboratif avec des acheteurs, fournisseurs et clients.
 
 ## Les objectifs de l'application
 - Tracer les opérérations logistiques
     - Calculer la performances des opérateurs
     - Calculer les temps de réponses à service
-- Tracer tous les objets en entrepot et sur site industriels
-- Tracer les stock non couverts dans les applications existantes
+- Tracer tous les objets en entrepôt et sur site industriel
+- Tracer les stocks non visibles dans les applications existantes
 ## L'organisation de cette documentation
 
 Cette documentation est séparée en 3 parties distinctes

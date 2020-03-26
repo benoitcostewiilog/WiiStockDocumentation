@@ -39,9 +39,9 @@ La page est sous forme de tableau. Vous y retrouverez :
 ## Demandes de livraison
 
 La demande de livraison permet :
-            * D'envoyer des articles de votre stock à vos clients.
+* D'envoyer des articles de votre stock à vos clients.
 
-            * D'envoyer des articles de votre stock à votre production/magasin.
+* D'envoyer des articles de votre stock à votre production/magasin.
 
 Pour créer une demande de livraion, cliquez sur 
 * Demande
