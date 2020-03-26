@@ -17,11 +17,11 @@ Les demandes sont crées sur ordinateur. Les ordres peuvent s'éfféctuer sur l'
 
 Pour créer une demande de collecte, cliqué sur :
 * Demande, 
-  * Collecte
-    * Nouvelle collecte
-      * Remplissage du formulaire de la demande de collecte
-        * Ajout des articles/références
-          * Valider 
+* Collecte
+* Nouvelle collecte
+* Remplissage du formulaire de la demande de collecte
+* Ajout des articles/références
+* Valider 
 
 Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collectes. 
 
@@ -45,24 +45,23 @@ La demande de livraison permet :
 
 Pour créer une demande de livraion, cliqué sur 
 * Demande
-    * Livraison
-        * Nouvelle livraison
-            * Remplissé le fomualire de livraison 
-              * 
+* Livraison
+* Nouvelle livraison
+* Remplissé le fomualire de livraison  
 
 Vous venez de créer une demande de livraison. Vous aller pouvoir retouver l'ordre dans Ordre de préparation. 
 
 ## Demandes de service
 
-La demande de service permette, de réclamer l'aide d'une ou plusieurs personnes pour une durée et un travil que vous leurs confirer 
+La demande de service permet, de réclamer l'aide d'une ou plusieurs personnes pour une durée et un travil que vous leurs confiez 
 
-Pour créer une demande de service, cliqué sur 
+Pour créer une demande de service, cliquez sur 
 * Demande 
-  * Demande de service
-    * Nouvelle demande
-      * Remplissé le formulaire de demande de service
+* Demande de service
+* Nouvelle demande
+* Remplissé le formulaire de demande de service
 
 Vous venez de créer une demande de service. Toute les demandes de service se trouve sur la même page.
-Chaque demande se voie attribuer un staut. Cella permet de voir celle qui son traité et celle qui ne le son pas.  
+Chaque demande se voit attribuer un staut. Cella permet de voir celle qui sont traité et celle qui ne le sont pas.  
 
 L'appliaction posséde des filtres sur chaque fonctionnalité, la page des demandes de services, en est equipé. Vous pouvez faire plusieurs combinaisons de filtres. Pour valider les filtres il vous suffit de cliquez sur valider.

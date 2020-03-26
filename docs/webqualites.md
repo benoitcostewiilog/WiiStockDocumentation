@@ -8,7 +8,7 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Litiges
 
-Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier opérateurs en entrepotsqsdfqsdf
+Les litiges sont crée sur des 
 
 ![Premier pas](assets/premier.png)
 
