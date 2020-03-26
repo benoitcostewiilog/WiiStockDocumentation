@@ -16,9 +16,6 @@ Ces paramétrages ne sont pas des données en tant que tel. Il convient donc de 
 
 ### Configuration des etiquettes
 
-<<<<<<< HEAD
-L'appliaction Wiistock utilise des étiquettes QR Code ou Code 128, pour attribuer une références a chaque colis, emplacements et ordres. Cette fonctionnalité vous permettra de modifier le format ainsi que le type d'étiquette  
-=======
 La configuration des etiquettes est commune aux etiquettes de traçabilité, de stock et d'emplacement.
 
 Paramètre | Description
@@ -30,7 +27,6 @@ Champ libre sur etiquette | A définir
 Type d'étiquette | Permet de spécifier le type de code barré généré sur les etiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
 Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les etiquettes générées
 
->>>>>>> 82c8ba59a5ceb78574dc75981c41d2d4637cbe9c
 
 ### Configuration des exports CSV
 
