@@ -23,8 +23,8 @@ const users = [
 const siteConfig = {
   title: 'Documentation projet WiiStock', // Title for your website.
   tagline: 'Site pour les utilisateurs et administrateurs de l\'application',
-  url: 'https://wiilog.fr/doc', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  url: 'https://wiilog.fr/', // Your website URL
+  baseUrl: '/doc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
