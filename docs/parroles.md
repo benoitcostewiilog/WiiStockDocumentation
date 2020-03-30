@@ -6,21 +6,21 @@ sidebar_label: Rôles
 
 ## Avant de commencer - le principe des rôles
 
-Un rôles permet de donner accés au fonctionnalités de l'application. Un rôle permet de manière générale et consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
+Un rôles permet de donner accés au fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
 
 L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application 
 
 - Les cas d'utilisation des rôles : 
-    - Rôle super admin : Rôle utilisé par les administrateurs de l'application de l'équipe Wiilog ou 1 ou 2 personne de l'équipe portant la responsabilité de key user dans l'application. 
+    - Rôle super admin : Rôle utilisé par les administrateurs de l'application de l'équipe Wiilog ou bien 1 ou 2 personnes de l'équipe portant la responsabilité de key user dans l'application. 
     - Rôle opérateur : Rôle utilisé par les opérateurs permettant d'effectuer toutes les actions et traitements opérationnels dans l'application
-    - Rôle client : Rôle utilisé par les demandeur de stock ou encore client acheteur permettant d'effectuer des demandes, création d'urgence et consulter l'avancement des ordres
+    - Rôle client : Rôle utilisé par les demandeurs de stock ou bien un client acheteur permettant d'effectuer des demandes, création d'urgence et de consulter l'avancement des ordres
 
 
->La bonne pratique est de créer un rôle ne disposant d'aucunes fonctionnalités, puis de les ouvrir à la demande des utilisateurs. 
+>La bonne pratique est de créer un rôle ne disposant d'aucunes fonctionnalités, puis d'en ajouter à la demande des utilisateurs. 
 
 Les points suivants décrivent ce que permettent les paramétrages de rôle.
 
-### Creer un Nouveau rôle
+### Créer un Nouveau rôle
 
 Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. Cliquer sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
  - Saisir le libellé du rôle : exemple : Super Admin
@@ -40,7 +40,7 @@ afficher types | Permet de donner accès au sous menu types
 afficher statuts litiges | Permet de donner accès au sous menu statuts litiges
 afficher nature colis | Permet de donner accès au sous menu nature colis
 afficher champs fixes | Permet de donner accès au sous menu champs fixes
-modifier | Permet de donner les droits en modifications sur toutes les foncionnalités du menu paramétrage
+modifier | Permet de donner les droits en modifications sur toutes les fonctionnalités du menu paramétrage
 supprimer | Permet de donner les droits en suppression sur toutes les fonctionnalités du menu paramétrage
 afficher inventaires | Permet de donner accès au sous menu inventaire
 afficher import et mise à jour | Permet de donner accès au sous menu import et mise à jour
@@ -94,16 +94,16 @@ créer | Permet de donner les droits de création sur le menu traçabilité
 modifier | Permet de donner les droits de modification sur le menu traçabilité
 supprimer | Permet de donner les droits de modification sur le menu traçabilité
 exporter | Permet de donner les droits d'export de données sur le menu traçabilité
-lister tous les arrivages | Le droit d'affichage par défaut limite l'accès aux arrivages sur lesquel une utilisateur est positionné comme acheteur. Ce droit permet de rendre visible tous les arrivages de la base (même si votre utilisateur n'est pas acheteur).
+lister tous les arrivages | Le droit d'affichage par défaut limite l'accès aux arrivages sur lesquels un utilisateur est positionné comme acheteur. Ce droit permet de rendre visible tous les arrivages de la base (même si votre utilisateur n'est pas acheteur).
 
 ### Menu Qualité
 Paramètre | Description
 ------------ | -------------
 afficher litiges | Permet de donner accès au sous menu litige
 créer | Permet de donner les droits de création des litiges se trouvant sur un arrivage ou une réception 
-modifier | Permet de donner les droits de modification des litiges se tranvant sur un arrivage ou une réception. Attention, le passage au statut traité n'est pas possible
+modifier | Permet de donner les droits de modification des litiges se trouvant sur un arrivage ou une réception. Attention, le passage au statut traité n'est pas possible
 supprimer | Permet de donner les droits de suppression des litiges se trouvant sur un arrivage ou une réception.
-traiter les litiges | Permet à l'utilisateur de modifier le statut d'un litige sur un statut "traité", soit la clôture du litige
+traiter les litiges | Permet à l'utilisateur de modifier le statut d'un litige sur un statut "traité", soit de clôturer le litige
 
 ### Menu Demande
 
