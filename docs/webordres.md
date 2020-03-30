@@ -10,8 +10,6 @@ Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 La fonctionnalité d'ordre regroupe les ordres de collecte et de livraison. Elle permet aussi de réceptionner des colis et d'incrémenter le stock grâce aux réceptions.  
 
-![Premier pas](assets/premier.png)
-
 ## Ordre de préparation
 
 Après une demande de livraiosn, l'ordre de préparation s'affiche dans le tableau. Dans la page des ordres de livraison vous y retrouverez aussi la possibilité de filtrer et d'exporter les informations du tableau au format CSV. 
