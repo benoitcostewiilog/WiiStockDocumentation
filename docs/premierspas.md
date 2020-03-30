@@ -20,7 +20,7 @@ Les utilisateurs peuvent ainsi connaitre en temps réel l'emplacement de ces art
 L'application de traçabilité permet aussi une gestion des urgences et litiges. Cette dernière permet un traitement collaboratif avec des acheteurs, fournisseurs et clients.
 
 ## Les objectifs de l'application
-- Tracer les opérérations logistiques
+- Tracer les opérations logistiques
     - Calculer la performances des opérateurs
     - Calculer les temps de réponses à service
 - Tracer tous les objets en entrepôt et sur site industriel
