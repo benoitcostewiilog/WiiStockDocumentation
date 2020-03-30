@@ -49,7 +49,7 @@ Pour créer une demande de livraion, cliquez sur
 * Nouvelle livraison
 * Remplissez formulaire de livraison  
 
-Vous venez de créer une demande de livraison. Vous aller pouvoir retouver l'ordre associé dans Ordre de préparation. 
+Vous venez de créer une demande de livraison. Vous aller pouvoir retrouver l'ordre associé dans Ordre de préparation. 
 
 ## Demandes de service
 
