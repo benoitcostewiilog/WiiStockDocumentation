@@ -4,7 +4,6 @@ title: Les ordres de préparation, livraison, collecte, réception
 sidebar_label: Ordres
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Les ordres
 
