@@ -13,7 +13,7 @@ Le menu référentiel, permet de regrouper tous les emplacements, fournisseurs, 
 
 Cette fonctionnalité permet de regrouper tous les emplacements qui sont dans votre base de données.
 Il est possible d'importer une liste de vos emplacements, mais aussi de les créer manuellement. 
-De plus si vous souhaitez modifier un emplamcent, il est possible de le faire.  
+De plus si vous souhaitez modifier un emplacement, il est possible de le faire.  
 
 C'est ici aussi que vous pourrez caractériser un emplacement comme emplacement d'encours. *LIEN VERS LES ENCOURS* 
 

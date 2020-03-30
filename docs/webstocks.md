@@ -14,15 +14,15 @@ Vous y retrouverez aussi toutes vos références.
 
 ## Articles
 
-IL s'agit de la liste des articles qui constitue votre stock. Vous pouvez importer une liste, ou bien créer à la main un article. Pour cela cliquez sur "Nouvelle article" et attribuez à cette article une référence. Enfin vous pourrez finaliser la création de l'article. 
+Il s'agit de la liste des articles qui constitue votre stock. Vous pouvez importer une liste, ou bien créer à la main un article. Pour cela cliquez sur "Nouvelle article" et attribuez à cette article une référence. Enfin vous pourrez finaliser la création de l'article. 
 
 Enfin vous pouvez imprimer l'étiquette de l'article. Vous pouvez aussi modifier ou supprimer l'article. 
 Vous pouvez aussi choisir les colonnes visibles sur la liste des articles.  
 ## Articles fournisseur
 
-## Mouvements de stock
+## Mouvement de stock
 
-La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraions, de collectes et réceptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
+La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraisons, de collectes et réceptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
 
 ## Inventaire
 

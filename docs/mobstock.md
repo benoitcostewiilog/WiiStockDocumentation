@@ -60,14 +60,14 @@ Le mouvemnt de stock est donc composé d'une mouvement de traçabilité de type 
 
 Les ordres de préparation sont générés à la validation d'une demande de validation.
 
-L'ordre de préparation indique à un opérateur qu'il doit effectuer une préparation liée à une demande de livraison. l'opérateur peut dont effectuer la préparations avec le mobile.
+L'ordre de préparation indique à un opérateur qu'il doit effectuer une préparation liée à une demande de livraison. l'opérateur peut donc effectuer la préparation avec le mobile.
 
 Il existe plusieurs types de préparations : 
 Type | Description
 ---------- | -----------
 Préparation total sur référence | Le consommable n'a pas exemple pas besoin d'une traçabilité rapprochée. Dans ce cas, le type de gestion quantité se fait à la référence. Si tout le stock est demandé en livraison, l'opérateur pourra se diriger dans le stock et flasher les étiquettes puis valider la préparation
-Préparation partielle sur référence | Toujours avec l'exemple du consommable en type de gestion quantité par référence, un demandeur demande une quantité partielle. Cette fois-ci **il sera important d'imprimer les etiquettes de références sur l'application web avant d'opérer sur le mobile**. Une fois avoir imprimé les etiquettes depuis l'ordre de préparation web, l'opérateur peut partir sur le terrain pour effectuer son prélèvement partiel de quantité sur référence puis valider sa préparation.
-Préparation de qte globale sur articles sans prélèvements | Ce cas est très rare mais peut arrivé, dans ce ca le picking des articles peut se faire depuis l'application Nomade sans problème, il n'y pas d'impression d'étiquettes supplémentaires
+Préparation partielle sur référence | Toujours avec l'exemple du consommable en type de gestion quantité par référence, un demandeur demande une quantité partielle. Cette fois-ci **il sera important d'imprimer les etiquettes de références sur l'application web avant d'opérer sur le mobile**. Une fois avoir imprimé les etiquettes depuis l'ordre de préparation web, l'opérateur peut effectuer son prélèvement partiel de quantité sur référence puis valider sa préparation.
+Préparation de qte globale sur articles sans prélèvements | Ce cas est très rare mais peut arrivé, dans ce cas le picking des articles peut se faire depuis l'application Nomade, il n'y pas d'impression d'étiquettes supplémentaires
 Préparation de qte globale sur articles avec prélèvements partiels | **Il sera important d'effectuer le picking depuis l'application web et d'imprimer les etiquettes** avant de passer sur les opérations mobiles. 
 Préparation d'article avec prélèvement partiel | **Il sera important d'effectuer le picking depuis l'application web et d'imprimer les etiquettes** avant de passer sur les opérations mobiles
 Préparation d'article | Dans ce cas, l'opérateur peut aller directement dans le stock pour effectuer l'opération de préparation
@@ -76,7 +76,7 @@ Préparation d'article | Dans ce cas, l'opérateur peut aller directement dans l
 
 >Note : L'utilisateur doit disposer des droits pour traiter les types de demandes et accéder au menu de stock
 
-1. Depuis le menu stock, tapper sur le bouton des préparations, la liste des préparations s'affiche.
+1. Depuis le menu stock, cliquer sur le bouton des préparations, la liste des préparations s'affiche.
 - On dans la liste des préparations l'emplacement de livraison cible, le type de demande de livraison ainsi sur l'identifiant de la préparation
 
 2. Tapper sur une préparation pour entrer dedans et la traiter
