@@ -146,7 +146,7 @@ Accès Demande | Permet d'accéder aux traitements liés au demandes de manutent
 
 Permet de donner un nom au rôle qui sera créé ou modifié.
 
-L'étape suivante du paramétrage consiste à associer un rôle à chaque utilisateur dans le paramétrage utilisateur. 
+L'étape suivante du paramétrage consiste à associer un rôle à chaque utilisateur dans [le paramétrage utilisateur.](parutilisateurs.md)
 
 ## Suppression et modification d'un rôle
 
