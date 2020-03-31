@@ -20,6 +20,21 @@ Enfin vous pouvez imprimer l'étiquette de l'article. Vous pouvez aussi modifier
 Vous pouvez aussi choisir les colonnes visibles sur la liste des articles.  
 ## Articles fournisseur
 
+Il s'agit de la liste des articles fournisseur. 
+Lors d'une réception cela permet d'identifier d'une manière unique la référence article fournisseur réceptionnée. En effet un article de référence peut être liée à plusieurs fournisseurs, et pourrait donc avoir des codes de référence fournisseur diffèrents selon le ou les fournisseurs auquels il est lié. 
+
+### Création d'un article fournisseur
+
+Champs à renseigner | Description
+------------ | -------------
+Code fournisseur | Permet de sélectionner le code d'un fournisseur déjà existant dans le référentiel
+Article de référence | Permet de sélectionner le code d'un article de référence déjà existant dans le référentiel
+Référence | Permet de renseigner le code de l'article-fournisseur souhaité 
+
+
+### Création d'un article fournisseur 
+
+
 ## Mouvement de stock
 
 La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraisons, de collectes et réceptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
