@@ -325,9 +325,18 @@ On ne peut pas supprimer une nature de colis si elle est déjà associée à un 
 
 On peut modifier tous les champs de paramétrages d'une nature. La modification de préfixe n'aura pas d'impact sur le préfixe d'un numéro de colis réceptionné avant la modification. 
 
-## Champ fixes
+## Champs fixes
 
-A compléter 
+Ce menu liste les diffèrents champs fixes liés à la fonction arrivage et à la fonction réception. 
+Contrairement aux champs libres, les champs fixes ne peuvent ni être supprimés, ni en créer de nouveaux.  
+
+Cependant on peut modifier le paramétrage d'un champ fixe, pour cela vous devez cliquer sur l'icone crayon pou chaque champ fixe que vous souhaitez paramétrer, ci dessous les diffèrentes possibilités de paramétrage : 
+
+Champ paramétrage champs fixes | Description
+------------ | -------------
+Obligatoire à la création ?  | Lorsque ce bouton est activé, le champ aura un caractère obligatoire lors de la création d'un arrivage ou d'une réception
+Obligatoire à la modification ?  | Lorsque ce bouton est activé, le champ aura un caractère obligatoire lors de la modification d'un arrivage ou d'une réception
+Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenêtre de création d'un arrivage ou d'un réception. 
 
 ## Import et mise à jour
 
