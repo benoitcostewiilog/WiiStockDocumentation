@@ -25,7 +25,7 @@ Les points suivants décrivent ce que permettent les paramétrages de rôle.
 Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. Cliquer sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
  - Saisir le libellé du rôle : exemple : Super Admin
 
-Puis effectuer le paramétrage suivant
+Puis effectuer le paramétrage suivant : 
 
 ## Les menus de paramétrage
 ### Menu Paramétrage
@@ -146,4 +146,16 @@ Accès Demande | Permet d'accéder aux traitements liés au demandes de manutent
 
 Permet de donner un nom au rôle qui sera créé ou modifié.
 
-L'étape suivante du paramétrage consiste à créer vos utilisateurs.
+L'étape suivante du paramétrage consiste à associer un rôle à chaque utilisateur dans le paramétrage utilisateur. 
+
+### Suppression et modification d'un rôle
+
+#### Suppression d'un rôle
+
+Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle, en cliquant sur l'icone corbeille. 
+
+> Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
+
+#### Modification d'un rôle
+
+Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle, en cliquant sur l'icone crayon. 
