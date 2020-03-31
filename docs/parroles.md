@@ -154,7 +154,7 @@ L'étape suivante du paramétrage consiste à associer un rôle à chaque utilis
 
 Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle, en cliquant sur l'icone corbeille. 
 
-> Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
+> Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut pas être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
 
 #### Modification d'un rôle
 
