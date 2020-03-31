@@ -302,7 +302,16 @@ Ordre | Permet de spécifier l'ordre dans la liste des statut pour assister les 
 
 ## Nature des colis
 
-A compléter 
+La nature des colis permet de caractériser les colis lors de l'arrivage. 
+
+Via le bouton `+Nouvelle nature`, il est possible de créer une nouvelle nature de colis, ci dessous les diffèrents champs à paramétrer :
+Champ paramétrage nature des colis | Description
+------------ | -------------
+Label | Permet de renseigner le nom de la nature de colis, ex : "Congelé"
+Code | Permet de renseigner le code de la nature de colis, ex : "STD"
+Quantité par défaut | Permet de renseigner le nombre de colis par défaut qui sera pré-remplie lors de la création d'un nouvel arrivage. 
+Couleur | Permet d'identifier la couleur de cette nature sur les graphes des tableaux de bord. 
+Préfixe | Permet de spécifier le préfixe qui figurera sur le numéro de colis généré lors de l'arrivage de cette nature, ex : **MRO**200331175615-00001
 
 ## Champ fixes
 
