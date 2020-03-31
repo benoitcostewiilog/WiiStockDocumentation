@@ -334,9 +334,11 @@ Cependant on peut modifier le paramétrage d'un champ fixe, pour cela vous devez
 
 Champ paramétrage champs fixes | Description
 ------------ | -------------
+Agit sur | Permet de connaitre la fonction sur laquelle figure le champ fixe, ce paramètre n'est pas modifiable. 
+Champ fixe | Indique le libellé du champ fixe, ce paramètre n'est pas modifiable. 
 Obligatoire à la création ?  | Lorsque ce bouton est activé, le champ aura un caractère obligatoire lors de la création d'un arrivage ou d'une réception
 Obligatoire à la modification ?  | Lorsque ce bouton est activé, le champ aura un caractère obligatoire lors de la modification d'un arrivage ou d'une réception
-Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenêtre de création d'un arrivage ou d'un réception. 
+Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenêtre de création d'un arrivage ou d'une réception. 
 
 ## Import et mise à jour
 
