@@ -20,12 +20,12 @@ L'application permet de créer un rôle qui pourra être affecté à un ou plusi
 
 Les points suivants décrivent ce que permettent les paramétrages de rôle.
 
-### Créer un Nouveau rôle
+## Créer un Nouveau rôle
 
 Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. Cliquer sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
  - Saisir le libellé du rôle : exemple : Super Admin
 
-Puis effectuer le paramétrage suivant : 
+Dans les menus de paramétrage liés aux diffèrentes fonctions, vous pourrez paramétrer le rôle. 
 
 ## Les menus de paramétrage
 ### Menu Paramétrage
@@ -148,14 +148,14 @@ Permet de donner un nom au rôle qui sera créé ou modifié.
 
 L'étape suivante du paramétrage consiste à associer un rôle à chaque utilisateur dans le paramétrage utilisateur. 
 
-### Suppression et modification d'un rôle
+## Suppression et modification d'un rôle
 
-#### Suppression d'un rôle
+### Suppression d'un rôle
 
 Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle, en cliquant sur l'icone corbeille. 
 
 > Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut pas être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
 
-#### Modification d'un rôle
+### Modification d'un rôle
 
 Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle, en cliquant sur l'icone crayon. 
