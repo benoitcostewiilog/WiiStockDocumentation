@@ -59,13 +59,19 @@ Le paramétrage comporte les champs suivants :
 
 Une fois le paramétrage compléter, merci de valider avec le bouton check vert.
 
-
-### Paramétrage réceptions
+### Configuration demande de livraison
 
 Paramètre | Description
 ------------ | -------------
 Créer une demande de livraison après réception | Permet d'ajouter automatiquement les articles générés et réceptionnés dans une nouvelle demande de livraison lors de la réception d'un conditionnement. Ne fonctionne pas avec la réception de quantité sur référence.
 Créer une préparation après demande de livraison | Permet de limiter la création automatique d'une préparation lors de la validation d'une demande de livraison
+Emplacement de livraison par défaut | Permet d'indiquer un emplacement par défaut, cela permettra de pré-remplir le champ destination de livraison par un emplacement de livraison par défaut 
+
+
+### Paramétrage réceptions
+
+Paramètre | Description
+------------ | -------------
 Statut litige par défaut | Permet de spécifier le statut d'un litige lors de sa création sur une réception
 Emplacement de réception par défaut | Permet de choisir l'emplacement vers lequel un mouvement de stock va être créé initialement
 
@@ -75,7 +81,7 @@ Il est ensuite possible de modifier les libellés des statuts de réceptions pou
 3. Réception totale
 4. Anomalie
 
-Cliquer sur le bouton check vert pour valider la personalisation des libellés
+Cliquer sur le bouton check vert pour valider la personnalisation des libellés
 
 
 ### Paramétrage arrivage
