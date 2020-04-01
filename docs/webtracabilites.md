@@ -35,6 +35,29 @@ Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, gr�
 
 Les mouvements de traçabilité permettent de savoir où se trouve les produits, colis, articles,… avant la mise en stock. Cela permet de déplacer d'un emplacement A à un emplacement B un ou plusieurs objets, tout en gardant les informations nécessaires de tracabilité liées aux colis, produits ou articles. Cette fonctionnalité est traitable sur l'application web et également sur l'application mobile.  
 
+## Association BR
+
+L'association BR, est une fonctionnalité qui permet d'associer un arrivage à un bon de réception. 
+
+Pour faire cette action, il faut vous rendre dans le module #Traçabilité#, puis sur la fonctionnalité #Association BR#. Cette fonctionnalité va vous rediriger vers la liste de toutes les Association BR déjà créée. Vous y retrouverez des filtres, en haut de votre écran, ce qui vous permettra de trier plus facilement. 
+
+Vous y retrouverez aussi un tableau regroupant toutes les associations de Bon de Réception, regroupant les informations suivantes : 
+-	Action 
+-	Date 
+-	Arrivage 
+-	Réception 
+-	Utilisateur 
+
+Vous pouvez aussi retrouver juste au-dessus à droite du tableau, une barre de recherche.
+
+Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur le bouton #association/BR#. Cette action va immédiatement ouvrir un formulaire de création. Il vous faudra remplir le numéro d’arrivage, s'il y en a plusieurs vous pouvez cliquer sur le bouton #plus# pour ajouter un nouvel arrivage. 
+
+Puis vous devrez remplir le numéro de réception. Si vous voulez associer un bon de réception sans arrivage vous cliquez sur le bouton #sans arrivage#. Cette action fera disparaître le libellé des arrivages. 
+Pour finaliser votre création, cliquez sur enregistrer. Une fois la création faites, vous aurez la possibilité de retrouver votre #Bon de Réception# dans votre tableau. 
+
+Si vous le souhaitez-vous pouvez exporter votre tableau sous forme de tableur Excel. 
+
+
 ## Acheminement
 
 La fonctionnalité d'acheminement permet de créer une demande de mouvement d'une pièce d'un emplacement de dépose. La particularité de cette fonctionnalité, c'est qu'il peut s'agir d'une pièce qui ne figure pas dans votr stock. 
