@@ -40,7 +40,6 @@ Deuxièmement, il est possible d'importer une liste de chauffeurs dans votre bas
 
 Troisièmement, il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
-
 ## Transporteurs
 
 Cette fonctionnalité permet de regrouper tous les transporteurs qui sont dans votre base de données. 
