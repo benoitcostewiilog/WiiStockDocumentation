@@ -365,6 +365,7 @@ Sur cette fenêtre :
 - Articles fournisseurs
 3. Enfin ajoutez le fichier au format CSV (délimiteur point virgule, encodage UTF-8 et <2 Mo) contenant les données à importer ou à mettre à jour. 
 4. Suite à la validation de l'import, une nouvel fenêtre s'ouvre contenant un tableau avec 3 colonnes, cette étape nous permet d'associer les champs du fichier importé et les champs Follow GT : 
+
 Colonnes du tableau de correspondance des champs Follow GT | Description
 ------------ | -------------
 Titre de colonne de fichier | Libellé de chaque colonne, cela correspond aux valeurs de la première ligne de votre fichier d'import, qui pourraient correspondre à des titres de colonnes. 
@@ -373,7 +374,10 @@ Champs Follow GT | Liste déroulante, qui contient tous les champs (champs libre
 
 **Afin d'associer les champs du fichier importé et des champs Follow GT, en s'aidant de l'aperçu, il faut associer chaque champs du fichier importé avec un champ Follow GT. Les champs Follow GT avec une astérisque sont des champs obligatoires à la création de l'import ou de la mise à jour.** 
 
-5. Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux, il sera executé plus tard et il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+5. Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux (voir "règles de planification des imports" ci dessous), il passera au staut "planifié" et sera exécuter plus tard, sinon il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+
+>**Règle de planification des imports** :Pour les imports de moins de 100 lignes, lancement immédiat. Pour les imports entre 100 et 500 lignes, lancement dans les 30 prochaines minutes. Pour les imports entre 500 et + lignes, lancement à minuit.
+
 
 ### Liste des imports et mise à jour 
 
@@ -382,7 +386,7 @@ Les détails de l'import seront visibles sur le tableau de l'historique des impo
 Champs liste imports et MAJ | Description
 ------------ | -------------
 Actions | Bouton flèche circulaire : permet de créer un import en dupliquant les paramètres renseignés sur un import précédemment exécuté. Bouton loupe :  Lorsqu'un import est au statut "Terminé", le bouton permet  de télécharger le fichier de traces au format CSV. En cas d'erreurs d'import le fichier de trace contient le détail des erreurs par ligne. 
-Statut | Indique le statut de l'import ou de la mise à jour , soit il peut être "en cours" ou bien "terminé"  
+Statut | Indique le statut de l'import ou de la mise à jour , soit il peut être "en cours", "planifié", "annulé" ou "terminé"   
 Date début | Indique la date et l'heure du lancement de l'import ou de la mise à jour
 Date fin | Indique la date et l'heure de fin de l'import ou de la mise à jour
 Nom import | Indique le nom de l'import renseigné lors de la création de l'import
