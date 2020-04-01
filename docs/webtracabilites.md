@@ -39,9 +39,9 @@ Les mouvements de traçabilité permettent de savoir où se trouve les produits,
 
 L'association BR, est une fonctionnalité qui permet d'associer un arrivage à un bon de réception. 
 
-Pour faire cette action, il faut vous rendre dans le module #Traçabilité#, puis sur la fonctionnalité #Association BR#. Cette fonctionnalité va vous rediriger vers la liste de toutes les Association BR déjà créée. Vous y retrouverez des filtres, en haut de votre écran, ce qui vous permettra de trier plus facilement. 
+Pour faire cette action, il faut vous rendre dans le module #Traçabilité#, puis sur la fonctionnalité #Association BR#. Cette fonctionnalité va vous redirigez vers la liste de toutes les associations BR déjà créées. Vous y retrouverez des filtres, en haut de votre écran, ce qui vous permettra de trier plus facilement. 
 
-Vous y retrouverez aussi un tableau regroupant toutes les associations de Bon de Réception, regroupant les informations suivantes : 
+Vous y retrouverez aussi un tableau regroupant toutes les associations de Bons de Réception, regroupant les informations suivantes : 
 -	Action 
 -	Date 
 -	Arrivage 
@@ -55,7 +55,7 @@ Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur
 Puis vous devrez remplir le numéro de réception. Si vous voulez associer un bon de réception sans arrivage vous cliquez sur le bouton #sans arrivage#. Cette action fera disparaître le libellé des arrivages. 
 Pour finaliser votre création, cliquez sur enregistrer. Une fois la création faites, vous aurez la possibilité de retrouver votre #Bon de Réception# dans votre tableau. 
 
-Si vous le souhaitez-vous pouvez exporter votre tableau sous forme de tableur Excel. 
+Si vous le souhaitez vous pouvez exporter votre tableau sous forme de tableur Excel. 
 
 
 ## Acheminement
