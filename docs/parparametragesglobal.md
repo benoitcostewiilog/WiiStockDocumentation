@@ -371,9 +371,11 @@ Titre de colonne de fichier | Libellé de chaque colonne, cela correspond aux va
 Apercu (ligne 1 ) | Correspond aux valeurs de chaque colonne de la deuxième ligne de votre fichier d'import. 
 Champs Follow GT | Liste déroulante, qui contient tous les champs (champs libres et fixes) liées au type de données à importer.
 
-** Afin d'associer les champs du fichier importé et des champs Follow GT, en s'aidant de l'aperçu, il faut associer chaque champs du fichier importé avec un champ Follow GT. Les champs Follow GT avec une astérisque sont des champs obligatoires à la création de l'import ou de la mise à jour. ** 
+**Afin d'associer les champs du fichier importé et des champs Follow GT, en s'aidant de l'aperçu, il faut associer chaque champs du fichier importé avec un champ Follow GT. Les champs Follow GT avec une astérisque sont des champs obligatoires à la création de l'import ou de la mise à jour.** 
 
-Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux, il sera executé plus tard et il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+5. Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux, il sera executé plus tard et il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+
+### Liste des imports et mise à jour 
 
 Les détails de l'import seront visibles sur le tableau de l'historique des imports, il comporte des informations sur les imports ainsi que certaines actions que l'on pourra exéctuer : 
 
