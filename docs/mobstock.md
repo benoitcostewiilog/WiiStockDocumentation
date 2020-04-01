@@ -118,3 +118,16 @@ Après validation, un petit bouton vert apparaît en bas à gauche de votre écr
 Pour faire la dépose vous pouvez choisir un emplacement à la main ou bien scanner une étiquette d’emplacement. Puis vous allez sélectionner les articles que vous voulez déposer. Encore une fois vous pouvez le faire manuellement ou bien en scannant le code barre de l'article. Une fois l'article ou les articles déposés, il vous faut cliquez sur le bouton valider. Ainsi la collecte est terminée et elle se synchronise avec la version web. Ainsi le superviseur pourra suivre les actions effectuées dans la journée.  
 
 ## Inventaire
+
+La fonctionnalité inventaire version mobile, est lié aux inventaires créer sur la version web. 
+
+En effet, l'application Wiistock mobile, permet d'effectuer les missions d'inventaire rapidement grâce au téléphone Zébra, qui peuvent lire les codes-barres. 
+
+Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité inventaire. De là une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisé. 
+
+Commençons par traiter un inventeur. Chaque inventaire se voit attribuer une fourchette de temporelle. Si vous n'êtes pas dans cette fourchette, l'inventaire ne s'affichera pas sur votre téléphone. 
+Reprenons, pour effectuer votre inventaire quand vous êtes dans la fonctionnalité inventaire, scanner l'emplacement de l’article à inventorié. 
+
+Vous devez scanner cet emplacement, pour ouvrir l'inventaire (Si votre téléphone n'est pas équipé de scan, vous pouvez utiliser votre appareil photo en cliquant sur le logo du code barre au milieu de votre écran). Après l'ouverture de l'inventaire, plusieurs données s'afficheront sur votre écran notamment l'emplacement de l'article de l'inventaire mais aussi l'article avec sa référence. 
+Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, pour incrémenter votre inventaire. Une fois le flash effectué, vous validerez le nombre d'article que vous trouverez sur cet emplacement. Si le nombre est bon, et que votre mission d'inventaire est terminée, l'inventaire sera noté comme rempli à 100 % sur la version web de l'application. 
+Il y’a aussi la possibilité de traiter une anomalie sur un inventaire.
