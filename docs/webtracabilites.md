@@ -28,7 +28,7 @@ Pour attribuer un litige a un arrivage il vous faut cliquer sur nouveau litige. 
 
 Après avoir cliqué sur nouveau litige, un formulaire s'ouvrira, est vous permettra de créer votre propre litige. Il sera possible pour vous de définir le type, le statut, de laisser un commentaire et de choisir le colis concerné par le litige. De plus vous pouvez glisser une pièce jointe et qualifié ce litige d’urgent ou non. Puis vous cliquerez sur enregistrer. Votre litige sera visible dans le tableau à droite, celui qui renseigne tous les litiges. 
 
-Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, grâce à la fonctionnalité « Réception ». 
+Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, grâce à la fonctionnalité [Réception] (webordres.md). 
 
 
 ## Mouvement de traçabilité
