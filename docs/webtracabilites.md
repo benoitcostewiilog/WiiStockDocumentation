@@ -18,7 +18,7 @@ Sur la page, vous verrez aussi, une liste de filtres permettant de trouver un ar
 Vous aurez la possibilité d'exporter votre tableau (pour faire un export il faut ajouter un ou plusieurs filtres) dans un tableau excel grâce au bouton « Exporter au format CSV ».  
 Enfin, l'application est munie d'une barre de recherche au-dessus à droite du tableau afin de pouvoir rechercher directement un arrivage. 
 
-Pour créer un arrivage il vous faudra cliquer sur le bouton « nouvel arrivage ». Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. Certains champs sont obligatoires, ils sont munis d'une astérix. #vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non#. Vous pouvez voir à côté de certains champs un bouton plus, il va permettre de créer un nouveau fournisseur, transporteur, … s'ils ne sont pas dans votre base de données. 
+Pour créer un arrivage il vous faudra cliquer sur le bouton « nouvel arrivage ». Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. Certains champs sont obligatoires, ils sont munis d'une astérisque. #vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non#. Vous pouvez voir à côté de certains champs un bouton plus, il va permettre de créer un nouveau fournisseur, transporteur, … s'ils ne sont pas dans votre base de données. 
 
 Pour valider la création, cliquez sur le bouton enregistrer. #Une fois l'enregistrement créé, dans les paramètres vous pourrez choisir si vous êtes redirigé dans l'arrivage ou bien si un formulaire d'arrivage se recrée automatiquement pour pouvoir le remplir#. 
 

@@ -342,3 +342,55 @@ Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenê
 
 ## Import et mise à jour
 
+### Introduction
+
+La fonction d'import et de mise à jour permet soit d'importer de nouvelles données dans l'application ou mettre à jour des données existantes.
+L'interêt de cette fonction est un gain de temps important, en l'occurence la création unitaire d'une importante base de données dans l'application peut être trsè chronophage. 
+
+Pour l'instant, les types de données concernées par cette fonction sont les suivants : 
+- Articles
+- Références
+- Fournisseurs
+- Articles fournisseurs
+
+### Création d'un nouvel import ou maj
+
+Commencez par cliquer sur le bouton `+Nouvel import`, cela ouvrira la fenêtre *Import d'un fichier*. 
+Sur cette fenêtre : 
+1. Renseignez le nom de l'import souhaité 
+2. Puis sélectionnez le type de données à importer dans la liste tel ci dessous  : 
+- Articles
+- Références
+- Fournisseurs
+- Articles fournisseurs
+3. Enfin ajoutez le fichier au format CSV (délimiteur point virgule, encodage UTF-8 et <2 Mo) contenant les données à importer ou à mettre à jour. 
+4. Suite à la validation de l'import, une nouvel fenêtre s'ouvre contenant un tableau avec 3 colonnes, cette étape nous permet d'associer les champs du fichier importé et les champs Follow GT : 
+Colonnes du tableau de correspondance des champs Follow GT | Description
+------------ | -------------
+Titre de colonne de fichier | Libellé de chaque colonne, cela correspond aux valeurs de la première ligne de votre fichier d'import, qui pourraient correspondre à des titres de colonnes. 
+Apercu (ligne 1 ) | Correspond aux valeurs de chaque colonne de la deuxième ligne de votre fichier d'import. 
+Champs Follow GT | Liste déroulante, qui contient tous les champs (champs libres et fixes) liées au type de données à importer.
+
+** Afin d'associer les champs du fichier importé et des champs Follow GT, en s'aidant de l'aperçu, il faut associer chaque champs du fichier importé avec un champ Follow GT. Les champs Follow GT avec une astérisque sont des champs obligatoires à la création de l'import ou de la mise à jour. ** 
+
+Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux, il sera executé plus tard et il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+
+Les détails de l'import seront visibles sur le tableau de l'historique des imports, il comporte des informations sur les imports ainsi que certaines actions que l'on pourra exéctuer : 
+
+Champs tableau historique des imports et mise à jour | Description
+------------ | -------------
+Actions | Bouton flèche circulaire : permet de créer un import en dupliquant les paramètres renseignés sur un import précédemment exécuté. 
+Bouton loupe :  Lorsqu'un import est au statut "Terminé", le bouton permet  de télécharger le fichier de traces au format CSV. En cas d'erreurs d'import le fichier de trace contient le détail des erreurs par ligne. 
+Statut | Indique le statut de l'import ou de la mise à jour , soit il peut être "en cours" ou bien "terminé"  
+Date début | Indique la date et l'heure du lancement de l'import ou de la mise à jour
+Date fin | Indique la date et l'heure de fin de l'import ou de la mise à jour
+Nom import | Indique le nom de l'import renseigné lors de la création de l'import
+Nvx enreg. | Indique le nombre de type de données crées
+Mises à jour | Indique le nombre de type de données mises à jour
+Nombre d'erreurs | Indique le nombre d'erreurs suite à l'import ou à la mise à jour
+Utilisateur | Indique le nom de l'utilisateur qui a exécuté l'import ou la mise à jour
+
+
+
+
+
