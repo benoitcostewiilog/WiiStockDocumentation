@@ -379,10 +379,9 @@ Champs Follow GT | Liste déroulante, qui contient tous les champs (champs libre
 
 Les détails de l'import seront visibles sur le tableau de l'historique des imports, il comporte des informations sur les imports ainsi que certaines actions que l'on pourra exéctuer : 
 
-Champs tableau historique des imports et mise à jour | Description
+Champs liste imports et MAJ | Description
 ------------ | -------------
-Actions | Bouton flèche circulaire : permet de créer un import en dupliquant les paramètres renseignés sur un import précédemment exécuté. 
-Bouton loupe :  Lorsqu'un import est au statut "Terminé", le bouton permet  de télécharger le fichier de traces au format CSV. En cas d'erreurs d'import le fichier de trace contient le détail des erreurs par ligne. 
+Actions | Bouton flèche circulaire : permet de créer un import en dupliquant les paramètres renseignés sur un import précédemment exécuté. Bouton loupe :  Lorsqu'un import est au statut "Terminé", le bouton permet  de télécharger le fichier de traces au format CSV. En cas d'erreurs d'import le fichier de trace contient le détail des erreurs par ligne. 
 Statut | Indique le statut de l'import ou de la mise à jour , soit il peut être "en cours" ou bien "terminé"  
 Date début | Indique la date et l'heure du lancement de l'import ou de la mise à jour
 Date fin | Indique la date et l'heure de fin de l'import ou de la mise à jour
