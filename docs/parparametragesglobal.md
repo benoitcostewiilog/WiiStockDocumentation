@@ -342,4 +342,3 @@ Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenê
 
 ## Import et mise à jour
 
-A compléter 

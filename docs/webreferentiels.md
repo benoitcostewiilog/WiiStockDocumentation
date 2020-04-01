@@ -36,9 +36,8 @@ La première, vous pouvez cliquer sur le bouton nouveau chauffeur qui vous ouvri
 -	Transporteur.
 Pour valider vous cliquez, sur enregistrer. 
 
-Deuxièmement, il est possible d'importer une liste de chauffeurs dans votre base de données. En effet, si vous avez beaucoup de chauffeurs à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste de chauffeurs est donc disponible. #lien vers les imports# 
 
-Troisièmement, il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
+Deuxièmement, il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
 ## Transporteurs
 
