@@ -100,33 +100,33 @@ Enfin, l'application mobile synchronisera ses données avec l'application web et
 
 ## Collecte
 
-La fonctionnalité collecte version mobile, est liée à une demande de collecte effectué depuis la version web. 
+La fonctionnalité collecte version mobile, est liée à une demande de collecte effectuée depuis la version web. 
 
 Toutes les demandes de collectes ont une référence propre. 
 
-Chaque demande de collecte, créera automatiquement un ordre de collecte visible pour tous vos logisticiens sur la version mobile. 
+Chaque demande de collecte, créera automatiquement un ordre de collecte visible pour tous vos opérateurs sur la version mobile. 
 
 Pour effectuer votre collecte, il faut vous rendre sur la version mobile, dans le module stock, collecte. 
 Si vous cliquez sur la fonctionnalité collecte, l'application ouvrira une page qui rassemble tous les ordres de collecte. 
 
-Une fois que vous avez trouvé le bon ordre de collecte, vous cliquerez sur celle-ci. Vous serez dirigé dans le détail de l'ordre de collectes, avec les informations suivantes : le numéro de la collecte, le point de collecte (c'est à dire l'emplacement où se trouve les pièces que vous devez collecter), ainsi que la liste des articles à traiter. 
+Une fois que vous avez trouvé le bon ordre de collecte, vous cliquerez sur celle-ci. Vous serez dirigé dans le détail de l'ordre de collecte, avec les informations suivantes : le numéro de la collecte, le point de collecte (c'est à dire l'emplacement où se trouve les pièces que vous devez collecter), ainsi que la liste des articles à traiter. 
 
 Pour valider votre collecte vous devez sélectionner les pièces à collecter. Pour cela vous pouvez scanner le code-barres de la pièce, ou bien valider la pièce à la main en cliquant sur la référence, et en sélectionnant la quantité souhaitée. 
 
-Après validation, un petit bouton vert apparaît en bas à gauche de votre écran, il va vous permettre de valider la collecte. S’il s'agit d'une destruction la collecte s'arrête ici. Mais s'il si c’est une mise en stock, l'application vous redirigera vers la dépose. 
+Après validation, un petit bouton vert apparaît en bas à gauche de votre écran, il va vous permettre de valider la collecte. S’il s'agit d'une destruction, la collecte s'arrêtera ici. Mais si c’est une mise en stock, l'application vous redirigera vers la dépose. 
 
 Pour faire la dépose vous pouvez choisir un emplacement à la main ou bien scanner une étiquette d’emplacement. Puis vous allez sélectionner les articles que vous voulez déposer. Encore une fois vous pouvez le faire manuellement ou bien en scannant le code barre de l'article. Une fois l'article ou les articles déposés, il vous faut cliquez sur le bouton valider. Ainsi la collecte est terminée et elle se synchronise avec la version web. Ainsi le superviseur pourra suivre les actions effectuées dans la journée.  
 
 ## Inventaire
 
-La fonctionnalité inventaire version mobile, est lié aux inventaires créer sur la version web. 
+La fonctionnalité inventaire version mobile, est liée aux inventaires créer sur la version web. 
 
-En effet, l'application Wiistock mobile, permet d'effectuer les missions d'inventaire rapidement grâce au téléphone Zébra, qui peuvent lire les codes-barres. 
+En effet, l'application Wiistock mobile, permet d'effectuer les missions d'inventaire rapidement grâce au mobiles (ex : Mobile Zebra), qui peuvent lire les codes-barres. 
 
-Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité inventaire. De là une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisé. 
+Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité inventaire. Une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisés. 
 
-Commençons par traiter un inventeur. Chaque inventaire se voit attribuer une fourchette de temporelle. Si vous n'êtes pas dans cette fourchette, l'inventaire ne s'affichera pas sur votre téléphone. 
-Reprenons, pour effectuer votre inventaire quand vous êtes dans la fonctionnalité inventaire, scanner l'emplacement de l’article à inventorié. 
+Commençons par traiter un inventaire. Chaque inventaire se voit attribuer une fourchette temporelle. Si vous n'êtes pas dans cette fourchette, l'inventaire ne s'affichera pas sur votre téléphone. 
+Pour effectuer votre inventaire, scannez l'emplacement de l’article à inventorié. 
 
 Vous devez scanner cet emplacement, pour ouvrir l'inventaire (Si votre téléphone n'est pas équipé de scan, vous pouvez utiliser votre appareil photo en cliquant sur le logo du code barre au milieu de votre écran). Après l'ouverture de l'inventaire, plusieurs données s'afficheront sur votre écran notamment l'emplacement de l'article de l'inventaire mais aussi l'article avec sa référence. 
 Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, pour incrémenter votre inventaire. Une fois le flash effectué, vous validerez le nombre d'article que vous trouverez sur cet emplacement. Si le nombre est bon, et que votre mission d'inventaire est terminée, l'inventaire sera noté comme rempli à 100 % sur la version web de l'application. 
