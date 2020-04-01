@@ -23,6 +23,24 @@ Cette fonctionnalité permet de regrouper tous les fournisseurs qui sont dans vo
 Il est possible d'importer une liste de vos fournisseurs, mais aussi de les créer manuellement. *lien vers import* 
 De plus vous pouvez aussi les modifier. 
 
+## Chauffeurs 
+
+La fonctionnalité chauffeur regroupe tous les chauffeurs de votre base de données sous forme de tableau. 
+
+Il y a plusieurs façons d’incrémenter vos chauffeurs à votre base de données. 
+
+La première, vous pouvez cliquer sur le bouton nouveau chauffeur qui vous ouvrira un formulaire de création de chauffeur. Il vous faudra renseigner 4 champs :  
+-	Nom, 
+-	Prénom, 
+-	Document,
+-	Transporteur.
+Pour valider vous cliquez, sur enregistrer. 
+
+Deuxièmement, il est possible d'importer une liste de chauffeurs dans votre base de données. En effet, si vous avez beaucoup de chauffeurs à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste de chauffeurs est donc disponible. #lien vers les imports# 
+
+Troisièmement, il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
+
+
 ## Transporteurs
 
 Cette fonctionnalité permet de regrouper tous les transporteurs qui sont dans votre base de données. 
