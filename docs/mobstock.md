@@ -93,7 +93,7 @@ Après la préparation d'une livraison, il se crée sur l'application web et mob
 
 Pour effectuer cette action, rendez-vous dans le module stock de l’application mobile, puis cliquez sur la fonctionnalité livraison. Après avoir cliqué sur la fonctionnalité livraison, l'application affichera la totalité des ordres de livraison à traiter.
 
-Pour les traiter, vous cliquez sur un des ordre. Une page s'ouvrira et affichera les informations suivantes : le numéro de la livraison, l'emplacement de destination, la référence de l'article, son emplacement, ainsi que sa quantité. Vous pouvez scanner l'article ou bien cliquez sur ça référence et la validé à la main. Une fois la livraison prête à être validée, vous cliquez sur le bouton en bas à gauche, validé. Pour finir le processus, il vous faudra scanner l'emplacement de livraison. 
+Pour les traiter, vous cliquez sur un des ordres. Une page s'ouvrira et affichera les informations suivantes : le numéro de la livraison, l'emplacement de destination, la référence de l'article, son emplacement, ainsi que sa quantité. Vous pouvez scanner l'article ou bien cliquez sur sa référence et puis valider. Une fois la livraison prête à être validée, vous cliquez sur le bouton en bas à gauche, validé. Pour finir le processus, il vous faudra scanner l'emplacement de livraison. 
 
 Enfin, l'application mobile synchronisera ses données avec l'application web et permettra aux superviseurs de voir quels ordres de livraison sont traités et ceux qui ne le sont pas.  
 
