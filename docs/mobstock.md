@@ -87,6 +87,34 @@ Préparation d'article | Dans ce cas, l'opérateur peut aller directement dans l
 
 ## Livraison
 
+La fonctionnalité livraison version mobile, est liée aux livraisons sur la partie web.
+
+Après la préparation d'une livraison, il se crée sur l'application web et mobile un ordre de livraison. Cet ordre de livraison visible sur le mobile va permettre de déplacer les colis du point de préparation à son point de livraison finale. 
+
+Pour effectuer cette action, rendez-vous dans le module stock de l’application mobile, puis cliquez sur la fonctionnalité livraison. Après avoir cliqué sur la fonctionnalité livraison, l'application affichera la totalité des ordres de livraison à traiter.
+
+Pour les traiter, vous cliquez sur un des ordre. Une page s'ouvrira et affichera les informations suivantes : le numéro de la livraison, l'emplacement de destination, la référence de l'article, son emplacement, ainsi que sa quantité. Vous pouvez scanner l'article ou bien cliquez sur ça référence et la validé à la main. Une fois la livraison prête à être validée, vous cliquez sur le bouton en bas à gauche, validé. Pour finir le processus, il vous faudra scanner l'emplacement de livraison. 
+
+Enfin, l'application mobile synchronisera ses données avec l'application web et permettra aux superviseurs de voir quels ordres de livraison sont traités et ceux qui ne le sont pas.  
+
+
 ## Collecte
+
+La fonctionnalité collecte version mobile, est liée à une demande de collecte effectué depuis la version web. 
+
+Toutes les demandes de collectes ont une référence propre. 
+
+Chaque demande de collecte, créera automatiquement un ordre de collecte visible pour tous vos logisticiens sur la version mobile. 
+
+Pour effectuer votre collecte, il faut vous rendre sur la version mobile, dans le module stock, collecte. 
+Si vous cliquez sur la fonctionnalité collecte, l'application ouvrira une page qui rassemble tous les ordres de collecte. 
+
+Une fois que vous avez trouvé le bon ordre de collecte, vous cliquerez sur celle-ci. Vous serez dirigé dans le détail de l'ordre de collectes, avec les informations suivantes : le numéro de la collecte, le point de collecte (c'est à dire l'emplacement où se trouve les pièces que vous devez collecter), ainsi que la liste des articles à traiter. 
+
+Pour valider votre collecte vous devez sélectionner les pièces à collecter. Pour cela vous pouvez scanner le code-barres de la pièce, ou bien valider la pièce à la main en cliquant sur la référence, et en sélectionnant la quantité souhaitée. 
+
+Après validation, un petit bouton vert apparaît en bas à gauche de votre écran, il va vous permettre de valider la collecte. S’il s'agit d'une destruction la collecte s'arrête ici. Mais s'il si c’est une mise en stock, l'application vous redirigera vers la dépose. 
+
+Pour faire la dépose vous pouvez choisir un emplacement à la main ou bien scanner une étiquette d’emplacement. Puis vous allez sélectionner les articles que vous voulez déposer. Encore une fois vous pouvez le faire manuellement ou bien en scannant le code barre de l'article. Une fois l'article ou les articles déposés, il vous faut cliquez sur le bouton valider. Ainsi la collecte est terminée et elle se synchronise avec la version web. Ainsi le superviseur pourra suivre les actions effectuées dans la journée.  
 
 ## Inventaire
