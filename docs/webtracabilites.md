@@ -80,28 +80,52 @@ Si vous souhaitez voir quel acheminement a été fait ou pas il faut regarder da
 Si vous souhaitez rechercher votre cheminement vous pouvez le faire de manière, en utilisant les filtres en haut de votre écran ou bien la barre de recherche juste en dessous du bouton filtrer. Si vous souhaitez imprimer modifier ou supprimer votre d'acheminement. Vous pourrez utiliser les 3 boutons dans la colonne action. Le premier sert à imprimer le deuxième à modifier et le troisième à supprimer.
 
 
-## En-cours
+## Encours
 
-La fonctionnalité des encours permet de visualiser la durée d'un objet sur un emplacement. Les encours sont liés à des emplacements, qui sont eux-mêmes liés à des délais de traçabilité que vous pourrez paramétrer dans le référenciel des emplacements. 
+La fonctionnalité des encours permet de visualiser la durée d'un objet sur un emplacement. Les encours sont liés à des emplacements, qui sont eux-mêmes liés à des délais de traçabilité que vous pourrez paramétrer dans le référentiel des emplacements. 
 
-Si les colis posés sur les emplacements d'encours dépassent le délais de tracabilité préalablement paramétré alors ils apparaîtront en rouge sur votre écran. 
+Si les colis déposés sur les emplacements d'encours dépassent le délai de tracabilité préalablement paramétré alors la ou les lignes de colis apparaîtront en rouge sur votre écran. 
 
-Afin de fixer un délai de traçabilité et pour attribuer un emplacement à une zone d’encours, vous vous rendrez dans référentiel, emplacement. Vous pourrez soit modifier un emplacement déjà existant où et lui attribuer un délai de traçabilité ou bien créer un nouvel emplacement et lui ajouter un délai de traçabilité.  
+Afin de fixer un délai de traçabilité et pour attribuer un emplacement à une zone d’encours, vous vous rendrez dans référentiel, emplacement. Vous pourrez soit modifier un emplacement déjà existant et lui attribuer un délai de traçabilité ou bien créer un nouvel emplacement et lui ajouter un délai de traçabilité.   
+
+Sur l'écran des encours, vous allez pouvoir visualiser plusieurs tableaux selon le nombre d'emplacement d'encours, autrement dit un tableau par emplacement d'encours, ci dessous le détail des champs disponibles sur ces tableaux : 
+
+Champs Emplacement d'encours | Description
+------------ | -------------
+Colis | Indique le ou les numéros de colis présents sur l'emplacement
+Date de dépose  | Indique la date de dépose du colis sur l'emplacement
+Délai | Indique le temps passé du colis sur l'emplacement
 
 ## Urgences
 
-IL est possible qu'un de vos collaborateurs ait besoin de colis en urgence. Pour cela il se rendra sur le module "Traçabilité", "Urgence". Puis il faudra cliquez sur "nouvelle urgence". Il vous faudra remplir les champs obligatoires qui sont essentiels pour l'activation de l'urgence : 
-* La fourchette de livraison 
-* Numero de commande
-* Numéro de poste
-* Acheteur
-* Fournisseur 
-* Transporteur
+### Concept des urgences
 
-L'urgence pourra se déclencher lors de la réception d'un arrivage, lorsque vous remplirez les champs, 
+Il est possible qu'un acheteur ou des acheteurs aient besoin d'un commande en urgence, ils pourront identifier des commandes urgentes dans cette fonction. Dès l'arrivage de la commande en urgence, l'opérateur sera informé que la commande est en urgence et pourra donc la traitée en priorité, aussi les acheteurs seront informés par mail de l'arrivage de leur commande. 
+
+### Création d'une urgence
+
+Sur l'application Web, l'acheteur devra se rendre se rendre sur le module "Traçabilité", "Urgence". Puis il faudra cliquez sur `nouvelle urgence`. Il vous faudra remplir les champs obligatoires qui sont essentiels pour l'activation de l'urgence : 
+
+Champs de création d'une urgence | Description
+------------ | -------------
+Fourchette de livraison entre le et le | L'urgence sera actif uniquement entre la date de début indiquée et la date de fin
+N°de commande | Renseignez le numéro de commande
+Numéro de poste | Renseignez le numéro de poste en urgence figurant sur la commande ou sur le BL
+Fournisseur | Sélectionnez l'intitulé du fournisseur lié à la commande, il doit préalablement figurer dans le référentiel fournisseur
+Transporteur | Sélectionnez l'intitulé du transporteur lié à la commande, il doit préalablement figurer dans le référentiel transporteur
+Numéro de tracking transporteur | Champ textuel libre non olbigatoire,si disponible vous pouvez renseigner le numéro de tracking transporteur de la commande
+
+L'urgence se déclenchera lors de la création d'un arrivage lors de la fourchette de livraison et  si les champs renseignés ci dessous correspondent à l'urgence : 
 * Fournisseur 
 * Transporteur
 * Numéro commande
-* Destinataire  
+* Destinataire 
+Suite à cela l'opérateur visualisera un message l'informant du caractère urgent de l'arrivage et du numéro de poste en urgence, aussi le ou les acheteurs recevront un mail les informant de l'arrivage de la commande urgente.  
 
-Si la création de l'arrivage se fait lors de La fourchette de livraison, et que l'arrivage correspond au champ de l'urgence, alors l'urgence se déclenche. 
+### Urgence sur référence gérée à l'article
+
+Il est aussi possible de paramétrer un caractère urgent sur une référence géré à l'article. Lors de la réception , l'opérateur sera alors  averti de l'urgence et l'utilisateur sera averti de la réception de la référence en urgence. 
+
+Afin d'indiquer une urgence sur une référence gérée à l'article, dans le sous menu "Référence", cliquez sur le bouton crayon pour accéder à la fenêtre de modification de la référence et activez le bouton `Urgence`.
+
+Suite à la réception de cette référence en urgence, l'urgence sera désactivé. 

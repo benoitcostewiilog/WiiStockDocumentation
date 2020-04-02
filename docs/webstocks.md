@@ -18,6 +18,7 @@ Il s'agit de la liste des articles qui constitue votre stock. Vous pouvez import
 
 Enfin vous pouvez imprimer l'étiquette de l'article. Vous pouvez aussi modifier ou supprimer l'article. 
 Vous pouvez aussi choisir les colonnes visibles sur la liste des articles.  
+
 ## Articles fournisseur
 
 Il s'agit de la liste des articles fournisseur. 
@@ -30,10 +31,6 @@ Champs à renseigner | Description
 Code fournisseur | Permet de sélectionner le code d'un fournisseur déjà existant dans le référentiel
 Article de référence | Permet de sélectionner le code d'un article de référence déjà existant dans le référentiel
 Référence | Permet de renseigner le code de l'article-fournisseur souhaité 
-
-
-### Création d'un article fournisseur 
-
 
 ## Mouvement de stock
 
@@ -50,3 +47,21 @@ Il est possible de créer des fréquences d'inventaire, dans les "PARAMETRAGES G
 Les alertes sont attribuées à des références. Il existe deux types de seuil de quantité minimum : 
 * Seuil d'alerte
 * Seuil de sécurité
+
+Lorsque la quantité disponible de la référence sera inférieur au seuil d'alerte ou au seuil de sécurité cela générera une alerte. 
+
+Ces seuils sont paramétrables dans le sous menu référentiel, cliquez sur le bouton crayon situé sur la ligne d'un référence puis renseignez le champ seuil d'alerte ou le champ seuil de sécurité. 
+
+Sur le sous menu Alerte, vous pouvez visualiser la liste des alertes par référence : 
+
+Champs liste des alertes | Description
+------------ | -------------
+Libellé | Indique le libellé de la référence
+Article de référence | Indique le code référence
+Quantité  | Indique la quantité en stock de la référence
+Type quantité | Référence ou Article
+Type | Type de la référence
+Date d'alerte |
+Seuil d'alerte |
+Seuil de sécurité |
+Alerte |
