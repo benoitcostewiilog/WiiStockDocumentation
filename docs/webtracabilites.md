@@ -60,8 +60,25 @@ Si vous le souhaitez vous pouvez exporter votre tableau sous forme de tableur Ex
 
 ## Acheminement
 
-La fonctionnalité d'acheminement permet de créer une demande de mouvement d'une pièce d'un emplacement de dépose. La particularité de cette fonctionnalité, c'est qu'il peut s'agir d'une pièce qui ne figure pas dans votr stock. 
-Pour faire une demande, vous devez aller dans le module traçabilité, acheminement, puis vous cliquez sur le bouton faire une demande d'acheminement. Ensuite, le formulaire de votre demande va s’afficher. Et vous n’aurez plus qu’à le remplir. 
+La fonctionnalité d'acheminement permet de déplacer une pièce qui ne se trouve pas votre stock et dont vous avez besoin. Il s'agit d'une fonctionnalité annexe à la gestion de stock. 
+
+Pour vous rendre dans acheminement, il faut que vous cliquiez dans le module traçabilité, puis sur acheminement. 
+
+Vous y retrouverez un tableau avec plusieurs informations pertinentes : 
+- La date de la demande 
+- Le demandeur 
+- Les emplacements de prise et dépose
+- Nombre de pièce
+- Le statut
+- 
+Pour créer un nouvel acheminement il faut cliquer sur #nouvel acheminement#.   
+
+Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise virgule et emplacement de dépose. Pour finaliser la création cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
+
+Si vous souhaitez voir quel acheminement a été fait ou pas il faut regarder dans la colonne statue. Il y a 2 statuts, à traiter et traiter. 
+
+Si vous souhaitez rechercher votre cheminement vous pouvez le faire de manière, en utilisant les filtres en haut de votre écran ou bien la barre de recherche juste en dessous du bouton filtrer. Si vous souhaitez imprimer modifier ou supprimer votre d'acheminement. Vous pourrez utiliser les 3 boutons dans la colonne action. Le premier sert à imprimer le deuxième à modifier et le troisième à supprimer.
+
 
 ## En-cours
 
