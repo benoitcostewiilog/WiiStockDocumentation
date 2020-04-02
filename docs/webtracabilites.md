@@ -65,12 +65,12 @@ La fonctionnalité d'acheminement permet de déplacer une pièce qui ne se trouv
 Pour vous rendre dans acheminement, il faut que vous cliquiez dans le module traçabilité, puis sur acheminement. 
 
 Vous y retrouverez un tableau avec plusieurs informations pertinentes : 
-- La date de la demande 
-- Le demandeur 
-- Les emplacements de prise et dépose
+- Date de la demande 
+- Demandeur 
+- Emplacements de prise et dépose
 - Nombre de pièce
 - Le statut
-- 
+  
 Pour créer un nouvel acheminement il faut cliquer sur #nouvel acheminement#.   
 
 Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise virgule et emplacement de dépose. Pour finaliser la création cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
