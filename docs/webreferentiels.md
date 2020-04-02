@@ -69,7 +69,6 @@ Pour valider vous cliquez, sur enregistrer.
 
 Vous trouverez dans la colonne action de votre tableau le bouton modifier et supprimer. De plus il est possible de chercher un fournisseur grâce à la barre de recherche. Pour modifier il faut cliquer sur le bouton en forme de stylo et pour supprimer il faut cliquer sur le bouton en forme de poubelle. 
 
-
 ## Transporteurs
 
 La fonctionnalité transporteurs, regroupe tous les transporteurs de votre base de données sous forme de tableau.
