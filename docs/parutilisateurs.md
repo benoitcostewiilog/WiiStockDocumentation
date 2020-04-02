@@ -19,7 +19,7 @@ Le formulaire de création s'ouvre et vous propose de saisir les informations su
 - **Email** : doit correspondre à votre email pour recevoir les emails de notifications sur les différentes actions de l'application, sert de login sur l'application web et doit donc être unique
 - **Mot de passe** : la saisie de mot de passe doit respecter les contraintes suivantes
     - minimum 8 caractères
-    - 1 carctère spécial
+    - 1 caractère spécial
     - 1 chiffre
     - 1 majuscule
 - **Confirmer mot de passe** : Permet de ressaisir le mot de passe pour valider qu'il n'y a pas eu d'erreur de saisie
