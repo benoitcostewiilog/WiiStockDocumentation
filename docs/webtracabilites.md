@@ -35,6 +35,38 @@ Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, gr�
 
 Les mouvements de traçabilité permettent de savoir où se trouve les produits, colis, articles,… avant la mise en stock. Cela permet de déplacer d'un emplacement A à un emplacement B un ou plusieurs objets, tout en gardant les informations nécessaires de tracabilité liées aux colis, produits ou articles. Cette fonctionnalité est traitable sur l'application web et également sur l'application mobile.  
 
+Pour se rendre sur la fonctionnalité #mouvement# il faut cliquer sur le module traçabilité puis mouvement. Vous arriverez sur le tableau de tous les mouvements. 
+
+Ce tableau ne concerne pas uniquement les arrivages et les réceptions, il concerne aussi toutes les pièces qui ont été déplacer grâce à l'application. 
+
+Il regroupe les informations suivantes : 
+
+- Issu de (l'origine)
+- Date,
+- Of et autres, (Colis et Piece),
+- Référence,
+- Libellé, 
+- L’emplacement, 
+- Type (dépose où prise)
+
+Vous allez retrouver en haut de l’écran, des filtres afin d'affiner vos recherches. Mais aussi une barre de recherche juste en dessous. 
+
+Vous retrouverez aussi la possibilité d'exporter au format csv une liste de ce tableau. Nous allons ensuite voire comment on crée un mouvement. Il y a deux Type de mouvement : 
+
+- Prise, 
+- Dépose.
+
+La prise permet de communiquer à l'application, « je prends cette référence à cet emplacement, a cette heure-ci ». La dépose elle « l'application je dépose cette référence à cet emplacement à cette heure-ci ». 
+
+Pour créer un mouvement cliquez sur nouveau mouvement. Puis sélectionnez les champs obligatoires pour valider ce mouvement : 
+
+- Emplacement de prise, 
+- Of et autres, (Colis et pièces)  
+- Emplacement de dépose. 
+
+Vous avez aussi la possibilité de laisser un commentaire ainsi qu'une pièce jointe. Pour valider, cliquez sur enregistrer. Votre mouvement va automatiquement s'afficher dans votre tableau.
+
+
 ## Association BR
 
 L'association BR, est une fonctionnalité qui permet d'associer un arrivage à un bon de réception. 
