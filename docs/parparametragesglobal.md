@@ -238,11 +238,13 @@ Pour effectuer la suppression, cliquer sur le bouton avec la corbeille dans la l
 
 ## Export des données
 
-Les exports de données se trouvent en général sur les listes des demandes/ordres ou autres entitées de données.
+Les exports de données se trouvent en général sur les listes des demandes/ordres/mouvements ou autres entitées de données.
+Pour procéder à un export sur les listes de données, il faut préalablement saisir des dates dans la barre de filtre située en-tête de page.
+Enfin il faut lancer l'export en cliquant sur le bouton `Exporter au format CSV`, cela permettra de télécharger un fichier de données au format CSV. 
 
-Le sous menu d'export des données comporte l'export des références et articles présents dans le stock complet embarquant les champs libres.
 
-Le système de champ libre multiplie les requetes dans la base de données, c'est pourquoi l'export total de la base peut prendre un certain temps.
+Le sous menu d'export des données comporte l'export des données liées aux références et articles présents dans le stock, cela inclu également les champs libres associés. Afin de lancer l'export des articles ou références, il faut cliquer sur le bouton `Exporter au format CSV` et ne pas quitter la page tant que l'export n'est pas terminé, car le fait de quitter ou de rafraichir la page annulera l'export. 
+Le système de champ libre multiplie les requêtes dans la base de données, c'est pourquoi l'export total de la base peut prendre un certain temps.
 
 
 ## Inventaires
