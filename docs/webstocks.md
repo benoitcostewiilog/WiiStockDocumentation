@@ -48,6 +48,8 @@ Les alertes sont attribuées à des références. Il existe deux types de seuil 
 * Seuil d'alerte
 * Seuil de sécurité
 
+Lorsque la quantité disponible de la référence sera inférieur au seuil d'alerte ou au seuil de sécurité cela générera une alerte. 
+
 Ces seuils sont paramétrables dans le sous menu référentiel, cliquez sur le bouton crayon situé sur la ligne d'un référence puis renseignez le champ seuil d'alerte ou le champ seuil de sécurité. 
 
 Sur le sous menu Alerte, vous pouvez visualiser la liste des alertes par référence : 
