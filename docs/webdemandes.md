@@ -8,46 +8,53 @@ sidebar_label: Demandes
 
 ## Demandes
 
-L'application Wiistock permet de générer des demandes de collectes, de livraisons et de services. Chaqu'une des demandes créées dans l'application génère à son tour des ordres. Ces ordres permettent de réaliser les actions demandées. 
+L'application Wiistock permet de générer des demandes de collectes, de livraisons et de manutention. Chaqu'une des demandes créées dans l'application génère à son tour des ordres. Ces ordres permettent de réaliser les actions demandées, les opérateurs pourront les traiter avec l'application mobile.  
 
 ## Demandes de collecte
 
 La demande de collecte permet de rapatrier des articles de votre production ou magasin à votre stock ou de les détruire.
-Les demandes sont crées sur l'application web. Les ordres peuvent s'effectuer sur l'application web ou mobile. 
+Les demandes sont crées sur l'application web. 
+Les ordres peuvent être traités sur l'application web ou mobile. 
 
 ### Création d'une demande de collecte
 
 1. Création de l'entête de demande de collecte
+
 Sur le menu demande de collecte, cliquez sur le bouton `Nouvelle collecte`, cela ouvrira une fenêtre de création d'une entête de demande de collecte : 
 
 Champs de création d'une demande de collecte | Description
 ------------ | -------------
 Objet | Renseignez un intitulé pour la collecte
-Point de collecte | Liste déroulante des emplacements existants, séléctionnez un emplacement de collecte
+Point de collecte | Liste déroulante des emplacements existants, sélectionnez un emplacement de collecte
 Destination | Mise en stock si vous souhaitez que l'article soit intégré à votre stock ou destruction pour indiqué que l'article est destiné à la destruction
 Type | Sélectionnez le type de pièce dans la liste déroulante
 Commentaire | Vous pouvez renseigner un commentaire
 
 Enfin cliquez sur `Enregistrer`, vous serez redirigé vers l'écran de détail de la demande de collecte. 
 Vous venez de créer une entête de demande de collecte.
-La demande de collecte est désormais au statut brouillon. 
+La demande de collecte est désormais au statut "brouillon". 
 
-Vous pouvez aussi accéder à cette écran de détail en cliquant sur le bouton oeil situé dans la colonne action de la liste des demandes de collecte. 
+Vous pouvez aussi accéder à cet écran de détail en cliquant sur le bouton oeil situé dans la colonne action de la liste des demandes de collecte. 
 
 2. Ajout d'article à une demande de collecte 
 
 Il s'agit d'ajouter un ou plusieurs articles à la demande de collecte créée. 
 
-Pour cela cliquez sur le bouton `Ajouter article`, cela ouvrira une fenêtre vous permettant de séléctionner le codede la référence à ajouter. 
+Pour cela cliquez sur le bouton `Ajouter article`, cela ouvrira une fenêtre vous permettant de sélectionner le code de la référence à ajouter. 
 
 Suite au clique sur le bouton `Ajouter`, une fenêtre de détail de la référence s'ouvrira vous permettant de renseigner la quantité à collecter. 
 
-Dans le cas ou vous ne connaissez le code de la référence, vous pouvez cliquez sur le bouton `Chercher une référence`, cela vous redirigera vers le référentiel des articles de référence. 
+Dans le cas où vous ne connaissez le code de la référence, vous pouvez cliquer sur le bouton `Chercher une référence`, cela vous redirigera vers le référentiel des articles de référence. 
 
 Lorsque vous aurez ajouter les articles à votre demande, cliquez sur le bouton `Valider` . 
 
-Suite à la validation de la demande de collecte, un ordre de collecte sera généré. 
-La demande est désormais au statut "A traiter" et on ne peut plus la modifier ou la supprimer. 
+Suite à la validation de la demande de collecte, un ordre de collecte sera généré
+
+La demande est désormais au statut "à traiter" et on ne peut plus la modifier ou la supprimer. 
+Un bouton `Aller vers la collecte` apparait, en cliquant sur ce dernier, vous serez redirigé vers l'ordre de collecte. 
+
+La demande passera au statut "collecté" ue fois que l'ordre associé sera traité. 
+
 
 ### Modification et suppression d'une demande de collecte
 
@@ -64,7 +71,7 @@ Vous retrouverez l'historique des demandes de collecte sous forme de tableau. Vo
 * Le demandeur de la collecte
 * Son numéro
 * L'objet
-* Le statut
+* Le statut 
 * Le type
 
 ## Demandes de livraison
