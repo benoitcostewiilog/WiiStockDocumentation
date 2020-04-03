@@ -103,7 +103,7 @@ Vous y retrouverez un tableau avec plusieurs informations pertinentes :
 - Nombre de pièce
 - Le statut
   
-Pour créer un nouvel acheminement il faut cliquer sur #nouvel acheminement#.   
+Pour créer un nouvel acheminement il faut cliquer sur `nouvel acheminement`.   
 
 Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise virgule et emplacement de dépose. Pour finaliser la création cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
 
