@@ -65,14 +65,15 @@ Le tableau regroupe les colonnes suivantes :
 Pour traiter la collecte, il faut cliquer sur 
 * Le bouton de l'oeil gris, dans la colonne action, qui vous aménera sur la page de l'ordre
 * Vous trouverez le détail de la collecte en haut, avec les informations suivantes 
-*     Statut
-*     Numéro de la collecte
-*     Demandeur
-*     Opérateur
-*     Date de collecte
-*     Point de collecte
-*     Destination
-*     Commentaire                                                      
+* Statut
+* Numéro de la collecte
+* Demandeur
+* Opérateur
+* Date de collecte
+* Point de collecte
+* Destination
+* Commentaire                                         
+  
 
 Vous trouvez aussi en bas la liste des articles/références liée à la demande sous forme de tableau. Vous y trouverez les informations suivantes 
 * Référence	
@@ -93,7 +94,7 @@ Celle-ci va vous permettre, de voir l'ensemble des réceptions que votre stock a
 
 ### Créer une réception
 
-Pour créer une réception, cliquez sur le bouton, **nouvelle récéption**, puis vous remplissez les champs dont vous avez besoin. 
+Pour créer une réception, cliquez sur le bouton, `nouvelle récéption`, puis vous remplissez les champs dont vous avez besoin. 
 
 Après avoir validé la création, vous arriverez dans le détail de la réception pour pouvoir y ajouter des pièces.
 Pour les ajouter, il faut cliquer sur le bouton ajouter pièce. Si une ou plusieurs de vos pièces sont litigieuses, alors vous pouvez créer un litige associé à ces pièces.  Ensuite après avoir sélectionneè une piéce, vous devrez cliquer sur le bouton réception , qui vous permettra de valider l'ajout d'une référence dans votre stock. 
@@ -115,4 +116,3 @@ Vous pouvez ensuite soit supprimer, modifier ou bien finir la réception grâce 
 
 En haut de la liste de vos réceptions, vous toruverez, tous les filtres. Vous pouvez combiner autant de filtres que vous souhaitez. Ensuite pour appliquer ces filtres, vous cliquez sur filtrer. 
 
-### Réceptionner des articles ou références
