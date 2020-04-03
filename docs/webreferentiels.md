@@ -29,7 +29,7 @@ Pour valider vous cliquez, sur enregistrer.
 Vous remarquerez dans la colonne actions les 3 petits boutons : 
 Ils permettent de modifier, pour le 2e bouton de supprimer et le 3e d'imprimer l'emplacement. 
 
-Bouton en forme | Description
+Bouton | Description
 ------------ | -------------
 De stylo | Permet de modiifer votre emplacement 
 De poubelle | Permet de supprimer un emplacement 
@@ -111,7 +111,7 @@ Pour valider vous cliquez, sur enregistrer.
 
 2. Il est possible de créer un transporteurs lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
-Bouton en forme | Description
+Bouton | Description
 ------------ | -------------
 De stylo | Permet de modiifer votre transporteur 
 De poubelle | Permet de supprimer un transporteur 
