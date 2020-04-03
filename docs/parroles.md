@@ -6,7 +6,7 @@ sidebar_label: Rôles
 
 ## Avant de commencer - le principe des rôles
 
-Un rôles permet de donner accés au fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
+Un rôle permet de donner accés au fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
 
 L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application 
 
