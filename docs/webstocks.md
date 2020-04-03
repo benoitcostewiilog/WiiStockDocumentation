@@ -15,7 +15,7 @@ Vous y trouverez un tableau regroupant vos références, avec les champs suivant
 
 Champ | Description
 ------------ | -------------
- Actions | Permet de modifier une référence grâce au bouton en forme de stylo, de la supprimer grâce au bouton corbeille, de voir les (mouvements de stock)[webordres.md] liée à cette référence et le bouton plus pour ajouter une référence (demande de collecte de livraison.)[webtracabilites.md] 
+ Actions | Permet de modifier une référence grâce au bouton en forme de stylo, de la supprimer grâce au bouton corbeille, de voir les [mouvements de stock](webordres.md) liée à cette référence et le bouton plus pour ajouter une référence [demande de collecte de livraison](webtracabilites.md). 
  Libellé | Correspond au nom que vous avez donné à votre référence. 
  Référence| Correspond à la référence donné. 
  Type | Permet de catégoriser vos références
@@ -35,7 +35,7 @@ Emplacement | Correponds à l'emplacement où se trouve votre référence.
 Type | Liste déroulente permettant de séléctionner le type lorsqu'une référence est gérée par référence. Selon le type séléctionné, certain champ libre s'afficheront.  
 Quantité | La quantité affilié à cette référence.
 
-De plus vous allez devoir sélectionner la gestion de quantité par référence OU par article
+De plus vous allez devoir sélectionner la gestion de quantité par référence OU par article.
 
 - Gestion de référence par article, 
 - Gestion de référence par référence, 
@@ -62,7 +62,7 @@ Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utili
 
 Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de`. Après avoir effectué cette action, il vous faudra sélectionner une référence correspondante.  
 
-(Référence gérée par article)[webstock.md] : 
+[Référence gérée par article](webstock.md) : 
 
 Action | Description
 ------------ | -------------
@@ -96,11 +96,11 @@ La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraison
 ## Inventaire
 
 La fonctionnalité inventaire, permet de créer un inventaire, avec les articles et références que vous souhaitez inventorier. 
-Cela crée une mission, qui est effectuée par un logisticien sur site avec (l'application mobile) [mobstock.md]
+Cela crée une mission, qui est effectuée par un logisticien sur site avec [l'appliaction mobile](mobtracabilites.md).
 
 Pour vous rendre sur #inventaire#, cliquez sur #stock#, puis sur #inventaire#. Après cette action, une page va s'ouvrir. Elle regroupera des filtres en haut de votre écran, afin d'affiner vos recherche. En dessous vous pourrez voir le tableau de tous les inventaires créés, avec la possibilité de voir, où de supprimer une mission. 
 
-Enfin vous voyez juste au-dessus du tableau 3 boutons : 
+Enfin vous voyez juste au-dessus du tableau 3 boutons :
 
 -	Nouvelle mission,. 
 -	Voir les saisies, 
@@ -125,7 +125,7 @@ Il s’agit d’une liste de tous les inventaires réalisés pour chaque article
 
 Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisit sur leur référence ou articles qui n'est pas la même qu'attendu. Les anomalies sont essuite traité par les logisticiens grâce a l'appliaction mobile. 
 
-Il est possible de créer des fréquences d'inventaire, dans les (paramétrage global)[parametragesglobal.md]. 
+Il est possible de créer des fréquences d'inventaire, dans les [paramétrages globaux](parametragesglobal.md). 
 
 ## Alerte
 
