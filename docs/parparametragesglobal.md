@@ -296,7 +296,7 @@ Il est possible de créer un statut en cliquant sur `+Nouveau statut`, voici les
 Champ paramétrage litige | Description
 ------------ | -------------
 Catégorie | Permet se sélectionner arrivage ou réception
-Label | Permet de choisir le nom :ex : "en attente fournisseur", "En attende contrôle qualité"
+Label | Permet de choisir le nom :ex : "en attente fournisseur", "En attente contrôle qualité"
 Commentaire | Champ texte qui sera ajouté automatiquement dans l'historique du litige lors du passage sur ce statut.
 Statut de type "litige traité" | Permet d'identifier que le statut de requiert plus d'actions utilisateurs (filtre disponible sur les liste des litiges)
 Envoi de mails aux acheteurs | Permet de spécifier que le passage sur ce statut envoi directement un mail d'information d'avancement aux acheteurs associés au litige
