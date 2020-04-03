@@ -19,7 +19,9 @@ Il y a plusieurs façons d’incrémenter vos chauffeurs à votre base de donné
 -	Nom, 
 -	Description, 
 Vous aurez remarquez, que juste en dessous ce trouve #Délais Traçabilité# et point de livraison. Si vous remplissez le champ Délais Traçabilité, votre emplacement deviendra un emplacement (d'encours) [webtracabilites.md]
-Si vous cochez, point de livraison, alors votre emplacement 
+
+Si vous cochez, point de livraison, alors lors (chaque mouvement de dépose) [webtracabilites.md] sur cette emplacement un mail est envoyé. 
+
 Pour valider vous cliquez, sur enregistrer. 
 
 2. Il est possible d'importer une liste d'emplacement dans votre base de données. En effet, si vous avez beaucoup d'emplacements à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste d'emplacements est donc disponible. #lien vers les imports#
@@ -68,7 +70,6 @@ Pour valider vous cliquez, sur enregistrer.
 3. Il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
 Vous trouverez dans la colonne action de votre tableau le bouton modifier et supprimer. De plus il est possible de chercher un fournisseur grâce à la barre de recherche. Pour modifier il faut cliquer sur le bouton en forme de stylo et pour supprimer il faut cliquer sur le bouton en forme de poubelle. 
-
 
 ## Transporteurs
 

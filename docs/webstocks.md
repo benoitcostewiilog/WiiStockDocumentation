@@ -39,8 +39,36 @@ La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraison
 ## Inventaire
 
 La fonctionnalité inventaire, permet de créer un inventaire, avec les articles et références que vous souhaitez inventorier. 
-Cela crée une mission d'inventaire, qui est effectuée par un logisticien sur site avec l'application mobile. 
-Il est possible de créer des fréquences d'inventaire, dans les "PARAMETRAGES GLOBAUX". 
+Cela crée une mission, qui est effectuée par un logisticien sur site avec (l'application mobile) [mobstock.md]
+
+Pour vous rendre sur #inventaire#, cliquez sur #stock#, puis sur #inventaire#. Après cette action, une page va s'ouvrir. Elle regroupera des filtres en haut de votre écran, afin d'affiner vos recherche. En dessous vous pourrez voir le tableau de tous les inventaires créés, avec la possibilité de voir, où de supprimer une mission. 
+
+Enfin vous voyez juste au-dessus du tableau 3 boutons : 
+
+-	Nouvelle mission,. 
+-	Voir les saisies, 
+-	Gérer les anomalies. 
+
+
+1.	Nouvelle mission : 
+
+Pour créer un inventaire, cliquez sur le bouton nouvelle mission. Un formulaire s'ouvrira et vous demandera de renseigner la date de début et la date de fin. Puis cliquez sur enregistrer. 
+
+Vous venez de créer votre mission, il va falloir maintenant lui ajouter des articles ou des références. Pour cela cliquez sur le bouton en forme de d'oeil au niveau de l'inventaire. 
+
+Une fois cette action faites, vous vous retrouverez sur la page qui concerne l'inventaire. Vous retrouverez les mêmes filtres en haut de l'écran mais aussi le bouton « Exporter au format csv ». Pour ajouter une référence ou un article cliquez sur « ajouter des références ou des articles ». Puis sélectionnez les articles ou les références que vous souhaitez en utilisant les barre de recherche. Après l'ajout de vos références ou de vos articles cliquez sur enregistrer. 
+
+Enfin pour quitter cette page cliquer sur retour à la liste en bas à gauche. Vous venez de créer une mission d'inventaire qui sera visible par vos logisticiens. 
+
+2.	Voir les saisies : 
+
+Il s’agit d’une liste de tous les inventaires réalisés pour chaque article et références. 
+
+3.	Gérer les anomalies :  
+
+Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisit sur leur référence ou articles qui n'est pas la même qu'attendu. Les anomalies sont essuite traité par les logisticiens grace a l'appliaction mobile. 
+
+Il est possible de créer des fréquences d'inventaire, dans les (paramétrage global)[parametragesglobal.md]. 
 
 ## Alerte
 

@@ -35,6 +35,38 @@ Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, gr�
 
 Les mouvements de traçabilité permettent de savoir où se trouve les produits, colis, articles,… avant la mise en stock. Cela permet de déplacer d'un emplacement A à un emplacement B un ou plusieurs objets, tout en gardant les informations nécessaires de tracabilité liées aux colis, produits ou articles. Cette fonctionnalité est traitable sur l'application web et également sur l'application mobile.  
 
+Pour se rendre sur la fonctionnalité #mouvement# il faut cliquer sur le module traçabilité puis mouvement. Vous arriverez sur le tableau de tous les mouvements. 
+
+Ce tableau ne concerne pas uniquement les arrivages et les réceptions, il concerne aussi toutes les pièces qui ont été déplacer grâce à l'application. 
+
+Il regroupe les informations suivantes : 
+
+- Issu de (l'origine)
+- Date,
+- Of et autres, (Colis et Piece),
+- Référence,
+- Libellé, 
+- L’emplacement, 
+- Type (dépose où prise)
+
+Vous allez retrouver en haut de l’écran, des filtres afin d'affiner vos recherches. Mais aussi une barre de recherche juste en dessous. 
+
+Vous retrouverez aussi la possibilité d'exporter au format csv une liste de ce tableau. Nous allons ensuite voire comment on crée un mouvement. Il y a deux Type de mouvement : 
+
+- Prise, 
+- Dépose.
+
+La prise permet de communiquer à l'application, « je prends cette référence à cet emplacement, a cette heure-ci ». La dépose elle « l'application je dépose cette référence à cet emplacement à cette heure-ci ». 
+
+Pour créer un mouvement cliquez sur nouveau mouvement. Puis sélectionnez les champs obligatoires pour valider ce mouvement : 
+
+- Emplacement de prise, 
+- Of et autres, (Colis et pièces)  
+- Emplacement de dépose. 
+
+Vous avez aussi la possibilité de laisser un commentaire ainsi qu'une pièce jointe. Pour valider, cliquez sur enregistrer. Votre mouvement va automatiquement s'afficher dans votre tableau.
+
+
 ## Association BR
 
 L'association BR, est une fonctionnalité qui permet d'associer un arrivage à un bon de réception. 
@@ -60,8 +92,25 @@ Si vous le souhaitez vous pouvez exporter votre tableau sous forme de tableur Ex
 
 ## Acheminement
 
-La fonctionnalité d'acheminement permet de créer une demande de mouvement d'une pièce d'un emplacement de dépose. La particularité de cette fonctionnalité, c'est qu'il peut s'agir d'une pièce qui ne figure pas dans votr stock. 
-Pour faire une demande, vous devez aller dans le module traçabilité, acheminement, puis vous cliquez sur le bouton faire une demande d'acheminement. Ensuite, le formulaire de votre demande va s’afficher. Et vous n’aurez plus qu’à le remplir. 
+La fonctionnalité d'acheminement permet de déplacer une pièce qui ne se trouve pas votre stock et dont vous avez besoin. Il s'agit d'une fonctionnalité annexe à la gestion de stock. 
+
+Pour vous rendre dans acheminement, il faut que vous cliquiez dans le module traçabilité, puis sur acheminement. 
+
+Vous y retrouverez un tableau avec plusieurs informations pertinentes : 
+- Date de la demande 
+- Demandeur 
+- Emplacements de prise et dépose
+- Nombre de pièce
+- Le statut
+  
+Pour créer un nouvel acheminement il faut cliquer sur #nouvel acheminement#.   
+
+Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise virgule et emplacement de dépose. Pour finaliser la création cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
+
+Si vous souhaitez voir quel acheminement a été fait ou pas il faut regarder dans la colonne statue. Il y a 2 statuts, à traiter et traiter. 
+
+Si vous souhaitez rechercher votre cheminement vous pouvez le faire de manière, en utilisant les filtres en haut de votre écran ou bien la barre de recherche juste en dessous du bouton filtrer. Si vous souhaitez imprimer modifier ou supprimer votre d'acheminement. Vous pourrez utiliser les 3 boutons dans la colonne action. Le premier sert à imprimer le deuxième à modifier et le troisième à supprimer.
+
 
 ## Encours
 
