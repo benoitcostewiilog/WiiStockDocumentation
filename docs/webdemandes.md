@@ -88,17 +88,32 @@ Pour créer une demande de livraion, cliquez sur
 
 Vous venez de créer une demande de livraison. Vous aller pouvoir retrouver l'ordre associé dans Ordre de préparation. 
 
-## Demandes de service
+## Demandes de manutention
 
-La demande de service permet de générer une demande divers à une date attendue, par exemple cela peut être une demande de manutention d'un mobilier qui n'est pas présent dans votre stock.   
+La demande de manutention permet de générer une demande divers à une date attendue, par exemple cela peut être une demande de manutention d'un mobilier qui n'est pas présent dans votre stock.   
 
-Pour créer une demande de service, cliquez sur 
-* Demande 
-* Demande de service
-* Nouvelle demande
-* Remplissez le formulaire de demande de service
+### Création d'une demande de manutention
 
-Vous venez de créer une demande de service. Toute les demandes de service se trouve sur la même page.
-Chaque demande est caractérisé par un statut selon l'état de traitement (traité ou à traiter) 
+Sur le menu demande de manuentention, cliquez sur le bouton `Nouvelle demande`, cela ouvrira un formulaire de création d'une nouvelle demande de manutention, vous devrez alors le remplir. Ci dessous la description des champs du formulaire de création :  
 
-Une barre de filtre est présente en en-tête de page de chaque fonctionnalité, cela permet de filtrer la liste des occurences selon diffèrents critères (dates, statut, demandeurs...) 
+Champs de création d'une demande de manutention | Description
+------------ | -------------
+Objet | Renseignez un intitulé carartérisant la manutention
+Demandeur| Indique le nom d'utilisateur du demandeur, ce champ est pré-rempli en fonction de l'utilisateur connecté sur l'application
+Chargement | Emplacement de chargement de la manutention (peut être un emplacement non existant dans le référentiel)
+Déchargement | Emplacement de déchargement de la manutention (peut être un emplacement non existant dans le référentiel)
+Date attendue | Renseignez la date et l'heure souhaitée 
+Commentaire | Vous pouvez remplir un commentaire au choix
+
+Enfin cliquez sur `Enregistrer`, vous venez de créer une demande de manutention au statut "à traiter".
+
+Toutes les demandes de service se trouve sur la même page.
+Chaque demande est caractérisé par un statut selon l'état de traitement (traité ou à traiter). 
+
+### Modification, traitement et suppression d'une demande de manutention
+
+Afin de traiter une demande de manuentention, il faut d'abord cliquer sur le bouton crayon pour accèder à la fenêtre de modification, suite à cela vous pourrez modifier le statut de "à traiter" vers "traité" et renseigner la date de réalisation. 
+
+Il est possible de modifier une demande de manutention au statut "à traiter" ou "traité". 
+
+Il est possible de supprimer une demande de manutention uniquement au statut "à traiter"
