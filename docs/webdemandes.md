@@ -35,8 +35,13 @@ La demande de collecte est désormais au statut brouillon.
 Vous pouvez aussi accéder à cette écran de détail en cliquant sur le bouton oeil situé dans la colonne action de la liste des demandes de collecte. 
 
 2. Ajout d'article à une demande de collecte 
+
 Il s'agit d'ajouter un ou plusieurs articles à la demande de collecte créée. 
-Pour cela cliquez sur le bouton `Ajouter article`, cela ouvrira une fenêtre vous permettant de séléctionner le codede la référence à ajouter. Suite au clique sur le bouton `Ajouter`, une fenêtre de détail de la référence s'ouvrira vous permettant de renseigner la quantité à collecter. 
+
+Pour cela cliquez sur le bouton `Ajouter article`, cela ouvrira une fenêtre vous permettant de séléctionner le codede la référence à ajouter. 
+
+Suite au clique sur le bouton `Ajouter`, une fenêtre de détail de la référence s'ouvrira vous permettant de renseigner la quantité à collecter. 
+
 Dans le cas ou vous ne connaissez le code de la référence, vous pouvez cliquez sur le bouton `Chercher une référence`, cela vous redirigera vers le référentiel des articles de référence. 
 
 Lorsque vous aurez ajouter les articles à votre demande, cliquez sur le bouton `Valider` . 
