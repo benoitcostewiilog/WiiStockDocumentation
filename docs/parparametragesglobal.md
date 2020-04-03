@@ -20,11 +20,11 @@ La configuration des étiquettes est commune aux étiquettes de traçabilité, d
 
 Paramètre | Description
 ------------ | -------------
-Hauteur mm | spécifie la hauteur en milimetre de l'étiquette (entier)
-Largeur mm | spécifie la largeur en milimetre de l'étiquette (entier)
+Hauteur mm | spécifie la hauteur en milimètre de l'étiquette (entier)
+Largeur mm | spécifie la largeur en milimètre de l'étiquette (entier)
 Champ libre présent sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un part number ou bon de livraison à réception d'article
 Champ libre sur étiquette | A définir
-Type d'étiquette | Permet de spécifier le type de code barré généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
+Type d'étiquette | Permet de spécifier le type de code barre généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
 Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
 
 

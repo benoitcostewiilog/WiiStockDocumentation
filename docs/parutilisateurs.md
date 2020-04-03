@@ -27,7 +27,7 @@ Le formulaire de création s'ouvre et vous propose de saisir les informations su
 - **Rôle** : Permet d'affecter un rôle à l'utilisateur pour lui donner accès à certaines fonctionnalités de l'application
 - **Dropzone** : Permet d'affecter un emplacement à un utilisateur. Cette fonctionnalité est utilisée sur les arrivages de traçabilité. Si l'utilisateur est positionné en acheteur, alors l'emplacement dropzone sera affiché sur l'étiquette d'unité de tracking
 
-Une fois enregistré, le rôle est modifiable à la volée depuis la liste des utilisateurs. (Cela permet d'éviter d'entrer en modification pour chaque utilisateur).
+Une fois enregistré, le rôle est modifiable depuis la liste des utilisateurs. (Cela permet d'éviter d'entrer en modification pour chaque utilisateur).
 
 ### Création externe
 
