@@ -15,43 +15,34 @@ Vous y trouverez un tableau regroupant vos références, avec les champs suivant
 
 Champ | Description
 ------------ | -------------
- Actions | Permet de modifier une référence grace au bouton en forme de stylo, de la supprimer grace au bouton poubelle, de voir les mouvements de stock liée à cette référence et d'un d'ajouter une (demande de collecte de livraison.) [webtracabilites.md] 
+ Actions | Permet de modifier une référence grâce au bouton en forme de stylo, de la supprimer grâce au bouton corbeille, de voir les (mouvements de stock)[webordres.md] liée à cette référence et le bouton plus pour ajouter une référence (demande de collecte de livraison.)[webtracabilites.md] 
  Libellé | Correspond au nom que vous avez donné à votre référence. 
  Référence| Correspond à la référence donné. 
  Type | Permet de catégoriser vos références
  Statut | Permet de voir si votre référence est actif ou inactif.
  Quantité disponible | Correspond au qantité liée à votre référence.
- Emplacement | Correspond à l'emplacement ou se trouve la référence.  
+ Emplacement | Correspond à l'emplacement où se trouve la référence.  
 
-L'application Wiistock permet d'avoir la mainmise sur les fonctionnalités. 
+Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cella permettera d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
 
-Et de pouvoir effectuer plusieurs actions sur vos références. Grâce au bouton `Ajouter un filtre`, vous aurez la possibilité de choisir ceux dont vous pensez qu'ils sont le plus pertinent pour vos recherches. À côté de ce bouton, vous trouverez un bouton en forme d'engrenage qui permet de modifier les colonnes de votre tableau.D'en ajouter ou d'en enlever. 
+Afin de créer une référence, un bouton `nouvel article de référence`. Va permettre de créer une référence à la main.
 
-Vous remarquerez ensuite un bouton `Imprimer les étiquettes`, qui permet d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
-
-En dessous vous pourrez voir une barre de recherche. Enfin vient le dernier bouton `nouvel article de référence`. Va permettre de créer une référence à la main.
-Sur l’application Wiistock, il est possible de créer des références de deux manières. 
-
-1.	Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de référence`. Après avoir effectué cette action, il vous faudra remplir les champs obligatoires : 
+Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de référence`. Après avoir effectué cette action, il vous faudra remplir les champs obligatoires : 
 
 Champ | Description
 ------------ | -------------
 Référence | Ce champ correpond à la référence que vous souhaitez créer. 
-Nom | Il s'agit du nom que vous souhaitez affilier à cette référence. 
-Emplacement | Correpond à l'emplacement au ce trouve votre référence. 
-Type | (Seulement pour les réf gérés par référence) Permet de coisir dans qu'elle catéorit vous voulez que votre référence se trouve. 
-Quantité | (Seulement pour les réf gérés par référence) La quantité affilié à cette référence. 
+Nom | Il s'agit du nom que vous souhaitez attribuer à cette référence. 
+Emplacement | Correponds à l'emplacement où se trouve votre référence. 
+Type | Liste déroulente permettant de séléctionner le type lorsqu'une référence est gérée par référence. Selon le type séléctionné, certain champ libre s'afficheront.  
+Quantité | La quantité affilié à cette référence.
 
 De plus vous allez devoir sélectionner la gestion de quantité par référence OU par article
 
 - Gestion de référence par article, 
 - Gestion de référence par référence, 
 
-D'autre champ sont disponible mais pas obliatoire. Vous pouvez les remplirs si vous les trouvez pertinant. 
-
 Pour finaliser la création cliquez sur enregistrer. 
-
-2.	Il est possible pour vous d'importer une liste de référence grâce à la fonctionnalité (import) [parparametragesglobal.md]. 
 
 ## Articles
 
@@ -107,7 +98,7 @@ Il s’agit d’une liste de tous les inventaires réalisés pour chaque article
 
 3.	Gérer les anomalies :  
 
-Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisit sur leur référence ou articles qui n'est pas la même qu'attendu. Les anomalies sont essuite traité par les logisticiens grace a l'appliaction mobile. 
+Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisit sur leur référence ou articles qui n'est pas la même qu'attendu. Les anomalies sont essuite traité par les logisticiens grâce a l'appliaction mobile. 
 
 Il est possible de créer des fréquences d'inventaire, dans les (paramétrage global)[parametragesglobal.md]. 
 
