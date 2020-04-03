@@ -7,10 +7,51 @@ sidebar_label: Stock
 
 ## Références
 
-Il s'agit des références de vos articles, produits,... que vous pouvez importer ou créer manuellement, en cliquant sur le bouton "Nouvel article de référence". Puis vous pouvez remplir le formulaire de création. 
-Vous pouvez aussi modifier ou supprimer votre référence. 
+La fonctionnalité référence permet de regrouper dans un tableau toutes les références concernant votre base de données. 
 
-Vous y retrouverez aussi toutes vos références. 
+Cet outil se trouve dans le module stock, références. 
+
+Vous y trouverez un tableau regroupant vos références, avec les champs suivants :  
+
+Champ | Description
+------------ | -------------
+ Actions | Permet de modifier une référence grace au bouton en forme de stylo, de la supprimer grace au bouton poubelle, de voir les mouvements de stock liée à cette référence et d'un d'ajouter une (demande de collecte de livraison.) [webtracabilites.md] 
+ Libellé | Correspond au nom que vous avez donné à votre référence. 
+ Référence| Correspond à la référence donné. 
+ Type | Permet de catégoriser vos références
+ Statut | Permet de voir si votre référence est actif ou inactif.
+ Quantité disponible | Correspond au qantité liée à votre référence.
+ Emplacement | Correspond à l'emplacement ou se trouve la référence.  
+
+L'application Wiistock permet d'avoir la mainmise sur les fonctionnalités. 
+
+Et de pouvoir effectuer plusieurs actions sur vos références. Grâce au bouton `Ajouter un filtre`, vous aurez la possibilité de choisir ceux dont vous pensez qu'ils sont le plus pertinent pour vos recherches. À côté de ce bouton, vous trouverez un bouton en forme d'engrenage qui permet de modifier les colonnes de votre tableau.D'en ajouter ou d'en enlever. 
+
+Vous remarquerez ensuite un bouton `Imprimer les étiquettes`, qui permet d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
+
+En dessous vous pourrez voir une barre de recherche. Enfin vient le dernier bouton `nouvel article de référence`. Va permettre de créer une référence à la main.
+Sur l’application Wiistock, il est possible de créer des références de deux manières. 
+
+1.	Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de référence`. Après avoir effectué cette action, il vous faudra remplir les champs obligatoires : 
+
+Champ | Description
+------------ | -------------
+Référence | Ce champ correpond à la référence que vous souhaitez créer. 
+Nom | Il s'agit du nom que vous souhaitez affilier à cette référence. 
+Emplacement | Correpond à l'emplacement au ce trouve votre référence. 
+Type | (Seulement pour les réf gérés par référence) Permet de coisir dans qu'elle catéorit vous voulez que votre référence se trouve. 
+Quantité | (Seulement pour les réf gérés par référence) La quantité affilié à cette référence. 
+
+De plus vous allez devoir sélectionner la gestion de quantité par référence OU par article
+
+- Gestion de référence par article, 
+- Gestion de référence par référence, 
+
+D'autre champ sont disponible mais pas obliatoire. Vous pouvez les remplirs si vous les trouvez pertinant. 
+
+Pour finaliser la création cliquez sur enregistrer. 
+
+2.	Il est possible pour vous d'importer une liste de référence grâce à la fonctionnalité (import) [parparametragesglobal.md]. 
 
 ## Articles
 
