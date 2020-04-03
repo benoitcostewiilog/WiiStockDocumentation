@@ -97,13 +97,15 @@ Staut litige par défaut | Permet de choisir le statut par défaut lors de la cr
 
 ### Paramétrage des heures travaillées
 
-Le paramétrage des heures travaillées joue sur le calcul des en-cours et délais sur emplacement.
+Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et délais sur emplacement.
 
-Ainsi le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
+En l'occurence le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
 
-2 plages horaires sont à paramétrer par jours.
+2 plages horaires sont à paramétrer par jour..
 - 1 plage horaire le matin
 - 1 plage horaire l'après midi
+
+Le bouton `Travaillé` permet de désactiver la journée.
 
 Ceci pour les 7 jours de la semaine
 
