@@ -8,27 +8,53 @@ sidebar_label: Demandes
 
 ## Demandes
 
-L'application Wiistock permet de génerer des demandes de collectes, de livraisons et de services. Chaqu'une des demandes créées dans l'application génere à son tour des ordres. Ces ordres permettent de réaliser les actions demandées. 
+L'application Wiistock permet de générer des demandes de collectes, de livraisons et de services. Chaqu'une des demandes créées dans l'application génère à son tour des ordres. Ces ordres permettent de réaliser les actions demandées. 
 
 ## Demandes de collecte
 
 La demande de collecte permet de rapatrier des articles de votre production ou magasin à votre stock ou de les détruire.
 Les demandes sont crées sur l'application web. Les ordres peuvent s'effectuer sur l'application web ou mobile. 
 
-Pour créer une demande de collecte, cliquez sur :
-* Demande, 
-* Collecte
-* Nouvelle collecte
-* Remplissage du formulaire de la demande de collecte
-* Ajout des articles/références
-* Valider 
+### Création d'une demande de collecte
 
-Vous venez de créer une demande de collecte. Vous pouvez la retrouver dans les ordres de collecte. 
+1. Création de l'entête de demande de collecte
+Sur le menu demande de collecte, cliquez sur le bouton `Nouvelle collecte`, cela ouvrira une fenêtre de création d'une entête de demande de collecte : 
 
-Vous pouvez inspecter le détail de la collecte avec le bouton en forme d'oeil. 
+Champs de création d'une demande de collecte | Description
+------------ | -------------
+Objet | Renseignez un intitulé pour la collecte
+Point de collecte | Liste déroulante des emplacements existants, séléctionnez un emplacement de collecte
+Destination | Mise en stock si vous souhaitez que l'article soit intégré à votre stock ou destruction pour indiqué que l'article est destiné à la destruction
+Type | Sélectionnez le type de pièce dans la liste déroulante
+Commentaire | Vous pouvez renseigner un commentaire
 
-La page est sous forme de tableau. Vous y retrouverez : 
-* L'action
+Enfin cliquez sur `Enregistrer`, vous serez redirigé vers l'écran de détail de la demande de collecte. 
+Vous venez de créer une entête de demande de collecte.
+La demande de collecte est désormais au statut brouillon. 
+
+Vous pouvez aussi accéder à cette écran de détail en cliquant sur le bouton oeil situé dans la colonne action de la liste des demandes de collecte. 
+
+2. Ajout d'article à une demande de collecte 
+Il s'agit d'ajouter un ou plusieurs articles à la demande de collecte créée. 
+Pour cela cliquez sur le bouton `Ajouter article`, cela ouvrira une fenêtre vous permettant de séléctionner le codede la référence à ajouter. Suite au clique sur le bouton `Ajouter`, une fenêtre de détail de la référence s'ouvrira vous permettant de renseigner la quantité à collecter. 
+Dans le cas ou vous ne connaissez le code de la référence, vous pouvez cliquez sur le bouton `Chercher une référence`, cela vous redirigera vers le référentiel des articles de référence. 
+
+Lorsque vous aurez ajouter les articles à votre demande, cliquez sur le bouton `Valider` . 
+
+Suite à la validation de la demande de collecte, un ordre de collecte sera généré. 
+La demande est désormais au statut "A traiter" et on ne peut plus la modifier ou la supprimer. 
+
+### Modification et suppression d'une demande de collecte
+
+On peut modifier ou supprimer une demande de collecte uniquement lorsqu'elle est au statut "Brouillon". 
+
+### Liste des demandes de collecte
+
+Sur le menu demande de collecte vous trouverez la liste des demandes de collecte, regroupant l'ensemble des demandes créées. 
+Vous pouvez inspecter le détail d'une collecte avec le bouton en forme d'oeil. 
+
+Vous retrouverez l'historique des demandes de collecte sous forme de tableau. Vous y retrouverez : 
+* L'action oeil permettant de visualiser le détail d'une demande de collecte
 * La date de création
 * Le demandeur de la collecte
 * Son numéro
@@ -40,7 +66,6 @@ La page est sous forme de tableau. Vous y retrouverez :
 
 La demande de livraison permet :
 * D'envoyer des articles de votre stock à vos clients.
-
 * D'envoyer des articles de votre stock à votre production/magasin.
 
 Pour créer une demande de livraion, cliquez sur 
