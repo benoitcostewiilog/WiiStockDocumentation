@@ -34,6 +34,7 @@ Dans le tableau principal, votre préparation passera au statut de "à traiter" 
 Pour une livraison :
 
 Pour effectuer un picking sur référence, vous devez :
+
 * Livraison 
 * Nouvelle demande de livraion 
 * Remplir le premier formulaire
@@ -41,17 +42,19 @@ Pour effectuer un picking sur référence, vous devez :
 
 ### Picking sur articles
 
+
+
 ### Picking partiel
 
 Lors de l'exécution de vos ordres, il est possible que les pièces ne soit pas disponibles en stock. Il est possible de traiter un ordre partiellement, un picking partiel créera un deuxième ordre pour finaliser l'action plus tard. 
 
 ## Ordre de livraison
 
-Les ordres de livraisons sont liés aux demandes de livraisons. Chaque demande, impliquera un ordre de préparation. Lors de la validation de la préparation. Un ordre de livraison sera créer et il permettra de relier l'emplacement de préparation à l'emplacement de livraison. 
+Les ordres de livraisons sont liés aux [demandes de livraisons](webdemandes.md). Chaque demande, impliquera un ordre de préparation. Lors de la validation de la préparation. Un ordre de livraison sera créer et il permettra de relier l'emplacement de préparation à l'emplacement de livraison. 
 
 ## Ordre de collecte
 
-Un ordre de collecte est créé après une demande de collecte. Il permet de traiter la demande, d'effectuer l'action. 
+Un ordre de collecte est créé après une [demande de collecte](webdemandes.md). Il permet de traiter la demande, d'effectuer l'action. 
 
 La page des ordres de collecte est constitué d'un tableau, de filtres et d'un bouton export CSV. 
 Le tableau regroupe les colonnes suivantes :
@@ -63,8 +66,8 @@ Le tableau regroupe les colonnes suivantes :
 * Type
 
 Pour traiter la collecte, il faut cliquer sur 
-* Le bouton de l'oeil gris, dans la colonne action, qui vous aménera sur la page de l'ordre
-* Vous trouverez le détail de la collecte en haut, avec les informations suivantes 
+Le bouton de `l'oeil gris`, dans la colonne action, qui vous aménera sur la page de l'ordre
+Vous trouverez le détail de la collecte en haut, avec les informations suivantes 
 * Statut
 * Numéro de la collecte
 * Demandeur
