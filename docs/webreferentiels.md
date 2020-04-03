@@ -11,46 +11,64 @@ Le menu référentiel, permet de regrouper tous les emplacements, fournisseurs, 
 
 ## Emplacements
 
-La fonctionnalité #emplacements#, regroupe tous les emplacements de votre base de données sous forme de tableau.
+La fonctionnalité `emplacements`, regroupe tous les emplacements de votre base de données sous forme de tableau.
 
-Il y a plusieurs façons d’incrémenter vos chauffeurs à votre base de données. 
+Il y a plusieurs façons d’incrémenter vos emplacemnts à votre base de données. 
 
-1.  Vous pouvez cliquer sur le bouton #nouvel emplacement# qui vous ouvrira un formulaire de création de. Il vous faudra renseigner 4 champs :  
+1.  Vous pouvez cliquer sur le bouton `nouvel emplacement` qui vous ouvrira un formulaire de création de. Il vous faudra renseigner 4 champs :  
 -	Nom, 
 -	Description, 
-Vous aurez remarquez, que juste en dessous ce trouve #Délais Traçabilité# et point de livraison. Si vous remplissez le champ Délais Traçabilité, votre emplacement deviendra un emplacement (d'encours) [webtracabilites.md]
+Vous aurez remarquez, que juste en dessous ce trouve `Délais Traçabilité` et `point de livraison`. Si vous remplissez le champ Délais Traçabilité, votre emplacement deviendra un emplacement [d'encours](webtracabilites.md). 
 
-Si vous cochez, point de livraison, alors lors (chaque mouvement de dépose) [webtracabilites.md] sur cette emplacement un mail est envoyé. 
+Si vous cochez, point de livraison, alors lors [chaque mouvement de dépose](webtracabilites.md) sur cette emplacement un mail est envoyé. 
 
 Pour valider vous cliquez, sur enregistrer. 
 
-2. Il est possible d'importer une liste d'emplacement dans votre base de données. En effet, si vous avez beaucoup d'emplacements à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste d'emplacements est donc disponible. #lien vers les imports#
+1. Il est possible d'importer une liste d'emplacement dans votre base de données. En effet, si vous avez beaucoup d'emplacements à enregistrer, il est possible que la création manuelle vous prenne trop de temps. [L’import](parparametragesglobal.md) d’une liste d'emplacements est disponible. 
 
-Vous remarquerez dans la colonne actions les 3 petits boutons, en forme de stylo, de poubelle et d’imprimante. 
+Vous remarquerez dans la colonne actions les 3 petits boutons : 
 Ils permettent de modifier, pour le 2e bouton de supprimer et le 3e d'imprimer l'emplacement. 
 
-Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée. En effet l'impression de tous vos emplacements n'est pas forcément nécessaire.)
+Bouton en forme | Description
+------------ | -------------
+De stylo | Permet de modiifer votre emplacement 
+De poubelle | Permet de supprimer un emplacement 
+D'imprimante | Permet d'imprimer des étiquettes d'emplacement
 
-Vous avez aussi la possibilité de choisir les colonnes que vous voulez voir apparaître dans votre tableau, celle que vous jugez pertinente. Vous utiliserez le bouton en forme d'engrenage en haut à droite de votre tableau. 
+Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée.
+En effet l'impression de tous vos emplacements n'est pas forcément nécessaire.)
+
+Vous avez aussi la possibilité de choisir les colonnes que vous voulez voir apparaître dans votre tableau, celle que vous jugez pertinente. 
+
+Vous utiliserez le bouton en forme d'engrenage en haut à droite de votre tableau. 
+
 Et pour finir, vous aurez la possibilité d'utiliser la barre de recherche pour cibler un emplacement ou plusieurs. 
 
 
 ## Fournisseurs
 
-La fonctionnalité fournisseurs, regroupe tous les fournisseurs de votre base de données sous forme de tableau. 
+La fonctionnalité `fournisseur`, regroupe tous les fournisseurs de votre base de données sous forme de tableau. 
+
+Le tableau contient : 
+
+Fonctionnalité | Description
+------------ | -------------
+Action | Permet de supprimer avec le bouton `corbeille` et de modifier avec le bouton `crayon`
+Nom | Il s'agit du nom donné à votre fournisseur
+Code | 
+Nombre de chauffeur | Il s'agit du nombre de chauffeur lié à votre fournisseur 
+
 
 Il y a plusieurs façons d’incrémenter la liste de vos fournisseurs dans Wiistock : 
 
-1. Vous pouvez cliquer sur le bouton #nouveau fournisseur# qui vous ouvrira un formulaire de création de fournisseur. Il vous faudra renseigner 2 champs obligatoires :  
+1. Vous pouvez cliquer sur le bouton `nouveau fournisseur`, cette action ouvrira un formulaire de création de fournisseur. Il vous faudra renseigner 2 champs obligatoires :  
 -	Nom, 
 -	Code de référence. 
 Pour valider vous cliquez, sur enregistrer. 
 
-2. Il est possible d'importer une liste de fournisseur dans votre base de données. En effet, si vous avez beaucoup de fournisseurs à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste de fournisseurs est donc disponible. #lien vers les imports#
+2. Il est possible de créer un fournisseur lors de l'enregistrement d'un [arrivage](webtracabilites.md), en utilisant le petit bouton plus à droite du champ fournisseurs. 
 
-3. Il est possible de créer un fournisseur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ fournisseurs. #lien vers la création d’un arrivage#
-
-Vous trouverez dans la colonne action de votre tableau le bouton modifier et supprimer. De plus il est possible de chercher un fournisseur grâce à la barre de recherche. Pour modifier il faut cliquer sur le bouton en forme de stylo et pour supprimer il faut cliquer sur le bouton en forme de poubelle. 
+De plus il est possible de chercher un fournisseur grâce à la barre de recherche. 
 
 ## Chauffeurs 
 
@@ -58,22 +76,31 @@ La fonctionnalité chauffeur regroupe tous les chauffeurs de votre base de donn�
 
 Il y a plusieurs façons d’incrémenter la liste de vos chauffeurs dans Wiistock : 
 
-1. Vous pouvez cliquer sur le bouton #nouveau chauffeur# qui vous ouvrira un formulaire de création de chauffeur. Il vous faudra renseigner 4 champs obligatoires :  
+1. Vous pouvez cliquer sur le bouton #nouveau chauffeur# qui vous ouvrira un formulaire de création de chauffeur. 
+
+Il vous faudra renseigner 4 champs obligatoires :  
+
 -	Nom, 
 -	Prénom, 
 -	Document,
 -	Transporteur.
+
 Pour valider vous cliquez, sur enregistrer. 
 
-2. Il est possible d'importer une liste de chauffeurs dans votre base de données. En effet, si vous avez beaucoup de chauffeurs à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste de chauffeurs est donc disponible. #lien vers les imports
+1. Il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
-3. Il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
+Bouton en forme | Description
+------------ | -------------
+De stylo | Permet de modiifer votre chauffeur 
+De poubelle | Permet de supprimer un chauffeur
+Deplus il est possible de chercher un chauffeur
+grâce à la barre de recherche. 
 
-Vous trouverez dans la colonne action de votre tableau le bouton modifier et supprimer. De plus il est possible de chercher un fournisseur grâce à la barre de recherche. Pour modifier il faut cliquer sur le bouton en forme de stylo et pour supprimer il faut cliquer sur le bouton en forme de poubelle. 
+
 
 ## Transporteurs
 
-La fonctionnalité transporteurs, regroupe tous les transporteurs de votre base de données sous forme de tableau.
+La fonctionnalité transporteurs, regroupe tous les transporteurs de votre base de données sous forme de tableau. Nb chauffeur
 
 Il y a plusieurs façons d’incrémenter la liste de vos transporteurs dans Wiistock : 
 
@@ -82,11 +109,12 @@ Il y a plusieurs façons d’incrémenter la liste de vos transporteurs dans Wii
 -	Code. 
 Pour valider vous cliquez, sur enregistrer. 
 
-2. Il est possible de transporteurs dans votre base de données. En effet, si vous avez beaucoup de chauffeurs à enregistrer, il est possible que la création manuelle vous prenne trop de temps. L’import d’une liste de chauffeurs est donc disponible. #lien vers les imports#
+2. Il est possible de créer un transporteurs lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
-3. Il est possible de créer un transporteurs lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
-
-Dans le tableau vous pourrez remarquer les deux boutons en forme de stylo et poubelle. Le premier vous permettre de modifier votre transporteur. Le deuxiéme, concerne la suppréssion. 
+Bouton en forme | Description
+------------ | -------------
+De stylo | Permet de modiifer votre transporteur 
+De poubelle | Permet de supprimer un transporteur 
 
 Si vous souhaitez rechercher un transporteur, il est possible d'utilisez la barre de recherche en haut à droite du tableau. 
 
