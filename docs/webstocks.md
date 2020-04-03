@@ -23,7 +23,7 @@ Champ | Description
  Quantité disponible | Correspond au qantité liée à votre référence.
  Emplacement | Correspond à l'emplacement où se trouve la référence.  
 
-Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cella permettera d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
+Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable.  permettera d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
 
 Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de référence`. Après avoir effectué cette action, il vous faudra remplir les champs obligatoires : 
 
@@ -44,7 +44,7 @@ Pour finaliser la création cliquez sur enregistrer.
 
 ## Articles
 
-La fonctionnalité article permet de regrouper tous les articles de votre base de données sur un seul tableau points.
+La fonctionnalité article permet de regrouper tous les articles de votre base de données sur un seul tableau.
 Cet outil se trouve dans le module stock, article. 
 
 Le tableau affichera les champs suivants :  
@@ -58,11 +58,11 @@ Champ | Description
  Quantité disponible | Correspond au qantité liée à votre article.
  Emplacement | Correspond à l'emplacement où se trouve l’article.  
 
-Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cella permettera d'imprimer des étiquettes d’article. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
+Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cela permettera d'imprimer des étiquettes d’article. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
 
 Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de`. Après avoir effectué cette action, il vous faudra sélectionner une référence correspondante.  
 
-[Référence gérée par article](webstock.md) : 
+Référence gérée par article : 
 
 Action | Description
 ------------ | -------------
@@ -91,7 +91,9 @@ Référence | Permet de renseigner le code de l'article-fournisseur souhaité
 
 ## Mouvement de stock
 
-La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraisons, de collectes et réceptions. Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
+La fonctionnalité mouvement de stock, regroupe tous les mouvements de livraisons, de collectes et réceptions ainsi que les [transferts de stock](mobstock.md) réalisé sur l'application mobile. 
+
+Vous y retrouverez la date du mouvement, l'origine du mouvement, la référence, la quantité, l'opérateur de l'action, la destination et son type.
 
 ## Inventaire
 
