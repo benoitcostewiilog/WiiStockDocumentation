@@ -25,8 +25,6 @@ Champ | Description
 
 Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cella permettera d'imprimer des étiquettes de référence. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
 
-Afin de créer une référence, un bouton `nouvel article de référence`. Va permettre de créer une référence à la main.
-
 Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de référence`. Après avoir effectué cette action, il vous faudra remplir les champs obligatoires : 
 
 Champ | Description
@@ -46,10 +44,37 @@ Pour finaliser la création cliquez sur enregistrer.
 
 ## Articles
 
-Il s'agit de la liste des articles qui constitue votre stock. Vous pouvez importer une liste, ou bien créer à la main un article. Pour cela cliquez sur "Nouvelle article" et attribuez à cette article une référence. Enfin vous pourrez finaliser la création de l'article. 
+La fonctionnalité article permet de regrouper tous les articles de votre base de données sur un seul tableau points.
+Cet outil se trouve dans le module stock, article. 
 
-Enfin vous pouvez imprimer l'étiquette de l'article. Vous pouvez aussi modifier ou supprimer l'article. 
-Vous pouvez aussi choisir les colonnes visibles sur la liste des articles.  
+Le tableau affichera les champs suivants :  
+
+Champ | Description
+------------ | -------------
+ Actions | Permet de modifier une référence grâce au bouton en forme de stylo, de la supprimer grâce au bouton corbeille et d’imprimer l’étiquette de l’article. 
+ Libellé | Correspond au nom que vous avez donné à votre référence. 
+ Référence| Correspond à la référence de votre article. 
+ Statut | Permet de voir si votre référence est actif ou inactif.
+ Quantité disponible | Correspond au qantité liée à votre article.
+ Emplacement | Correspond à l'emplacement où se trouve l’article.  
+
+Afin d'imprimer les références, un bouton `Imprimer les étiquettes` est utilisable. Cella permettera d'imprimer des étiquettes d’article. Ce bouton est utilisable uniquement lorsque des filtres ont été affectés aux références. 
+
+Vous pouvez créer manuellement une référence grâce au bouton `nouvel article de`. Après avoir effectué cette action, il vous faudra sélectionner une référence correspondante.  
+
+(Référence gérée par article)[webstock.md] : 
+
+Action | Description
+------------ | -------------
+Choisissez une référence | Cela permet d'attribuer une référence à votre article. 
+Choisissez un fournisseur | Il s'agit du nom que vous souhaitez attribuer à cette référence. 
+Puis remplissez les champs obligatoire. 
+- Référence fournisseur
+- Libellé*
+- Quantité*
+- Emplacement* 
+
+Pour finaliser la création cliquez sur enregistrer.
 
 ## Articles fournisseur
 
