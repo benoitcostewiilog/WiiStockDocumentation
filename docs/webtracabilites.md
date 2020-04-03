@@ -41,12 +41,12 @@ Ce tableau ne concerne pas uniquement les arrivages et les réceptions, il conce
 
 Il regroupe les informations suivantes : 
 
-- Issu de (l'origine)
-- Date,
-- Of et autres, (Colis et Piece),
-- Référence,
-- Libellé, 
-- L’emplacement, 
+- Issu de 
+- Date 
+- Of et autres (colis et piéce) 
+- Référence
+- Libellé
+- L’emplacement 
 - Type (dépose où prise)
 
 Vous allez retrouver en haut de l’écran, des filtres afin d'affiner vos recherches. Mais aussi une barre de recherche juste en dessous. 
