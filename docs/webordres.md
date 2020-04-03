@@ -13,21 +13,24 @@ La fonctionnalité d'ordre regroupe les ordres de collecte et de livraison. Elle
 
 Après une demande de livraiosn, l'ordre de préparation s'affiche dans le tableau. Dans la page des ordres de livraison vous y retrouverez aussi la possibilité de filtrer et d'exporter les informations du tableau au format CSV. 
 
-Le tableau regroupe les colonnes suivantes 
-* Actions, permettant de rentrer dans l'ordre de livraison
-* Numéro, qui permet de lier la demande à l'ordre
-* Statut, qui permet de savoir si l'ordre est bien traité
-* Date de création
-* Opérateur, identité de la personne qui a traité l'ordre
-* Type
+Le tableau regroupe les colonnes suivantes : 
 
-Pour effectuer votre préparation, rendez-vous, dans l'ordre en passant par le bouton de l'oeil, dans la colonne action. 
+Bouton en forme | Description
+------------ | -------------
+Actions | Permet de rentrer dans l'ordre de livraison
+* Numéro | Permet de lier la demande à l'ordre
+* Statut | Permet de savoir si l'ordre est bien traité
+* Date de création | Permet de savoir quand à était crée l'ordre
+* Opérateur | Indique la personne qui a traité l'ordre
+* Type | 
+
+Pour effectuer votre préparation, rendez-vous, dans l'ordre en passant par le bouton en forme `d'oeil`, dans la colonne action. 
 
 Après avoir cliquez dessus, vous serez redirigé vers le détail de l'ordre de livraison. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés. Et enfin la possibilité de lister les articles et références dont vous avez besoin. 
 
 Puis vous pouvez valider ou bien supprimer l'ordre. 
 
-Dans le tableau principal, votre préparation passera au statut de "à traiter" à "traité". De plus vous aurez aussi l'information de l'opérateur qui a effectué l'action. 
+Dans le tableau principal, votre préparation passera au statut de `"à traiter"` à `"traité"`. 
 
 ### Picking sur référence
 

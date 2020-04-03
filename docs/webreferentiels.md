@@ -35,8 +35,7 @@ De stylo | Permet de modiifer votre emplacement
 De poubelle | Permet de supprimer un emplacement 
 D'imprimante | Permet d'imprimer des étiquettes d'emplacement
 
-Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée. 
-
+Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée.
 En effet l'impression de tous vos emplacements n'est pas forcément nécessaire.)
 
 Vous avez aussi la possibilité de choisir les colonnes que vous voulez voir apparaître dans votre tableau, celle que vous jugez pertinente. 
@@ -50,6 +49,16 @@ Et pour finir, vous aurez la possibilité d'utiliser la barre de recherche pour 
 
 La fonctionnalité `fournisseur`, regroupe tous les fournisseurs de votre base de données sous forme de tableau. 
 
+Le tableau contient : 
+
+Fonctionnalité | Description
+------------ | -------------
+Action | Permet de supprimer avec le bouton `corbeille` et de modifier avec le bouton `crayon`
+Nom | Il s'agit du nom donné à votre fournisseur
+Code | 
+Nombre de chauffeur | Il s'agit du nombre de chauffeur lié à votre fournisseur 
+
+
 Il y a plusieurs façons d’incrémenter la liste de vos fournisseurs dans Wiistock : 
 
 1. Vous pouvez cliquer sur le bouton `nouveau fournisseur`, cette action ouvrira un formulaire de création de fournisseur. Il vous faudra renseigner 2 champs obligatoires :  
@@ -59,13 +68,6 @@ Pour valider vous cliquez, sur enregistrer.
 
 2. Il est possible de créer un fournisseur lors de l'enregistrement d'un [arrivage](webtracabilites.md), en utilisant le petit bouton plus à droite du champ fournisseurs. 
 
-Vous trouverez dans la colonne action de votre tableau plusieurs fonctionnalitées :
-
-Bouton en forme | Description
------------- | -------------
-De stylo | Permet de modiifer votre fournisseur 
-De poubelle | Permet de supprimer un fournisseur 
-
 De plus il est possible de chercher un fournisseur grâce à la barre de recherche. 
 
 ## Chauffeurs 
@@ -74,14 +76,18 @@ La fonctionnalité chauffeur regroupe tous les chauffeurs de votre base de donn�
 
 Il y a plusieurs façons d’incrémenter la liste de vos chauffeurs dans Wiistock : 
 
-1. Vous pouvez cliquer sur le bouton #nouveau chauffeur# qui vous ouvrira un formulaire de création de chauffeur. Il vous faudra renseigner 4 champs obligatoires :  
+1. Vous pouvez cliquer sur le bouton #nouveau chauffeur# qui vous ouvrira un formulaire de création de chauffeur. 
+
+Il vous faudra renseigner 4 champs obligatoires :  
+
 -	Nom, 
 -	Prénom, 
 -	Document,
 -	Transporteur.
+
 Pour valider vous cliquez, sur enregistrer. 
 
-2. Il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
+1. Il est possible de créer un chauffeur lors de l'enregistrement d'un arrivage, en utilisant le petit bouton plus à droite du champ chauffeur. #lien vers la création d’un arrivage#
 
 Bouton en forme | Description
 ------------ | -------------
