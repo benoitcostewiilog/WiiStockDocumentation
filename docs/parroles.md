@@ -6,7 +6,7 @@ sidebar_label: Rôles
 
 ## Avant de commencer - le principe des rôles
 
-Un rôle permet de donner accés au fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
+Un rôle permet de donner accés aux fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
 
 L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application 
 
@@ -20,9 +20,11 @@ L'application permet de créer un rôle qui pourra être affecté à un ou plusi
 
 Les points suivants décrivent ce que permettent les paramétrages de rôle.
 
-## Créer un Nouveau rôle
+## Créer un nouveau rôle
 
-Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. Cliquer sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
+Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. 
+
+Cliquez sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
  - Saisir le libellé du rôle : exemple : Super Admin
 
 Dans les menus de paramétrage liés aux diffèrentes fonctions, vous pourrez paramétrer le rôle. 
@@ -158,4 +160,4 @@ Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle, 
 
 ### Modification d'un rôle
 
-Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle, en cliquant sur l'icone crayon. 
+Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle, en cliquant sur l'icône crayon. 

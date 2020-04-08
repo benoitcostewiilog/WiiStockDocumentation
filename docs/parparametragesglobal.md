@@ -20,11 +20,11 @@ La configuration des étiquettes est commune aux étiquettes de traçabilité, d
 
 Paramètre | Description
 ------------ | -------------
-Hauteur mm | spécifie la hauteur en milimetre de l'étiquette (entier)
-Largeur mm | spécifie la largeur en milimetre de l'étiquette (entier)
+Hauteur mm | spécifie la hauteur en milimètre de l'étiquette (entier)
+Largeur mm | spécifie la largeur en milimètre de l'étiquette (entier)
 Champ libre présent sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un part number ou bon de livraison à réception d'article
 Champ libre sur étiquette | A définir
-Type d'étiquette | Permet de spécifier le type de code barré généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
+Type d'étiquette | Permet de spécifier le type de code barre généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
 Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
 
 
@@ -97,13 +97,15 @@ Staut litige par défaut | Permet de choisir le statut par défaut lors de la cr
 
 ### Paramétrage des heures travaillées
 
-Le paramétrage des heures travaillées joue sur le calcul des en-cours et délais sur emplacement.
+Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et délais sur emplacement.
 
-Ainsi le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
+En l'occurence le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
 
-2 plages horaires sont à paramétrer par jours.
+2 plages horaires sont à paramétrer par jour..
 - 1 plage horaire le matin
 - 1 plage horaire l'après midi
+
+Le bouton `Travaillé` permet de désactiver la journée.
 
 Ceci pour les 7 jours de la semaine
 

@@ -32,10 +32,20 @@ Vous pourrez retrouver l'arrivage litigieu dans le module "Qualité", "Litige". 
 
 ## Litiges sur réceptions
 
-* Pour attribuer un litige sur une réception, il vous faut créer une réception dans la fonctionnalité « Réception », « Nouvelle réception ». 
+* Pour attribuer un litige à une réception, il vous faut créer une réception dans la fonctionnalité « Réception », « Nouvelle réception ». 
 * Puis vous remplissez le formulaire de création. 
 * Après la création, il vous sera possible d’attribuer un ou plusieurs litiges , sur un ou plusieurs colis.  
-* Puis vous cliquez sur « Nouveau litige » et un formulaire de création s’ouvrira. Vous le remplirez, et vous pourrez attribuer le ou les litiges à vos pièces. 
+* Puis vous cliquez sur « Nouveau litige » et un formulaire de création s’ouvrira. Vous le remplirez, et vous pourrez attribuer le ou les litiges à vos pièce. 
+
+Champs création litige | Description
+------------ | -------------
+Type | Liste déroulante des types de litige, ils sont paramétrables dans les "paramétrages statuts litiges" 
+Statut | Permet de choisir le nom :ex : "en attente fournisseur", "En attente contrôle qualité"
+Commentaire | Champ texte qui sera ajouté automatiquement dans l'historique du litige lors du passage sur ce statut.
+Statut de type "litige traité" | Permet d'identifier que le statut de requiert plus d'actions utilisateurs (filtre disponible sur les liste des litiges)
+Envoi de mails aux acheteurs | Permet de spécifier que le passage sur ce statut envoi directement un mail d'information d'avancement aux acheteurs associés au litige
+Ordre | Permet de spécifier l'ordre dans la liste des statut pour assister les utilisateurs sur le changement de statut
+
 
 Vous pourrez retrouver les litiges sur réceptions, dans le module « Qualité », « Litige ». 
 
