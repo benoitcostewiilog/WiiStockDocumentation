@@ -64,15 +64,30 @@ Vous retrouverez l'historique des demandes de collecte sous forme de tableau. Vo
 
 ## Demandes de livraison
 
+La fonctionnalité demande de livraison regroupe toutes les demandes de livraison qu'elle soit traitée à traiter où embrouillons. 
+
+Une demande de livraison créeras un ordre de préparation. 
+
+La page est sous forme de tableau avec les informations suivantes : 
+
+Champs du tableau | Description
+------------ | -------------
+Action | Permet de voir la demande 
+Date | Permet de la date de création de la demande
+Demandeur | Permet de voir le demandeur 
+Numéro | Permet de voir le numéro de la demande de livraison
+Statut | Permet de savoir si la demande est à traiter, livré ou brouillon. 
+Type | Permet 
+
+### Créer une nouvelle demande  
+
 La demande de livraison permet :
 * D'envoyer des articles de votre stock à vos clients.
 * D'envoyer des articles de votre stock à votre production/magasin.
 
-Pour créer une demande de livraion, cliquez sur 
-* Demande
-* Livraison
-* Nouvelle livraison
-* Remplissez formulaire de livraison  
+Pour créer une demande de livraion, cliquez sur `Nouvelle demande`. 
+
+
 
 Vous venez de créer une demande de livraison. Vous aller pouvoir retrouver l'ordre associé dans Ordre de préparation. 
 
