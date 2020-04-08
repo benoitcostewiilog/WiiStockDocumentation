@@ -84,8 +84,8 @@ La page est sous forme de tableau avec les informations suivantes :
 
 Champs du tableau | Description
 ------------ | -------------
-Action | Permet de voir la demande 
-Date | Permet de la date de création de la demande
+Action | Permet de voir la demande en détail
+Date | Permet de voir la date de création de la demande
 Demandeur | Permet de voir le demandeur 
 Numéro | Permet de voir le numéro de la demande de livraison
 Statut | Permet de savoir si la demande est à traiter, livré ou brouillon. 
@@ -99,9 +99,73 @@ La demande de livraison permet :
 
 Pour créer une demande de livraion, cliquez sur `Nouvelle demande`. 
 
+Une fois cette action faite, un formulaire s'ouvrira. Vous y retrouverez les champs suivants :
 
+Champs du tableau | Description
+------------ | -------------
+Demandeur | Champs déjà rempli, qui permet de connaitre la personne qui fait la demande 
+Déstination | Permet de définir la destination de la livraison
+Type |
+Commentaire | Champ non obligatoire, qui permet de Laisser un commentaire
 
-Vous venez de créer une demande de livraison. Vous aller pouvoir retrouver l'ordre associé dans Ordre de préparation. 
+Puis cliquez sur `enregistrer`. 
+
+Après avoir fait cette action, vous retrouverez dans la demande de livraison. Vous y retrouverez en haut de votre écran : 
+
+Champs | Description
+------------ | -------------
+Demandeur | Permet de connaitre la personne qui a fait la demande de livraison 
+Statut | Permet de savoir si la demande est à traiter, livré ou brouillon
+Destination | Permet de définir la destination de la livraison
+Commentaire | Permet de savoir divers informations laissé par le demandeur
+Date de demander | Permet de connaitre quand le demandeur a fait la demande 
+Date de validation | Permet de savoir quand la demande a était faite
+Type |
+
+En haut à droite de votre page, les boutons `Supprimer`, `Modifier` et `Valider`.  
+
+En bas de votre écran, vous trouverez le tableau qui regroupera toutes les [références](webstocks.md) et [articles](mobstock.md) de la demande. Il est constitué des colonnes :
+
+Champs | Description
+------------ | -------------
+Actions | Le bouton en forme d'oeil, permet de voir l'article/référence.Le bouton en forme de stylo, permet de modifier, et le bouton en forme de corbeille, permet de supprmier. 
+Référence | Permet de connaitre la référence liée
+Libellé | Nous donne l'information sur le libellé donné
+Emplacement | Permet de savoir ou se trouve l'emplacement des articles/références
+Quantité disponible | Permet de conaitre la quantité disponible sur l'artcile/référence 
+Quantité à prélever | Permet de savoir combien de référence/article sont à prélever
+
+Pour rechercher une référence cliquez sur `chercher une référence`. Après cela, une liste de toutes les références appartenant à votre base de données apparaîtra. 
+
+Cliquez sur le bouton `plus` pour ajouter cette référence à votre demande de livraison. Une page va s'ouvrir, et vous proposera de choisir une `livraison` ou une `collecte`. 
+
+Cliquez sur `livraison`. Il vous faudra choisir la demande de livraison lié à cet ajout de référence. Puis d'autres champs vont s’afficher, il vous faudra les remplir : 
+
+- Quantité à livrer
+- Référence 
+- Nom 
+- Type 
+- Emplacement
+
+Vous cliquerez sur `ajouter`, cela permettra d'ajouter votre référence, mais de continuer sur la liste des références pour pouvoir en sélectionner d'autres.
+
+Vous pouvez aussi cliquer sur `ajouter`. 
+Ce qui vous fera retourner à votre demande. 
+
+Pour ajouter un article cliquez sur `ajouter un article`, puis sélectionnez son nom dans le libellé référence. 
+
+Sélectionnez les champs à remplir : 
+
+- Quantité 
+- Référence 
+- Nom 
+- Type
+- Emplacement 
+
+Cliquez sur `ajouter`. 
+
+Enfin pour finaliser la création de la demande cliquez sur `valider`. Vous retrouverai votre demande dans la liste. De plus un [ordre de livraison](webordres.md) sera créé, lié à votre demande. 
+
 
 ## Demandes de manutention
 
