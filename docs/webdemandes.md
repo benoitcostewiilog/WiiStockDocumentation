@@ -120,7 +120,7 @@ Destination | Permet de définir la destination de la livraison
 Commentaire | Permet de savoir divers informations laissé par le demandeur
 Date de demander | Permet de connaitre quand le demandeur a fait la demande 
 Date de validation | Permet de savoir quand la demande a était faite
-Type |
+Type | Permet de lui attribuer un type afin de selectionner certain champ libre. 
 
 En haut à droite de votre page, les boutons `Supprimer`, `Modifier` et `Valider`.  
 

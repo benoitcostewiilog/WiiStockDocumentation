@@ -41,7 +41,7 @@ Fournisseur | Permet de renseignier le fournisseur de l'arrivage
 Transporteur | Permet de renseignier le transporteur des colis 
 Numéro de commande BL | Correspond au numéro de commande attribué, par le bon de livraison. 
 Destinataire | Nous indique le destinataire 
-Statut | Permet de lui attribuer un statut 
+Statut | Conforme ou réservé 
 Acheteur | Permet de savoir qui est l'acheteur 
 
 De plus vous devez indiquer les colis que vous souhaitez recevoir. Bien sur ils sont paramétrable en amont. Rendez-vous dans la partie [Parmétrage Global](parparametragesglobal.md).  
