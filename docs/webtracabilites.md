@@ -11,24 +11,75 @@ L'application Wiistock propose en premier temps une réception, puis une mise en
 
 La réception correspond à l'identification du flux d'arrivage. En effet faire la réception puis la mise en stock en même temps n'est pas possible. Grâce à la fonctionnalité arrivage il est possible pour vous de réceptionner vos colis et de les envoyer dans une zone en attente de mise en stock (réception).
 
-La fonctionnalité arrivage se trouve dans le module traçabilité. Quand vous cliquez sur la fonctionnalité arrivage, vous arriverez sur un tableau qui regroupe tous les arrivages enregistrés. Ce tableau contient différentes informations notamment la date, le numéro d' arrivage, le transporteur, le numéro de commande, le fournisseur, le destinataire et d'autres informationns permettant d'identifier l'arrivage. Les colonnes du tableau d'arrivage sont paramétrables, c'est-à-dire qu'elles peuvent être masquées du tableau si vous le désirez. 
+La fonctionnalité arrivage se trouve dans le module traçabilité. Quand vous cliquez sur la fonctionnalité `arrivage`, vous arriverez sur un tableau qui regroupe tous les arrivages enregistrés. 
 
-Sur la page, vous verrez aussi, une liste de filtres permettant de trouver un arrivage plus facilement. Pour utiliser un filtre une fois la manipulation faites, il vous faudra cliquer sur le bouton filtrer en haut à droite de votre écran. 
+Ce tableau contient différentes informations suivante :
+- Date, 
+- Numéro d' arrivage, 
+- Transporteur, 
+- Numéro de commande, 
+- Fournisseur, 
+- Destinataire
 
-Vous aurez la possibilité d'exporter votre tableau (pour faire un export il faut ajouter un ou plusieurs filtres) dans un tableau excel grâce au bouton « Exporter au format CSV ».  
+Les colonnes du tableau d'arrivage sont paramétrables, c'est-à-dire qu'elles peuvent être masquées du tableau si vous le désirez. 
+
+Sur la page, vous verrez aussi, une liste de `filtres` permettant de trouver un arrivage plus facilement. 
+
+Pour utiliser un filtre une fois la manipulation faites, il vous faudra cliquer sur le bouton `filtrer` en haut à droite de votre écran. 
+
+Vous aurez la possibilité d'exporter votre tableau (pour faire un export il faut ajouter un ou plusieurs filtres) dans un tableau excel grâce au bouton `Exporter au format CSV`.  
+
 Enfin, l'application est munie d'une barre de recherche au-dessus à droite du tableau afin de pouvoir rechercher directement un arrivage. 
 
-Pour créer un arrivage il vous faudra cliquer sur le bouton « nouvel arrivage ». Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. Certains champs sont obligatoires, ils sont munis d'une astérisque. #vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non#. Vous pouvez voir à côté de certains champs un bouton plus, il va permettre de créer un nouveau fournisseur, transporteur, … s'ils ne sont pas dans votre base de données. 
+### Création d'un arrivage 
 
-Pour valider la création, cliquez sur le bouton enregistrer. #Une fois l'enregistrement créé, dans les paramètres vous pourrez choisir si vous êtes redirigé dans l'arrivage ou bien si un formulaire d'arrivage se recrée automatiquement pour pouvoir le remplir#. 
+Pour créer un arrivage il vous faudra cliquer sur le bouton `nouvel arrivage`. Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. 
 
-Lorsque vous avez créé votre arrivage et que vous vous rendez dans celui-ci, vous y retrouverez en haut de l'écran les informations concernant cet arrivage : le fournisseur, le transporteur, le numéro de commande, le statut, le destinataire, l'acheteur, et des champs libres que vous aurez paramétrés auparavant. Vous y retrouverez deux tableaux.L'un concernant les colis de votre arrivage et le second concernant les litiges qui pourraient être liées aux colis. Il vous sera possible après la création d'un arrivage, d'ajouter un colis ou plusieurs grâce au bouton ajouter colis. Vous pourrez imprimer le ou les colis, grâce au bouton imprimer colis. 
+Champs | Description
+------------ | -------------
+Fournisseur | Permet de renseignier le fournisseur de l'arrivage
+Transporteur | Permet de renseignier le transporteur des colis 
+Numéro de commande BL | Correspond au numéro de commande attribué, par le bon de livraison. 
+Destinataire | Nous indique le destinataire 
+Statut | Permet de lui attribuer un statut 
+Acheteur | Permet de savoir qui est l'acheteur 
 
-Pour attribuer un litige à un arrivage il vous faut cliquer sur nouveau litige. #Chaque litige est visible dans le module qualité, litiges# 
+De plus vous devez indiquer les colis que vous souhaitez recevoir. Bien sur ils sont paramétrable en amont. Rendez-vous dans la partie [Parmétrage Global](parparametragesglobal.md).  
 
-Après avoir cliqué sur nouveau litige, un formulaire s'ouvrira, est vous permettra de créer votre propre litige. Il sera possible pour vous de définir le type, le statut, de laisser un commentaire et de choisir le colis concerné par le litige. De plus vous pouvez glisser une pièce jointe et qualifier ce litige d’urgent ou non. Puis vous cliquerez sur enregistrer. Votre litige sera visible dans le tableau à droite, celui qui renseigne tous les litiges. 
+Certains champs sont obligatoires, ils sont munis d'une astérisque. [Vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non](parparametragesglobal.md). Vous pouvez voir à côté de certains champs un `bouton plus`, il va permettre de créer un nouveau fournisseur, transporteur,… s'ils ne sont pas dans votre base de données.  
 
-Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, grâce à la fonctionnalité « Réception ». 
+Pour valider la création, cliquez sur le bouton `enregistrer`. Une fois l'enregistrement créé, dans les [paramètres vous pourrez choisir si vous êtes redirigé dans l'arrivage ou bien si un formulaire d'arrivage se recrée automatiquement pour pouvoir en remplir un nouveau](parparametragesglobal.md). 
+
+Lorsque vous avez créé votre arrivage et que vous vous rendez dans celui-ci, vous y retrouverez en haut de l'écran les informations concernant cet arrivage : 
+- Fournisseur, 
+- Transporteur, 
+- Numéro de commande, 
+- Statut, le destinataire, 
+- Acheteur, 
+- Plusieurs [champs libres que vous aurez paramétrés auparavant](parparametragesglobal.md). 
+ 
+Vous y retrouverez `deux tableaux.`
+
+L'un concernant les colis de votre arrivage et le second concernant les litiges qui pourraient être liées aux colis. 
+
+Il vous sera possible après la création d'un arrivage, d'ajouter un colis ou plusieurs grâce au bouton `ajouter colis.` 
+
+Vous pourrez imprimer le ou les colis, grâce au bouton `Imprimer colis.` 
+
+Pour attribuer un `litige` à un `arrivage`, il vous faut cliquez sur `nouveau litige`. [Chaque litige est visible dans le module qualité, litiges.](webqualites.md)
+Après avoir cliqué sur nouveau litige, un formulaire s'ouvrira, est vous permettra de créer votre propre litige. 
+
+Il sera possible pour vous de définir : 
+- Type, 
+- Statut, 
+- De laisser un commentaire,
+- De choisir le colis concerné par le litige,
+- Vous pouvez glisser une pièce jointe,
+- Qualifier ce litige d’urgent ou non. 
+
+Puis vous cliquerez sur enregistrer. Votre litige sera visible dans le tableau à droite, celui qui renseigne tous les litiges. 
+
+Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, grâce à la fonctionnalité [Réception](webordres.md). 
 
 
 ## Mouvement de traçabilité
