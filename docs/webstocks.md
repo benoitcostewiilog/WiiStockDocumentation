@@ -125,7 +125,7 @@ Il s’agit d’une liste de tous les inventaires réalisés pour chaque article
 
 3.	Gérer les anomalies :  
 
-Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisit sur leur référence ou articles qui n'est pas la même qu'attendu. Les anomalies sont essuite traité par les logisticiens grâce a l'appliaction mobile. 
+Cette fonctionnalité permet de voir tous les inventaires qui ont une quantité saisie sur référence ou article qui ne correspond pas à la quantité en stock dans l'application. Les anomalies sont par la suite traitées par les opérateurs grâce à l'application mobile. 
 
 Il est possible de créer des fréquences d'inventaire, dans les [paramétrages globaux](parametragesglobal.md). 
 
