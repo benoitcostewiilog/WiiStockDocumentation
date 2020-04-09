@@ -45,5 +45,5 @@ Voici comment procéder :
 
 *Le commentaire permet aussi de préciser une description de l'objet avant dépose caractérisant sa qualité / quantité et lieu de dépose.*
 
-- Enfin lorque vous avez flashé tous les produits/ objets souhaités, vous pouvez valider la prise en cliquant sur le bouton check `Vert`
+- Enfin lorque vous avez flasher tous les produits/ objets souhaités, vous pouvez valider la prise en cliquant sur le bouton check `Vert`
 - A présent la dépose est terminée et vous vous retrouvez sur le menu de traçabilité

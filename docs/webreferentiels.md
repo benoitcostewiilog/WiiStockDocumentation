@@ -32,7 +32,7 @@ Ils permettent de modifier, pour le 2e bouton de supprimer et le 3e d'imprimer l
 Bouton | Description
 ------------ | -------------
 De stylo | Permet de modiifer votre emplacement 
-De poubelle | Permet de supprimer un emplacement 
+De corbeille | Permet de supprimer un emplacement 
 D'imprimante | Permet d'imprimer des étiquettes d'emplacement
 
 Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée.
@@ -92,7 +92,7 @@ Pour valider vous cliquez, sur enregistrer.
 Bouton en forme | Description
 ------------ | -------------
 De stylo | Permet de modiifer votre chauffeur 
-De poubelle | Permet de supprimer un chauffeur
+De corbeille | Permet de supprimer un chauffeur
 Deplus il est possible de chercher un chauffeur
 grâce à la barre de recherche. 
 
@@ -114,7 +114,7 @@ Pour valider vous cliquez, sur enregistrer.
 Bouton | Description
 ------------ | -------------
 De stylo | Permet de modiifer votre transporteur 
-De poubelle | Permet de supprimer un transporteur 
+De corbeille | Permet de supprimer un transporteur 
 
 Si vous souhaitez rechercher un transporteur, il est possible d'utilisez la barre de recherche en haut à droite du tableau. 
 
