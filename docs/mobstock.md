@@ -83,7 +83,17 @@ Préparation d'article | Dans ce cas, l'opérateur peut aller directement dans l
 - On retrouve plusieurs informations d'entête qu'on retrouvait précédement sur la liste des préparation.
 - On retrouve la liste des produits à prélever pour valider la préparation.
 
-    1. 
+    1. Il vous faut séléctionner les articles/références pour continuer la prépartion. Vous pouvez le faire de plusieurs maniére. 
+           - Manuéllement, en cliquant sur l'article/référence, puis en sélectionnant dans la barre de recherche l'article souhaité.
+           - En flashant l'étiquette de l'article avec un téléphone munit d'un scanner. 
+           - En utilisant l'appareil photo de votre téléphone, pour scanner l'étiquette article. 
+    2. Pour chaque action, il faudra que vous validiez la saisie. 
+
+3. Après l'avoir fait, et si tous les articles/références ont était préparé, alors vous pouvez valider la prépartion. En cliquant sur le bouton vert en bas à droit de votre téléphone. 
+
+4. Il vous faudra séléctionner un emplacment pour déposer la prépartion afin qu'elle puisse être livrée. Il s'agit du même principe que pour la séléction d'article. Vous pouvez séléctionner un emplacment manuellement, en le sannant.  Puis cliquez sur valider. 
+
+Vous retrouverez votre préparation, dans [ordre de préparation](webordres.md), elle sera passé au statut `traité`. 
 
 ## Livraison
 
