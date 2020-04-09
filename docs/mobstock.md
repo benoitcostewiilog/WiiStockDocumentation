@@ -123,11 +123,20 @@ La fonctionnalité inventaire version mobile, est liée aux inventaires créer s
 
 En effet, l'application Wiistock mobile, permet d'effectuer les missions d'inventaire rapidement grâce au mobiles (ex : Mobile Zebra), qui peuvent lire les codes-barres. 
 
-Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité inventaire. Une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisés. 
+Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité `inventaire`. Une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisés. 
 
 Commençons par traiter un inventaire. Chaque inventaire se voit attribuer une fourchette temporelle. Si vous n'êtes pas dans cette fourchette, l'inventaire ne s'affichera pas sur votre téléphone. 
+
 Pour effectuer votre inventaire, scannez l'emplacement de l’article à inventorié. 
 
-Vous devez scanner cet emplacement, pour ouvrir l'inventaire (Si votre téléphone n'est pas équipé de scan, vous pouvez utiliser votre appareil photo en cliquant sur le logo du code barre au milieu de votre écran). Après l'ouverture de l'inventaire, plusieurs données s'afficheront sur votre écran notamment l'emplacement de l'article de l'inventaire mais aussi l'article avec sa référence. 
-Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, pour incrémenter votre inventaire. Une fois le flash effectué, vous validerez le nombre d'article que vous trouverez sur cet emplacement. Si le nombre est bon, et que votre mission d'inventaire est terminée, l'inventaire sera noté comme rempli à 100 % sur la version web de l'application. 
-Il y’a aussi la possibilité de traiter une anomalie sur un inventaire.
+Vous devez scanner cet emplacement, pour ouvrir l'inventaire (Si votre téléphone n'est pas équipé de scan, vous pouvez utiliser votre appareil photo en cliquant sur le logo du code barre au milieu de votre écran). 
+
+Après l'ouverture de l'inventaire, plusieurs données s'afficheront sur votre écran notamment l'emplacement de l'article de l'inventaire mais aussi l'article avec sa référence. 
+
+Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, pour incrémenter votre `inventaire`. Une fois le flash effectué, vous validerez le nombre d'article que vous trouverez sur cet emplacement. Si le nombre est bon, et que votre mission d'inventaire est terminée, l'inventaire sera noté comme rempli à 100 % sur la version web de la fonctionnalité [inventaire](webstocks.md). 
+
+Il y’a aussi la possibilité de traiter une `anomalie` sur un inventaire. Si un inventaire ne regroupe pas la totalité des articles et références demandées. Alors, une anomalie se créra. 
+
+Il vous suffira de scanner l'[emplacement](webreferentiels.md) concerant l'inventaire, pour pouvoir traiter cette erreur. 
+
+La manipulation est similaire, une fois scanné, vous allez devoir séléctionner le nombre d'[articles/références](webstocks.md) qui sont signalées en anomalie. 
