@@ -76,9 +76,11 @@ Vous retrouverez l'historique des demandes de collecte sous forme de tableau. Vo
 
 ## Demandes de livraison
 
-La fonctionnalité demande de livraison regroupe toutes les demandes de livraison qu'elle soit traitée à traiter où embrouillons. 
-
+La demande de collecte permet de déplacer des références articles du stock vers une destination donnée. 
 Une demande de livraison créeras un ordre de préparation. 
+
+Les demandes sont crées sur l'application web. 
+Les ordres peuvent être traités sur l'application web ou mobile. 
 
 La page est sous forme de tableau avec les informations suivantes : 
 
@@ -89,7 +91,7 @@ Date | Permet de voir la date de création de la demande
 Demandeur | Permet de voir le demandeur 
 Numéro | Permet de voir le numéro de la demande de livraison
 Statut | Permet de savoir si la demande est à traiter, livré ou brouillon. 
-Type | Permet 
+Type | Permet de caractériser la typologie d'article à livré. 
 
 ### Créer une nouvelle demande  
 
