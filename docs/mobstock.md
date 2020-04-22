@@ -83,7 +83,17 @@ Préparation d'article | Dans ce cas, l'opérateur peut aller directement dans l
 - On retrouve plusieurs informations d'entête qu'on retrouvait précédement sur la liste des préparation.
 - On retrouve la liste des produits à prélever pour valider la préparation.
 
-    1. 
+    1. Il vous faut séléctionner les articles/références pour continuer la prépartion. Vous pouvez le faire de plusieurs maniére. 
+           - Manuéllement, en cliquant sur l'article/référence, puis en sélectionnant dans la barre de recherche l'article souhaité.
+           - En flashant l'étiquette de l'article avec un téléphone munit d'un scanner. 
+           - En utilisant l'appareil photo de votre téléphone, pour scanner l'étiquette article. 
+    2. Pour chaque action, il faudra que vous validiez la saisie. 
+
+3. Après l'avoir fait, et si tous les articles/références ont était préparé, alors vous pouvez valider la prépartion. En cliquant sur le bouton vert en bas à droit de votre téléphone. 
+
+4. Il vous faudra séléctionner un emplacment pour déposer la prépartion afin qu'elle puisse être livrée. Il s'agit du même principe que pour la séléction d'article. Vous pouvez séléctionner un emplacment manuellement, en le sannant.  Puis cliquez sur valider. 
+
+Vous retrouverez votre préparation, dans [ordre de préparation](webordres.md), elle sera passé au statut `traité`. 
 
 ## Livraison
 
@@ -129,7 +139,7 @@ La fonctionnalité inventaire version mobile, est liée aux inventaires créer s
 
 En effet, l'application Wiistock mobile, permet d'effectuer les missions d'inventaire rapidement grâce au mobiles (ex : Mobile Zebra), qui peuvent lire les codes-barres. 
 
-1. Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité inventaire. Une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisés. 
+1. Pour retrouver les inventaires sur la partie mobile, vous vous rendrez dans le module stock, et vous cliquerez sur la fonctionnalité `inventaire`. Une page s'ouvrira avec la liste de tous les inventaires à effectuer et non finalisés. 
 
 2. Commençons par traiter un inventaire. Chaque inventaire se voit attribuer une fourchette temporelle. Si vous n'êtes pas dans cette fourchette, l'inventaire ne s'affichera pas sur votre mobile. 
 Pour effectuer votre inventaire, scannez l'emplacement de l’article à inventorié. 
@@ -139,4 +149,9 @@ Vous devez scanner cet emplacement, pour ouvrir l'inventaire (Si votre mobile n'
 Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, pour incrémenter votre inventaire. 
 
 4. Une fois le flash effectué, vous validerez le nombre d'article que vous trouverez sur cet emplacement. Si le nombre est bon, et que votre mission d'inventaire est terminée, l'inventaire sera réalisé à 100 % sur la version web de l'application. 
-Il y’a aussi la possibilité de traiter une anomalie sur un inventaire.
+
+Il y’a aussi la possibilité de traiter une `anomalie` sur un inventaire. Si un inventaire ne regroupe pas la totalité des articles et références demandées. Alors, une anomalie se créra. 
+
+Il vous suffira de scanner l'[emplacement](webreferentiels.md) concerant l'inventaire, pour pouvoir traiter cette erreur. 
+
+La manipulation est similaire, une fois scanné, vous allez devoir séléctionner le nombre d'[articles/références](webstocks.md) qui sont signalées en anomalie. 
