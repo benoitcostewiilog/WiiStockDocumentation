@@ -16,7 +16,7 @@ Pour créer un utilisateur depuis l'interface de paramétrage, aller dans `Param
 
 Le formulaire de création s'ouvre et vous propose de saisir les informations suivantes : 
 - **Nom d'utilisateur** : nom affiché dans la barre de menu de l'application, sert de login sur l'application nomade et doit donc être unique
-- **Email** : doit correspondre à votre email pour recevoir les emails de notifications sur les différentes actions de l'application, sert de login sur l'application web et doit donc être unique
+- **Email** : doit correspondre à votre email pour recevoir les emails de notification sur les différentes actions de l'application, sert de login sur l'application web et doit donc être unique
 - **Mot de passe** : la saisie de mot de passe doit respecter les contraintes suivantes
     - minimum 8 caractères
     - 1 caractère spécial
@@ -38,16 +38,16 @@ Ce formulaire est limité et permet seulement une saisie des champs suivants :
 - Adresse email 
 - Mot de passe
 
-Une fois créé le compte pourra s'authentifier pour entrer dans l'application et sera rattaché au rôle automatique `Aucun accès`. Les administrateurs pourront ensuite affecter le bon rôle et compléter le paramétrage de l'utilisateur.
+Une fois créé, l'utilisateur pourra s'authentifier pour entrer dans l'application et sera rattaché au rôle automatique `Aucun accès`. Les administrateurs pourront ensuite affecter le bon rôle et compléter le paramétrage de l'utilisateur.
 
 >Cette fonction de création externe permet d'inviter les utilisateurs demandeurs ou en consultation à créer directement leur compte ici. Cela limite la saisie en masse par les administrateurs de l'application
 
 ### Mot de passe oublié
 
-Une foncton de mot de passe oublié permet à l'utilisateur de réinitialiser son mot de passe. 
+Une fonction de mot de passe oublié permet à l'utilisateur de réinitialiser son mot de passe. 
 1. Depuis l'écran d'authentification, l'utilisateur doit valider le formulaire de mot de passe oublié. 
 *L'application envoit ensuite un lien temporaire chiffré sur la boite email de l'utilisateur comportant un lien redirigeant vers un formulaire de réinitialisation de mot de passe.*
-2. L'utilisateur clique sur le lien se trouvant dans le mail qu'il a recu puis valide le formulaire en saisissant un nouveau mot de passe.
+2. L'utilisateur clique sur le lien se trouvant dans le mail qu'il a reçu puis valide le formulaire en saisissant un nouveau mot de passe.
 3. le mot de passe est maintenant réinitialisé et l'utilisateur peut à nouveau se connecter sur l'application.
 
 ### Modifier un utilisateur
@@ -67,4 +67,4 @@ Si l'utilisateur est lié à des données, il n'est plus possible de le supprime
 
 La désactivation d'un utilisateur restreint : 
 1. Sa sélection dans les champs destinataires / acheteurs
-2. La possibilité de l'utilisateur de se connecter sur l'application
+2. La possibilité de se connecter sur l'application

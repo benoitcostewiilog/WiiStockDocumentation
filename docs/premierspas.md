@@ -25,6 +25,7 @@ L'application de traçabilité permet aussi une gestion des urgences et litiges.
     - Calculer les temps de réponses à service
 - Tracer tous les objets en entrepôt et sur site industriel
 - Tracer les stocks non visibles dans les applications existantes
+
 ## L'organisation de cette documentation
 
 Cette documentation est séparée en 3 parties distinctes

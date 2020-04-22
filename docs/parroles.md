@@ -6,9 +6,9 @@ sidebar_label: Rôles
 
 ## Avant de commencer - le principe des rôles
 
-Un rôle permet de donner accés aux fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une données liée à une fonctionnalité.
+Un rôle permet de donner accés aux fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une donnée liée à une fonctionnalité.
 
-L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application 
+L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application.
 
 - Les cas d'utilisation des rôles : 
     - Rôle super admin : Rôle utilisé par les administrateurs de l'application de l'équipe Wiilog ou bien 1 ou 2 personnes de l'équipe portant la responsabilité de key user dans l'application. 
@@ -18,7 +18,6 @@ L'application permet de créer un rôle qui pourra être affecté à un ou plusi
 
 >La bonne pratique est de créer un rôle ne disposant d'aucunes fonctionnalités, puis d'en ajouter à la demande des utilisateurs. 
 
-Les points suivants décrivent ce que permettent les paramétrages de rôle.
 
 ## Créer un nouveau rôle
 
@@ -42,8 +41,8 @@ afficher types | Permet de donner accès au sous menu types
 afficher statuts litiges | Permet de donner accès au sous menu statuts litiges
 afficher nature colis | Permet de donner accès au sous menu nature colis
 afficher champs fixes | Permet de donner accès au sous menu champs fixes
-modifier | Permet de donner les droits en modifications sur toutes les fonctionnalités du menu paramétrage
-supprimer | Permet de donner les droits en suppression sur toutes les fonctionnalités du menu paramétrage
+modifier | Permet de donner les droits de modification sur toutes les fonctionnalités du menu paramétrage
+supprimer | Permet de donner les droits de suppression sur toutes les fonctionnalités du menu paramétrage
 afficher inventaires | Permet de donner accès au sous menu inventaire
 afficher import et mise à jour | Permet de donner accès au sous menu import et mise à jour
 
@@ -78,7 +77,7 @@ supprimer | Permet de donner les droits de suppression sur le menu référentiel
 
 Paramètre | Description
 ------------ | -------------
-afficher indicateurs | Permet d'afficher ou non les tableau de bord et autres indicateurs présents sur l'accueil
+afficher indicateurs | Permet d'afficher ou non les tableaux de bord et autres indicateurs présents sur l'accueil
 afficher indicateur fiabilité monétaire | Permet d'afficher ou masquer le diagramme  de fiabilité monétaire présent sur le premier tableau de bord de l'accueil
 afficher indicateur fiabililité par référence | Permet de consulter l'indicateur de fiabilité dans le menu + du premier tableau de bord
 
