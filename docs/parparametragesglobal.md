@@ -8,7 +8,7 @@ sidebar_label: Paramétrage global
 
 La paramétrage global est important d'être revu lors du démarrage sur l'application. Ce paramétrage permet de personnaliser l'application et ses fonctionnalités pour qu'elles puissent fonctionner suivant votre besoin.
 
-Ces paramétrages ne sont pas des données en tant que tels. Il convient donc de les reporter sur vos environnements de recette et environnements de production pour retrouver le même comportement de l'application
+Ces paramétrages ne sont pas des données en tant que telles. Il convient donc de les reporter sur vos environnements de recette et de production pour retrouver le même comportement de l'application.
 
 >Note : Certains paramétrages s'enregistrent lors de leur modification, d'autres s'enregistrent au clique sur un bouton check vert.
 
@@ -22,8 +22,7 @@ Paramètre | Description
 ------------ | -------------
 Hauteur mm | spécifie la hauteur en milimètre de l'étiquette (entier)
 Largeur mm | spécifie la largeur en milimètre de l'étiquette (entier)
-Champ libre présent sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un part number ou bon de livraison à réception d'article
-Champ libre sur étiquette | A définir
+Champ libre sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un numéro de bon de livraison à réception d'article
 Type d'étiquette | Permet de spécifier le type de code barre généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
 Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
 
@@ -37,8 +36,10 @@ Ce choix permet de limiter les effets d'accents "hiéroglyphe"
 
 ### Préfixage des nom de demandes
 
-- Type de demande : Demande de livraison
-Permet de choisir un préfixe des codes de demande générés. 
+Le préfixage des nom de demandes s'applique pour l'instant uniquement aux demandes de livraison. 
+
+Permet de choisir un préfixe sur le compteur du type de demande.  
+
     ex : DL => pour demande de livraison / CDE pour commande / Autres suivant besoin
 
 
@@ -52,7 +53,7 @@ Le paramétrage comporte les champs suivants :
 - Adresse du serveur SMTP
 - Nom d'utilisateur
 - Mot de passe
-- Port => A préciser à Wiilog si autre que 587 ou 25 pour ouverture du firewall sur l'infrasctructure
+- Port => A préciser avec Wiilog si autre que 587 ou 25 pour ouverture du firewall sur l'infrasctructure
 - Protocole
 - Nom de l'expéditeur
 - Adresse email de l'expéditeur
@@ -75,7 +76,7 @@ Paramètre | Description
 Statut litige par défaut | Permet de spécifier le statut d'un litige lors de sa création sur une réception
 Emplacement de réception par défaut | Permet de choisir l'emplacement vers lequel un mouvement de stock va être créé initialement
 
-Il est ensuite possible de modifier les libellés des statuts de réceptions pour qu'ils correspondent à votre vocabulaire. 
+Il est ensuite possible de modifier les libellés des statuts de réception pour qu'ils correspondent à votre vocabulaire. 
 1. En attente de réception
 2. Réception partielle
 3. Réception totale
@@ -97,7 +98,7 @@ Staut litige par défaut | Permet de choisir le statut par défaut lors de la cr
 
 ### Paramétrage des heures travaillées
 
-Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et délais sur emplacement.
+Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et des délais sur emplacement.
 
 En l'occurence le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
 
@@ -123,12 +124,12 @@ Si le libellé peut être renommé, un `tooltip` s'affiche comportant la clé de
 
 ### Configuration tableaux de bord
 
-La configuration des tableau de bord est principalement faite pour les tableaux de bords suivants : 
+La configuration des tableaux de bord est principalement faite pour les tableaux de bords suivants : 
 
 1. Réception à quai
 2. Réception administrative
 
-Ces tableau de bord ont été réalisés pour les flux d'arrivages pour un site de Safran. Ces tableaux sont utilisables dans l'application ou en lien externe, en l'occurence pour une utilisation sur écran d'affichage sur quai d'entrepôt.
+Ces tableaux de bord ont été réalisés pour les flux d'arrivages pour un site de Safran. Ces tableaux sont utilisables dans l'application ou en lien externe, en l'occurence pour une utilisation sur écran d'affichage sur quai d'entrepôt.
 
 Voici les principaux diagrammes et indicateurs paramétrables : 
 
