@@ -305,7 +305,7 @@ Statut de type "litige traité" | Permet d'identifier que le statut de requiert 
 Envoi de mails aux acheteurs | Permet de spécifier que le passage sur ce statut envoi directement un mail d'information d'avancement aux acheteurs associés au litige
 Ordre | Permet de spécifier l'ordre dans la liste des statut pour assister les utilisateurs sur le changement de statut
 
-## Nature des colis
+## Natures des colis
 
 La nature des colis permet de caractériser les colis lors de l'arrivage. 
 
