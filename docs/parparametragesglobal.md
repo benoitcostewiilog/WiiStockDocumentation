@@ -22,9 +22,9 @@ Paramètre | Description
 ------------ | -------------
 Hauteur mm | spécifie la hauteur en milimètre de l'étiquette (entier)
 Largeur mm | spécifie la largeur en milimètre de l'étiquette (entier)
-Champ libre sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur une étiquette d'article. Sert par exemple pour ajouter un numéro de bon de livraison à réception d'article
+Champ libre sur étiquette | Permet d'ajouter un champ libre lié à un type de référence sur un étiquette d'article. Sert par exemple pour ajouter un numéro de bon de livraison à réception d'article
 Type d'étiquette | Permet de spécifier le type de code barre généré sur les étiquettes. 2 choix possibles : QR Code [2D] ou CODE128 [1D]
-Logo | Permet de charger une image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
+Logo | Permet de charger un image de type .png ou .jpg qui sera superposée en haut à gauche de toutes les étiquettes générées. 
 
 
 ### Configuration des exports CSV
@@ -65,7 +65,7 @@ Une fois le paramétrage compléter, merci de valider avec le bouton check vert.
 Paramètre | Description
 ------------ | -------------
 Créer une demande de livraison après réception | Permet d'ajouter automatiquement les articles générés et réceptionnés dans une nouvelle demande de livraison lors de la réception d'un conditionnement. Ne fonctionne pas avec la réception de quantité sur référence.
-Créer une préparation après demande de livraison | Permet de limiter la création automatique d'une préparation lors de la validation d'une demande de livraison
+Créer un préparation après demande de livraison | Permet de limiter la création automatique d'une préparation lors de la validation d'une demande de livraison
 Emplacement de livraison par défaut | Permet d'indiquer un emplacement par défaut, cela permettra de pré-remplir le champ destination de livraison par un emplacement de livraison par défaut 
 
 
@@ -92,7 +92,7 @@ Paramètre | Description
 Redirection vers l'arrivage créé | Permet de rediriger l'utilisateur vers le détail de l'arrivage une fois l'arrivage créé
 Impression cochée par défaut | Permet l'impression systématique des étiquettes pdf colis d'arrivage
 Envoyer un mail après nouvel arrivage | Permet l'envoi systématique d'un mail aux acheteurs renseignés dans l'arrivage
-Statut arrivage par défaut | Permet choisir le statut par défaut lors de la création d'une arrivage
+Statut arrivage par défaut | Permet choisir le statut par défaut lors de la création d'un arrivage
 Staut litige par défaut | Permet de choisir le statut par défaut lors de la création d'un litige sur arrivage
 
 
@@ -138,10 +138,10 @@ Voici les principaux diagrammes et indicateurs paramétrables :
 Paramètre | Description
 ------------ | -------------
 Suivi des transporteurs | Permet de sélectionner les transporteurs en affichage. Si des arrivages existent le jour J avec un transporteur présent dans cette liste, alors le transporteur est affiché dans la liste du dashboard
-Emplacements colis restant à traiter | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacements colis en attente dédouanement | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacement colis dédouanés et dispo | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
-Emplacement colis à déposer en DropZones | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'une colis sur ces emplacements)
+Emplacements colis restants à traiter | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacements colis en attente dédouanement | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement colis dédouanés et dispo | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement colis à déposer en DropZones | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
 
 Le bouton Dashboard réception quai permet d'ouvrir le chemin chiffré vers le dashboard sans authentification pour affichage sur écran en temps réel.
 
@@ -150,12 +150,12 @@ Le bouton Dashboard réception quai permet d'ouvrir le chemin chiffré vers le d
 Paramètre | Description
 ------------ | -------------
 Nature de colis 1er graphe | Permet de préciser 1 nature de colis à surveiller sur le premier graphe.
-Natures de colis 2eme graphe | Permet de préciser 1 ou plusieurs natures de colis à surveiller sur le deuxième graphe
-Emplacement Urgence restant à traiter | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
-Emplacement Lignes en litiges | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
-Emplacement Colis en attente de dédouament | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
-Emplacement entrées à effectuer 1er graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
-Emplacement entrées à effectuer 2eme graphe | Permet de voir le nombre de colis restant sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
+Natures de colis 2ème graphe | Permet de préciser 1 ou plusieurs natures de colis à surveiller sur le deuxième graphe
+Emplacement Urgence restantes à traiter | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement Lignes en litiges | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement Colis en attente de dédouament | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements)
+Emplacement entrées à effectuer 1er graphe | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
+Emplacement entrées à effectuer 2eme graphe | Permet de voir le nombre de colis restants sur les emplacements paramétrés (dernier mouvement de dépose d'un colis sur ces emplacements) - Limité aux natures de colis paramétré plus haut
 
 Toutes les statistiques sont basées sur les mouvements de traçabilités.
 
@@ -169,23 +169,22 @@ Toutes les statistiques sont basées sur les mouvements de traçabilités.
 
 ## Types
 
-Une type est un regroupement ou une identification d'une entitée/catégorie principale de l'application.
+Un type est un regroupement ou une identification d'une entitée/catégorie principale de l'application.
 
-Un type peut être visible (ex: sur les références) et permet d'activer le système de champ libre ou peut être invisible et sert uniquement de conteneur de champ libre (ex sur les arrivages et réceptions)
+Un type peut être visible (ex: sur les références) et permet d'activer le système de champs libres ou peut être invisible et sert uniquement de conteneur de champ libre (ex sur les arrivages et réceptions)
 
 Un type peut identifié sur les entitées suivantes : 
 - Articles : Pour typer les références et activer les champs libres en fonction. Pour activer les champs libres sur les articles liés aux types de références
 - Réceptions : Pour activer les champs libres sur les réceptions (pas de typage en soit)
 - Litige : Pour le typage des litiges
 - Demande de livraison : Pour typer les demandes de livraisons et activer les champs libres
-- Demandes de collecter : Pour typer les demandes de collecte et activer les champs libres
+- Demande de collecte : Pour typer les demandes de collecte et activer les champs libres
 - Arrivage : Pour typer les arrivages et activer les champs libres
 
-cliquer sur le bouton 
 
 ## Champs libres
 
-Le système de champs libre est un fort outil de personnalisation. Ce dernier permet aux administrateurs de l'application d'enrichir des données typées sur des entitées typées le permettant.
+Le système de champs libres est un fort outil de personnalisation. Ce dernier permet aux administrateurs de l'application d'enrichir des données typées sur des entitées typées le permettant.
 
 Ainsi il est possible d'enrichir des données sur : 
 - Les types de références de stock
@@ -205,13 +204,13 @@ Date | JJ/MM/AA | 25/03/20 : l'année peut être reprise facilement sous excel
 Texte | texte de 250 caractères | le texte peut être limité en affichage sur la taille des champs
 Oui/Non | Coche | les imports et export se font avec les caractères "Oui" et "Non"
 Date et heure | JJ/MM/AA HH:MM | 25/03/20 17:53
-Liste | Choix unique | La données se sélectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
-Liste multiple | Choix multiple | la donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgul : "Valeur1;Valeur2"
+Liste | Choix unique | La donnée se sélectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
+Liste multiple | Choix multiple | la donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgule : "Valeur1;Valeur2"
 Nombre | NNNN | Exemple : 12345
 
 #### Ajouter un champ libre
 
-Pour ajouter un champ libre sur un type, aller dans le menu `Paramétrage / Champ libre` : la liste des types disponible s'ouvre.
+Pour ajouter un champ libre sur un type, aller dans le menu `Paramétrage / Champ libre` : la liste des types disponibles s'ouvre.
 -  Ouvrir un type existant via le bouton avec l'oeil
 ou 
 -  Cliquer sur le bouton `Aller vers la création d'un type`
@@ -236,8 +235,6 @@ Le champ est ensuite visible dans la liste des champs et une prévisualisation p
 
 Penser à exporter vos données avant d'effectuer une éventuelle suppression de champ.
 
-Pour effectuer la suppression, cliquer sur le bouton avec la corbeille dans la liste des champs.
-
 
 ## Export des données
 
@@ -252,11 +249,11 @@ Le système de champ libre multiplie les requêtes dans la base de données, c'e
 
 ## Inventaires
 
-La paramétrage des inventaires a été placé dans le menu paramétrage car il génèrent des automatismes de calculs et peut comme l'export des données multiplier les requetes sur la base de données.
+La paramétrage des inventaires a été placé dans le menu paramétrage car il génèrent des automatismes de calculs et peut comme l'export des données, multiplié les requêtes sur la base de données.
 
-L'inventaire fonctionne via un système de génération automatiques de missions suivant une cathégorisation ABC.
+L'inventaire fonctionne via un système de génération automatique de missions suivant une catégorisation ABC.
 
-Les cathégories sont associés aux fréquences et permettent de générer automatiquement les mission toutes les semaines suivant la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantitée retenue).
+Les catégories sont associées aux fréquences et permettent de générer automatiquement les missions de toutes les semaines qui suivront la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantitée retenue).
 
 #### Nouvelle fréquence
 
@@ -268,9 +265,9 @@ Cela permet de déterminer qu'une catégorie de référence sera à inventorier 
 
 Via le bouton `+Nouvelle catégorie`, il est possible de créer une catégorie et de l'associer à une fréquence.
 
-> Cette catégorisation peut se faire en dehors de l'application suivant vos règles : Valeur produit / nombre mouvement / nombre de réappo / nombre de régularisation / autre
+> Cette catégorisation peut se faire en dehors de l'application suivant vos règles : Valeur produit / nombre mouvement / nombre de réappro / nombre de régularisation / autre
 
-Une fois vos catégorie créée, il est possible d'importer et mettre à jour les références pour leur affecter une catégorie.
+Une fois vos catégories créées, il est possible d'importer et de mettre à jour les références pour leur affecter une catégorie.
 
 #### Import pour mise à jour
 
@@ -280,30 +277,30 @@ Ce dernier attend 2 colonnes :
 1. Référence
 2. Catégorie
 
-l'outil d'import attend un fichier d'import au format csv encodé en UTF-8. Une fois votre fichier pret, vous pouvez le charger via le bouton `Import excel`.
+L'outil d'import attend un fichier d'import au format csv encodé en UTF-8. Une fois votre fichier prêt, vous pouvez le charger via le bouton `Import excel`.
 
 En cas de problème, l'outil d'import vous informera du déroulé de la mise à jour des catégories.
 
 
 ## Statuts litiges
 
-Les status des litiges sont paramétrables via le menu `Paramétrage / Statuts litiges`.
+Les statuts des litiges sont paramétrables via le menu `Paramétrage / Statuts litiges`.
 
-Un statut de litige est à différencier d'une type de litige.
+Un statut de litige est à différencier d'un type de litige.
 Exemple de type : *Manque BL*, *Problème Quantité*
 
-Le statut est fait pour paramétrer un workflow, soit les étapes succésivent permettant d'aller vers la résolution d'un litige. Ces statuts peuvent être différents suivant les litiges d'arrivage et réception.
+Le statut est fait pour paramétrer un workflow, soit les étapes successives permettant d'aller vers la résolution d'un litige. Ces statuts peuvent être différents suivant les litiges d'arrivage et de réception.
 
 Il est possible de créer un statut en cliquant sur `+Nouveau statut`, voici les fonctionnalités disponibles : 
 
 Champ paramétrage litige | Description
 ------------ | -------------
-Catégorie | Permet se sélectionner arrivage ou réception
+Catégorie | Permet de sélectionner arrivage ou réception
 Label | Permet de choisir le nom :ex : "en attente fournisseur", "En attente contrôle qualité"
-Commentaire | Champ texte qui sera ajouté automatiquement dans l'historique du litige lors du passage sur ce statut.
-Statut de type "litige traité" | Permet d'identifier que le statut de requiert plus d'actions utilisateurs (filtre disponible sur les liste des litiges)
+Commentaire | Champ texte qui sera ajouté automatiquement dans l'historique du litige lors du passage à ce statut.
+Statut de type "litige traité" | Permet d'identifier que le statut requiert plus d'actions utilisateurs (filtre disponible sur les liste des litiges)
 Envoi de mails aux acheteurs | Permet de spécifier que le passage sur ce statut envoi directement un mail d'information d'avancement aux acheteurs associés au litige
-Ordre | Permet de spécifier l'ordre dans la liste des statut pour assister les utilisateurs sur le changement de statut
+Ordre | Permet de spécifier l'ordre dans la liste des statuts pour assister les utilisateurs sur le changement de statut
 
 ## Natures des colis
 
@@ -333,9 +330,9 @@ On peut modifier tous les champs de paramétrages d'une nature. La modification 
 ## Champs fixes
 
 Ce menu liste les diffèrents champs fixes liés à la fonction arrivage et à la fonction réception. 
-Contrairement aux champs libres, les champs fixes ne peuvent ni être supprimés, ni en créer de nouveaux.  
+Contrairement aux champs libres, les champs fixes ne peuvent ni être supprimés et on ne peut pas en créer de nouveaux.  
 
-Cependant on peut modifier le paramétrage d'un champ fixe, pour cela vous devez cliquer sur l'icone crayon pou chaque champ fixe que vous souhaitez paramétrer, ci dessous les diffèrentes possibilités de paramétrage : 
+Cependant on peut modifier le paramétrage d'un champ fixe, ci dessous les diffèrentes possibilités de paramétrage : 
 
 Champ paramétrage champs fixes | Description
 ------------ | -------------
@@ -350,7 +347,7 @@ Affiché  | Lorsque ce bouton est activé le champ fixe apparaitra dans la fenê
 ### Introduction
 
 La fonction d'import et de mise à jour permet soit d'importer de nouvelles données dans l'application ou mettre à jour des données existantes.
-L'interêt de cette fonction est un gain de temps important, en l'occurence la création unitaire d'une importante base de données dans l'application peut être trsè chronophage. 
+L'interêt de cette fonction est un gain de temps important, en l'occurence la création unitaire d'une importante base de données dans l'application peut être très chronophage. 
 
 Pour l'instant, les types de données concernées par cette fonction sont les suivants : 
 - Articles
@@ -379,7 +376,7 @@ Champs Follow GT | Liste déroulante, qui contient tous les champs (champs libre
 
 **Afin d'associer les champs du fichier importé et des champs Follow GT, en s'aidant de l'aperçu, il faut associer chaque champs du fichier importé avec un champ Follow GT. Les champs Follow GT avec une astérisque sont des champs obligatoires à la création de l'import ou de la mise à jour.** 
 
-5. Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux (voir "règles de planification des imports" ci dessous), il passera au staut "planifié" et sera exécuter plus tard, sinon il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
+5. Enfin cliquez sur validation pour lancer l'import ou la mise à jour, si l'import est trop volumineux (voir "règles de planification des imports" ci dessous), il passera au staut "planifié" et sera exécuté plus tard, sinon il sera au statut "en cours", puis passera au statut "terminé"  lorsqu'il sera finalisé.
 
 >**Règle de planification des imports** :Pour les imports de moins de 100 lignes, lancement immédiat. Pour les imports entre 100 et 500 lignes, lancement dans les 30 prochaines minutes. Pour les imports entre 500 et + lignes, lancement à minuit.
 
@@ -395,7 +392,7 @@ Statut | Indique le statut de l'import ou de la mise à jour , soit il peut êtr
 Date début | Indique la date et l'heure du lancement de l'import ou de la mise à jour
 Date fin | Indique la date et l'heure de fin de l'import ou de la mise à jour
 Nom import | Indique le nom de l'import renseigné lors de la création de l'import
-Nvx enreg. | Indique le nombre de type de données crées
+Nvx enreg. | Indique le nombre de type de données créées
 Mises à jour | Indique le nombre de type de données mises à jour
 Nombre d'erreurs | Indique le nombre d'erreurs suite à l'import ou à la mise à jour
 Utilisateur | Indique le nom de l'utilisateur qui a exécuté l'import ou la mise à jour
