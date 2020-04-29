@@ -6,11 +6,11 @@ sidebar_label: Paramétrage global
 
 ## Avant de commencer
 
-La paramétrage global est important d'être revu lors du démarrage sur l'application. Ce paramétrage permet de personnaliser l'application et ses fonctionnalités pour qu'elles puissent fonctionner suivant votre besoin.
+Il est important de revoir le paramétrage global lors du démarrage de l'application. Ce paramétrage permet de personnaliser l'application et ses fonctionnalités pour qu'elles puissent fonctionner suivant votre besoin.
 
 Ces paramétrages ne sont pas des données en tant que telles. Il convient donc de les reporter sur vos environnements de recette et de production pour retrouver le même comportement de l'application.
 
->Note : Certains paramétrages s'enregistrent lors de leur modification, d'autres s'enregistrent au clique sur un bouton check vert.
+>Note : Certains paramétrages s'enregistrent lors de leur modification, d'autres s'enregistrent en cliquant sur un bouton check vert.
 
 ## Paramétrage global
 
@@ -36,11 +36,13 @@ Ce choix permet de limiter les effets d'accents "hiéroglyphe"
 
 ### Préfixage des nom de demandes
 
-Le préfixage des nom de demandes s'applique pour l'instant uniquement aux demandes de livraison. 
-
 Permet de choisir un préfixe sur le compteur du type de demande.  
+Le préfixage des noms de demandes s'applique pour l'instant uniquement aux demandes de livraison. 
 
-    ex : DL => pour demande de livraison / CDE pour commande / Autres suivant besoin
+Paramètre | Description
+------------ | -------------
+Type de demande | Permet de spécifier le type de demande sur lequel s'appliquera le préfixe
+Préfixe | Champ permettant de renseigner le préfixe souhaité (ex : DL => pour demande de livraison / CDE pour commande / Autres suivant besoin)
 
 
 ### Configuration du serveur mail
@@ -58,7 +60,7 @@ Le paramétrage comporte les champs suivants :
 - Nom de l'expéditeur
 - Adresse email de l'expéditeur
 
-Une fois le paramétrage compléter, merci de valider avec le bouton check vert.
+Une fois le paramétrage complété, merci de valider avec le bouton check vert.
 
 ### Configuration demande de livraison
 
@@ -82,7 +84,7 @@ Il est ensuite possible de modifier les libellés des statuts de réception pour
 3. Réception totale
 4. Anomalie
 
-Cliquer sur le bouton check vert pour valider la personnalisation des libellés
+Cliquer sur le bouton check vert pour valider la personnalisation des libellés.
 
 
 ### Paramétrage arrivage
@@ -98,11 +100,11 @@ Staut litige par défaut | Permet de choisir le statut par défaut lors de la cr
 
 ### Paramétrage des heures travaillées
 
-Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et des délais sur emplacement.
+Le paramétrage des heures travaillées a une incidence sur le calcul des en-cours et du délai sur emplacement.
 
-En l'occurence le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
+En l'occurrence le délais positionné sur les emplacements sera en heures ouvrées en fonction de ces plages horaires.
 
-2 plages horaires sont à paramétrer par jour..
+2 plages horaires sont à paramétrer par jour.
 - 1 plage horaire le matin
 - 1 plage horaire l'après midi
 
@@ -169,22 +171,22 @@ Toutes les statistiques sont basées sur les mouvements de traçabilités.
 
 ## Types
 
-Un type est un regroupement ou une identification d'une entitée/catégorie principale de l'application.
+Un type est un regroupement ou une identification d'une entité/catégorie principale de l'application.
 
 Un type peut être visible (ex: sur les références) et permet d'activer le système de champs libres ou peut être invisible et sert uniquement de conteneur de champ libre (ex sur les arrivages et réceptions)
 
-Un type peut identifié sur les entitées suivantes : 
+Un type peut être identifié sur les entités suivantes : 
 - Articles : Pour typer les références et activer les champs libres en fonction. Pour activer les champs libres sur les articles liés aux types de références
 - Réceptions : Pour activer les champs libres sur les réceptions (pas de typage en soit)
-- Litige : Pour le typage des litiges
-- Demande de livraison : Pour typer les demandes de livraisons et activer les champs libres
-- Demande de collecte : Pour typer les demandes de collecte et activer les champs libres
+- Litiges : Pour le typage des litiges
+- Demandes de livraison : Pour typer les demandes de livraison et activer les champs libres
+- Demandes de collecte : Pour typer les demandes de collecte et activer les champs libres
 - Arrivage : Pour typer les arrivages et activer les champs libres
 
 
 ## Champs libres
 
-Le système de champs libres est un fort outil de personnalisation. Ce dernier permet aux administrateurs de l'application d'enrichir des données typées sur des entitées typées le permettant.
+Le système de champs libres est un fort outil de personnalisation. Ce dernier permet aux administrateurs de l'application d'enrichir des données typées sur des entités typées le permettant.
 
 Ainsi il est possible d'enrichir des données sur : 
 - Les types de références de stock
@@ -200,17 +202,17 @@ Les types de données disponibles sont :
 
 Type | Format | Exemple et détail
 ------------ | ------------- | -------------
-Date | JJ/MM/AA | 25/03/20 : l'année peut être reprise facilement sous excel
-Texte | texte de 250 caractères | le texte peut être limité en affichage sur la taille des champs
-Oui/Non | Coche | les imports et export se font avec les caractères "Oui" et "Non"
+Date | JJ/MM/AA | 25/03/20 : L'année peut être reprise facilement sous excel
+Texte | texte de 250 caractères | Le texte peut être limité en affichage sur la taille des champs
+Oui/Non | Coche | Les imports et export se font avec les caractères "Oui" et "Non"
 Date et heure | JJ/MM/AA HH:MM | 25/03/20 17:53
 Liste | Choix unique | La donnée se sélectionne dans une liste et est disponible en import ou export via une valeur de la liste : "Valeur"
-Liste multiple | Choix multiple | la donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgule : "Valeur1;Valeur2"
+Liste multiple | Choix multiple | La donnée se sélectionne dans une liste multiple et est disponible en import et export via une chaine avec séparateur point virgule : "Valeur1;Valeur2"
 Nombre | NNNN | Exemple : 12345
 
 #### Ajouter un champ libre
 
-Pour ajouter un champ libre sur un type, aller dans le menu `Paramétrage / Champ libre` : la liste des types disponibles s'ouvre.
+1. Pour ajouter un champ libre sur un type, aller dans le menu `Paramétrage / Champ libre` : la liste des types disponibles s'ouvre.
 -  Ouvrir un type existant via le bouton avec l'oeil
 ou 
 -  Cliquer sur le bouton `Aller vers la création d'un type`
@@ -218,10 +220,10 @@ ou
 Une fois dans la liste des champs libres, 
 2. Cliquer sur le bouton `+ Nouveau Champ Libre` le formulaire de création s'ouvre et vous demande de : 
 - Choisir le nom : Il doit être unique
-- Choisir l'entitée sur laquelle s'applique le champ libre
+- Choisir l'entité sur laquelle s'applique le champ libre
 - Typage : choisir le type de donnée
-- Oligatoire à la création : Choisir si l'utilisateur est obligé de saisir cette donnée à la création de l'entitée
-- Obligatoire à la modification : Choisir si l'utilisateur est obligé de saisir cette donnée à la modification de l'entitée.
+- Obligatoire à la création : Choisir si l'utilisateur est obligé de saisir cette donnée à la création de l'entité
+- Obligatoire à la modification : Choisir si l'utilisateur est obligé de saisir cette donnée à la modification de l'entité.
 
 Le champ est ensuite visible dans la liste des champs et une prévisualisation permet d'avoir un aperçu. 
 
@@ -238,22 +240,22 @@ Penser à exporter vos données avant d'effectuer une éventuelle suppression de
 
 ## Export des données
 
-Les exports de données se trouvent en général sur les listes des demandes/ordres/mouvements ou autres entitées de données.
+Les exports de données se trouvent en général sur les listes des demandes/ordres/mouvements ou autres entités de données.
 Pour procéder à un export sur les listes de données, il faut préalablement saisir des dates dans la barre de filtre située en-tête de page.
 Enfin il faut lancer l'export en cliquant sur le bouton `Exporter au format CSV`, cela permettra de télécharger un fichier de données au format CSV. 
 
 
-Le sous menu d'export des données comporte l'export des données liées aux références et articles présents dans le stock, cela inclu également les champs libres associés. Afin de lancer l'export des articles ou références, il faut cliquer sur le bouton `Exporter au format CSV` et ne pas quitter la page tant que l'export n'est pas terminé, car le fait de quitter ou de rafraichir la page annulera l'export. 
+Le sous menu d'export des données comporte l'export des données liées aux références et articles présents dans le stock, cela inclut également les champs libres associés. Afin de lancer l'export des articles ou références, il faut cliquer sur le bouton `Exporter au format CSV` et ne pas quitter la page tant que l'export n'est pas terminé, car le fait de quitter ou de rafraichir la page annulera l'export. 
 Le système de champ libre multiplie les requêtes dans la base de données, c'est pourquoi l'export total de la base peut prendre un certain temps.
 
 
 ## Inventaires
 
-La paramétrage des inventaires a été placé dans le menu paramétrage car il génèrent des automatismes de calculs et peut comme l'export des données, multiplié les requêtes sur la base de données.
+La paramétrage des inventaires a été placé dans le menu paramétrage car il génère des automatismes de calculs et peut comme l'export des données, multiplié les requêtes sur la base de données.
 
 L'inventaire fonctionne via un système de génération automatique de missions suivant une catégorisation ABC.
 
-Les catégories sont associées aux fréquences et permettent de générer automatiquement les missions de toutes les semaines qui suivront la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantitée retenue).
+Les catégories sont associées aux fréquences et permettent de générer automatiquement les missions de toutes les semaines qui suivront la date de dernier inventaire positionnée sur une référence ou sur un article (suivant la gestion de quantité retenue).
 
 #### Nouvelle fréquence
 
