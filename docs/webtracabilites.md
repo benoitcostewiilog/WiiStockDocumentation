@@ -196,13 +196,13 @@ N°de commande | Renseignez le numéro de commande
 Numéro de poste | Renseignez le numéro de poste en urgence figurant sur la commande ou sur le BL
 Fournisseur | Sélectionnez l'intitulé du fournisseur lié à la commande, il doit préalablement figurer dans le référentiel fournisseur
 Transporteur | Sélectionnez l'intitulé du transporteur lié à la commande, il doit préalablement figurer dans le référentiel transporteur
-Numéro de tracking transporteur | Champ textuel libre non olbigatoire,si disponible vous pouvez renseigner le numéro de tracking transporteur de la commande
+Numéro de tracking transporteur | Champ textuel libre non obligatoire,si disponible vous pouvez renseigner le numéro de tracking transporteur de la commande
 
-L'urgence se déclenchera lors de la création d'un arrivage lors de la fourchette de livraison et si les champs renseignés ci-dessous correspondent à l'urgence : 
+L'urgence se déclenchera lors de la création d'un arrivage lors de la fourchette de livraison et si les champs renseignés ci-dessous correspondent à l'urgence :    
 * Fournisseur 
 * Transporteur
 * Numéro commande
-* Destinataire 
+* Destinataire  
 
 Suite à cela l'opérateur visualisera un message l'informant du caractère urgent de l'arrivage et du numéro de poste en urgence, aussi le ou les acheteurs recevront un mail les informant de l'arrivage de la commande urgente.  
 
