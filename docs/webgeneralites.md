@@ -46,7 +46,7 @@ Une application de gestion de stock et flux logistiques en entrepôt pour facili
 - [Inventaire](webstocks.md)
 - [Alerte](webstocks.md)
 
-### Référenciel
+### Référentiel
 
 - [Fournisseur](webreferentiels.md)
 - [Transporteur](webreferentiels.md)
