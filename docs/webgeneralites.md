@@ -4,7 +4,6 @@ title: Généralités sur l'interface web
 sidebar_label: Généralités
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
 
 ## Follow GT / Wiistock
 
