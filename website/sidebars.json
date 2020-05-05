@@ -3,7 +3,7 @@
     "Premiers pas": ["premierspas"],
     "Paramétrage": ["parroles","parutilisateurs","parparametragesglobal","parautres"],
     "Fonctionnalités Web": ["webgeneralites", "webtracabilites", "webqualites", "webdemandes","webordres","webstocks","webreferentiels"],
-    "Fonctionnalités Mobile" : ["mobgeneralites", "mobtracabilites", "mobordres", "mobstock"]
+    "Fonctionnalités Mobile" : ["mobgeneralites", "mobtracabilites", "mobstock"]
   },
   "equipe": {
     "Les développeurs du projet": ["developpeurs"]
