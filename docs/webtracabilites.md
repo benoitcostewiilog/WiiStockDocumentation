@@ -212,4 +212,4 @@ Il est aussi possible de paramétrer un caractère urgent sur une référence g�
 
 Afin d'indiquer une urgence sur une référence gérée à l'article, dans le sous menu "Référence", cliquez sur le bouton crayon pour accéder à la fenêtre de modification de la référence et activez le bouton `Urgence`.
 
-Suite à la réception de cette référence en urgence, l'urgence sera désactivée. 
+Suite à la réception de cette référence en urgence, l'urgence sera désactivée.  
