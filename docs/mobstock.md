@@ -6,7 +6,7 @@ sidebar_label: Stock
 
 ## Avant de commencer
 
-Les opérations liés aux stock sont essentielles au bloc fonctionnel de stock. Elles permettent aux opérateurs d'effectuer tous les traitements d'entrée et sortie de stock  et  permet ainsi une grande autonomie sur le terrain.
+Les opérations liées aux stock sont essentielles au bloc fonctionnel de stock. Elles permettent aux opérateurs d'effectuer tous les traitements d'entrée et de sortie de stock, ainsi cela permet une grande autonomie sur le terrain.
 
 Les grandes fonctionnalités sont les suivantes
 - Transfert de stock
@@ -19,25 +19,25 @@ Ces fonctionnalités sont décrites ci-après.
 
 ## Transfert de stock
 
-> Le transfert de stock permet de modifier l'adressage d'un article ou d'une référence suivant sa gestion Quantité. Il n'est pas possible déconditionner un article depuis l'application mobile.
+> Le transfert de stock permet de modifier l'adressage d'un article ou d'une référence suivant sa gestion Quantité. Il n'est pas possible de déconditionner un article depuis l'application mobile.
 
-La fonctionnalité de transfert de stock reprend le principe de prise et dépose. Il est ainsi possible de prendre 1 ou plusieurs références/articles d'un emplacement, puis de les déposer sur des emplacements au choix.
+La fonctionnalité de transfert de stock reprend le principe de prise et dépose. Il est ainsi possible de prendre un ou plusieurs références/articles d'un emplacement, puis de les déposer sur des emplacements au choix.
 
 Depuis le menu `Stock` de l'application Mobile, cliquez sur le menu `transfert`, l'application vous propose d'effectuer une prise ou une dépose. L'application vous indique aussi le nombre de produit (article ou référence) actuellement en prise.
 
 1. Prise - Sélection de l'emplacement : Une fois dans la prise, l'application vous propose de: 
-- Soit flasher l'emplacement de prise via le flahs intégré des Zebra TC
+- Soit flasher l'emplacement de prise via le flash intégré des Zebra TC
 - Soit de flasher l'emplacement de prise via l'appareil photo du téléphone
 - Soit de sélectionner un emplacement de prise via la loupe
 
 2. Prise - Flash du produit : Vous pouvez ensuite soit
 - Flasher le produit avec le flash intégré ou via l'appareil photo de votre mobile.
->Si vous flashez une référence qui ne doit pas se trouver sur cet emplacement, un message d'erreur s'affiche sur votre application, cela permet de bloquer les mauvaises utilisations
+>Si vous flashez une référence qui ne doit pas se trouver sur cet emplacement, un message d'erreur s'affiche sur votre application, cela permet de bloquer les mauvaises manipulations. 
 
 3. Prise - Valider la prise : 
-- Cliquez sur le  le bouton vert une fois votre produit scanné, la prise est terminée.
+- Cliquez sur le bouton check vert une fois votre produit scanné, la prise est terminée.
 
-Les produits ont été prélevés  et aucun mouvement de stock n'est encore créé dans l'application.
+Les produits ont été prélevés et aucun mouvement de stock n'est encore créé dans l'application.
 
 Pour terminer un mouvement, vous devez effectuer la dépose des produits en prise.
 1. Dépose - Sélection de l'emplacement.
@@ -47,7 +47,7 @@ Pour terminer un mouvement, vous devez effectuer la dépose des produits en pris
 
 > Il n'est pas possible de flasher un produit n'étant pas en prise.
 3. Dépose - Valider la dépose : 
-- Cliquez sur le bouton vert une fois vos produits en prise scannés.
+- Cliquez sur le bouton check vert une fois vos produits en prise scannés.
 La dépose est terminée.
 
 A ce moment, l'application créée un mouvement de transfert pour tracer le changement d'un adressage sur un produit par un opérateur sans changement de quantité.
@@ -58,7 +58,7 @@ Le mouvemnt de stock est donc composé d'un mouvement de traçabilité de type p
 
 ## Préparation
 
-Les ordres de préparation sont générés à la validation d'une demande de validation.
+Les ordres de préparation sont générés à la validation d'une demande de livraison.
 
 L'ordre de préparation indique à un opérateur qu'il doit effectuer une préparation liée à une demande de livraison. L'opérateur peut donc effectuer la préparation avec le mobile.
 
@@ -152,6 +152,6 @@ Il vous faudra flasher le code barre de l'article ou bien le prendre en photo, p
 
 Il y’a aussi la possibilité de traiter une `anomalie` sur un inventaire. Si un inventaire ne regroupe pas la totalité des articles et références demandées. Alors, une anomalie se créra. 
 
-Il vous suffira de scanner l'[emplacement](webreferentiels.md) concerant l'inventaire, pour pouvoir traiter cette erreur. 
+Il vous suffira de scanner l'[emplacement](webreferentiels.md) concernant l'inventaire, pour pouvoir traiter cette erreur. 
 
-La manipulation est similaire, une fois scanné, vous allez devoir séléctionner le nombre d'[articles/références](webstocks.md) qui sont signalées en anomalie. 
+La manipulation est similaire, une fois scanné, vous allez devoir sélectionner le nombre d'[articles/références](webstocks.md) qui sont signalés en anomalie. 
