@@ -8,28 +8,28 @@ sidebar_label: Généralités
 
 L'application Mobile/Nomade va de pair avec l'application web. Elle permet d'effectuer toutes les opérations d'entrée/de transfert/de sortie de stock via un mobile Android.
 
-L'application a été développée pour fonctionner avec les terminaux Zebra TC dans le but de simplifier les flash laser 1D/2D. Il en résulte un gain de productivité important.
+L'application a été développée pour fonctionner avec les terminaux Zebra TC dans le but de simplifier les flashs laser 1D/2D. Il en résulte un gain de productivité important.
 
 L'application est découpée en 3 blocs fonctionnels
 
 ## Application de traçabilité 
 
-La traçabilité des objets et des oppérations consiste à prendre des objets dans un emplacement, puis de les déposer dans un autre emplacement.
+La traçabilité des objets et des opérations consiste à prélever des objets dans un emplacement, puis de les déposer dans un autre emplacement.
 
 Ainsi il est possible de tracer l'opération effectuée par un opérateur dans le temps et dans l'espace.
 
 Il est surtout possible de savoir où a été identifié pour la dernière fois un objet flashé.
 
-**Note importante** : L'application a été développée pour permettre le flash de n'importe quel code barre. Il est donc possible de scanner des objets : colis/articles/produit/numéro de tracking transporteur/ numéro d'ordre de transfert / tout autre numéro. De cette manière la traçabilité peut s'effectuer sur tous les systèmes existants du moment où un code barre existe.
+> **Note importante** : L'application a été développée pour permettre le flash de n'importe quel code barre. Il est donc possible de scanner des objets : colis/articles/produit/numéro de tracking transporteur/ numéro d'ordre de transfert / tout autre numéro. De cette manière la traçabilité peut s'effectuer sur tous les systèmes existants du moment où un code barre existe.
 
 
 ## Application de Stock / WMS
 
-Le bloc fonctionnel de gestion de stock est plus restrictif. Il permet d'opérer les ordres d'entrée de stock / transfert de stock / sortie de stock : à travers les préparations et livraison. 
+Le bloc fonctionnel de gestion de stock est plus restrictif. Il permet d'opérer les ordres d'entrée de stock / transfert de stock / sortie de stock : à travers les préparations et livraisons. 
 
-Les mouvements de stock sont restrictifs et permettent aux opérateurs de leur donner toutes les indications pour effectuer leur travail. 
+Les mouvements de stock sont restrictifs et permettent aux opérateurs de leur donner toutes les indications pour effectuer les opérations.
 
-*Note : L'application a été pensée pour fonctionner à 100% sur les mobiles. Si les opérateurs travaillent sur l'application web pour exécuter des ordres, il se peut que vous utilisiez mal l'application. *
+> **Note importante** : L'application a été pensée pour fonctionner à 100% sur les mobiles. Si les opérateurs travaillent sur l'application web pour exécuter des ordres, il se peut que vous n'utilisiez pas l'application de manière optimale. 
 
 Les chapitres suivants décrivent avec précision le fonctionnement de l'application mobile.
 
@@ -39,11 +39,11 @@ L'application est disponible sur l'hébergement Wiilog [Répertoire DL](http://w
 
 Cliquez sur un fichier .apk pour la télécharger et l'installer sur votre mobile.
 
-Une fois effectué démarrez l'application.
+Une fois l'installation effectué, démarrez l'application.
 
 ### Paramétrage de l'url de l'application
 
-Au premier lancement, si l'application n'a jamais été installée elle vous propose de saisir l'url : 
+Au premier lancement, l'application vous propose de saisir l'url de l'instance :  
 - Url de l'instance.
     - Ex : https://XXXX.follow-gt.fr
     - Ex : https://XXXX.wiilog.fr
