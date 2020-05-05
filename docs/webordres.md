@@ -90,8 +90,8 @@ Vous trouvez aussi en bas la liste des articles/références liée à la demande
 * Quantité	
 * Actions, les actions permettent de modifier la quantité, de voir le détail de la référence, d'imprimer l'étiquette, et de valider la référence. 
 
-Enfin pour traité définitivement l'ordre, vous devez cliquer sur finir la collecte. 
-Si la collecte doit être supprimer, vous pouvez le faire grâce au bouton `supprimer`. 
+Enfin pour traiter définitivement l'ordre, vous devez cliquer sur finir la collecte. 
+Si la collecte doit être supprimée vous pouvez le faire grâce au bouton `supprimer`. 
 
 
 ## Ordre de réception
@@ -112,15 +112,15 @@ Numéro de réception | Permet de voir le numéro de réception
 Statut | Permet de voir si la réception est traitée ou non. Les deux statuts disponibles sont `en attente de réception` et `réception totale`
 Commentaire | Possiblité de voir un commentaire laissé par le logisticien
 
-De plus, un clic sur la ligne souhaité permet de voir la réception en détail.
+De plus, un clic sur la ligne souhaitée permet de voir la réception en détail.
 
 ### Créer une réception
 
-Pour créer une réception, cliquez sur le bouton, `nouvelle récéption`, puis vous remplissez les champs dont vous avez besoin. 
+Pour créer une réception, cliquez sur le bouton, `nouvelle réception`, puis vous remplissez les champs dont vous avez besoin. 
 
 Après avoir validé la création, vous arriverez dans le détail de la réception pour pouvoir y ajouter des pièces.
 
-Pour les ajouter, il faut cliquer sur le bouton ajouter pièce. Si une ou plusieurs de vos pièces sont litigieuses, alors vous pouvez créer un litige associé à ces pièces.  Ensuite après avoir sélectionneè une piéce, vous devrez cliquer sur le bouton réception, qui vous permettra de valider l'ajout d'une référence dans votre stock. 
+Pour les ajouter, il faut cliquer sur le bouton ajouter pièce. Si une ou plusieurs de vos pièces sont litigieuses, alors vous pouvez créer un litige associé à ces pièces.  Ensuite après avoir sélectionné une pièce, vous devrez cliquer sur le bouton réception, qui vous permettra de valider l'ajout d'une référence dans votre stock. 
 
 Vous trouverez en haut de la page, les informations concernant votre réception 
 
@@ -137,7 +137,7 @@ Vous pouvez ensuite soit supprimer, modifier ou bien finir la réception grâce 
 
 ### Filtrer les réceptions
 
-En haut de la liste de vos réceptions, vous toruverez, tous les filtres. Vous pouvez combiner autant de filtres que vous souhaitez. Ensuite pour appliquer ces filtres, vous cliquez sur filtrer. 
+En haut de la liste de vos réceptions, vous trouverez tous les filtres. Vous pouvez combiner autant de filtres que vous souhaitez. Ensuite pour appliquer ces filtres, vous cliquez sur filtrer. 
 
 Les filtres disponibles sont : 
 
