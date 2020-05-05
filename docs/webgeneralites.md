@@ -6,7 +6,7 @@ sidebar_label: Généralités
 
 ## Follow GT / Wiistock
 
-Une application de gestion de stock et flux logistiques en entrepôts pour faciliter le métier des logisticiens/magasiniers opérateurs en entrepots.
+Une application de gestion de stock et flux logistiques en entrepôt pour faciliter le métier des logisticiens/magasiniers opérateurs en entrepôt.
 
 ### Traçabilité 
 
@@ -45,7 +45,7 @@ Une application de gestion de stock et flux logistiques en entrepôts pour facil
 - [Inventaire](webstocks.md)
 - [Alerte](webstocks.md)
 
-### Référenciel
+### Référentiel
 
 - [Fournisseur](webreferentiels.md)
 - [Transporteur](webreferentiels.md)
