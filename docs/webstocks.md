@@ -51,7 +51,7 @@ Le tableau affichera les champs suivants :
 
 Champ | Description
 ------------ | -------------
- Actions | Permet de modifier une référence grâce au bouton en forme de stylo, de la supprimer grâce au bouton corbeille et d’imprimer l’étiquette de l’article. 
+ Actions | Permet de modifier une référence en double cliquant sur la ligne de l'article et en cliquant sur le bouton action à gauche vous pourrez la supprimer grâce au bouton corbeille et d’imprimer l’étiquette de l’article.
  Libellé | Correspond au nom que vous avez donné à votre référence. 
  Référence| Correspond à la référence de votre article. 
  Statut | Permet de voir si votre référence est actif ou inactif.
@@ -68,7 +68,7 @@ Action | Description
 ------------ | -------------
 Choisissez une référence | Cela permet d'attribuer une référence à votre article. 
 Choisissez un fournisseur | Il s'agit du nom que vous souhaitez attribuer à cette référence. 
-Puis remplissez les champs obligatoire. 
+Puis remplissez les champs obligatoires. 
 - Référence fournisseur
 - Libellé*
 - Quantité*

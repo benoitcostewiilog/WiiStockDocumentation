@@ -8,7 +8,7 @@ sidebar_label: Stock
 
 Les opérations liées aux stock sont essentielles au bloc fonctionnel de stock. Elles permettent aux opérateurs d'effectuer tous les traitements d'entrée et de sortie de stock, ainsi cela permet une grande autonomie sur le terrain.
 
-Les grandes fonctionnalités sont les suivantes
+Les grandes fonctionnalités sont les suivantes :
 - Transfert de stock
 - Préparation
 - Livraison
