@@ -66,13 +66,15 @@ Sur le menu demande de collecte vous trouverez la liste des demandes de collecte
 Vous pouvez inspecter le détail d'une collecte en cliquant sur la demande de collecte. 
 
 Vous retrouverez l'historique des demandes de collecte sous forme de tableau. Vous y retrouverez : 
-* L'action oeil permettant de visualiser le détail d'une demande de collecte
 * La date de création
 * Le demandeur de la collecte
 * Son numéro
 * L'objet
 * Le statut 
 * Le type
+
+De plus, un clic sur la ligne permet de visualiser le détail d'une demande de collecte.
+
 
 ## Demandes de livraison
 
@@ -86,12 +88,13 @@ La page est sous forme de tableau avec les informations suivantes :
 
 Champs du tableau | Description
 ------------ | -------------
-Action | Permet de voir la demande en détail
 Date | Permet de voir la date de création de la demande
 Demandeur | Permet de voir le demandeur 
 Numéro | Permet de voir le numéro de la demande de livraison
 Statut | Permet de savoir si le statut de la demande est à traiter, livré ou brouillon
 Type | Permet de caractériser la typologie d'article à livrer
+
+De plus, un clic sur la ligne permet de voir la demande en détail
 
 ### Créer une nouvelle demande  
 
@@ -172,29 +175,29 @@ Enfin, pour finaliser la création de la demande, cliquez sur `valider`. Vous re
 
 ## Demandes de manutention
 
-La demande de manutention permet de générer une demande divers à une date attendue, par exemple cela peut être une demande de manutention d'un mobilier qui n'est pas présent dans votre stock.   
+La demande de manutention permet de générer une demande diverse à une date attendue, par exemple cela peut être une demande de manutention d'un mobilier qui n'est pas présent dans votre stock.   
 
 ### Création d'une demande de manutention
 
-Sur le menu demande de manuentention, cliquez sur le bouton `Nouvelle demande`, cela ouvrira un formulaire de création d'une nouvelle demande de manutention, vous devrez alors le remplir. Ci dessous la description des champs du formulaire de création :  
+Sur le menu demande de manutention, cliquez sur le bouton `Nouvelle demande`, cela ouvrira un formulaire de création d'une nouvelle demande de manutention, vous devrez alors le remplir. Ci-dessous la description des champs du formulaire de création :  
 
 Champs de création d'une demande de manutention | Description
 ------------ | -------------
-Objet | Renseignez un intitulé carartérisant la manutention
+Objet | Renseignez un intitulé caractérisant la manutention
 Demandeur| Indique le nom d'utilisateur du demandeur, ce champ est pré-rempli en fonction de l'utilisateur connecté sur l'application
 Chargement | Emplacement de chargement de la manutention (peut être un emplacement non existant dans le référentiel)
 Déchargement | Emplacement de déchargement de la manutention (peut être un emplacement non existant dans le référentiel)
-Date attendue | Renseignez la date et l'heure souhaitée 
+Date attendue | Renseignez la date et l'heure souhaités 
 Commentaire | Vous pouvez remplir un commentaire au choix
 
 Enfin cliquez sur `Enregistrer`, vous venez de créer une demande de manutention au statut "à traiter".
 
-Toutes les demandes de service se trouve sur la même page.
-Chaque demande est caractérisé par un statut selon l'état de traitement (traité ou à traiter). 
+Toutes les demandes de service se trouvent sur la même page.
+Chaque demande est caractérisée par un statut selon l'état de traitement (traité ou à traiter). 
 
 ### Modification, traitement et suppression d'une demande de manutention
 
-Afin de traiter une demande de manuentention, il faut d'abord cliquer sur le bouton crayon pour accèder à la fenêtre de modification, suite à cela vous pourrez modifier le statut de "à traiter" vers "traité" et renseigner la date de réalisation. 
+Afin de traiter une demande de manutention, il faut d'abord cliquer sur la ligne pour accèder à la fenêtre de modification, suite à cela vous pourrez modifier le statut de "à traiter" vers "traité" et renseigner la date de réalisation. 
 
 Il est possible de modifier une demande de manutention au statut "à traiter" ou "traité". 
 

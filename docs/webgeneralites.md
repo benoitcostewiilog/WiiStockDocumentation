@@ -4,16 +4,15 @@ title: Généralités sur l'interface web
 sidebar_label: Généralités
 ---
 
-
 ## Follow GT / Wiistock
 
-Une application de gestion de stock et flux logistiques en entrepôt pour faciliter le métier des logisticiens/magaziniers/opérateurs en entrepôt.
+Une application de gestion de stock et flux logistiques en entrepôt pour faciliter le métier des logisticiens/magasiniers opérateurs en entrepôt.
 
 ### Traçabilité 
 
 - [Identification d'un flux](webtracabilites.md)
-- [Arrivage](webtraçabilites.md)
-- [Mouvmement de traçabilité](webtracabilites.md)
+- [Arrivage](webtracabilites.md)
+- [Mouvemement de traçabilité](webtracabilites.md)
 - [Association BR](webtracabilites.md)
 - [Acheminement](webtracabilites.md)
 - [En cours](webtracabilites.md)
@@ -22,7 +21,7 @@ Une application de gestion de stock et flux logistiques en entrepôt pour facili
 ### Qualité 
 
 - [Litige sur arrivage](webqualites.md)
-- [Litige sur récéption](webqualites.md)
+- [Litige sur réception](webqualites.md)
 
 ### Demandes 
 
@@ -55,16 +54,16 @@ Une application de gestion de stock et flux logistiques en entrepôt pour facili
 
 ### Paramétrage
 
-- [Paramétrage globale](parparametragesglobal.md)
-- [Rôle](parparametragesglobal.md)
-- [Utilisateur](parparametragesglobal.md)
-- [Champs libre](parparametragesglobal.md)
+- [Paramétrage global](parparametragesglobal.md)
+- [Rôles](parparametragesglobal.md)
+- [Utilisateurs](parparametragesglobal.md)
+- [Champs libres](parparametragesglobal.md)
 - [Export de données](parparametragesglobal.md)
-- [Inventaire](parparametragesglobal.md)
-- [Type](parparametragesglobal.md)
-- [Statut litige](parparametragesglobal.md)
-- [Nature des colis](parparametragesglobal.md)
-- [Champ fixe](parparametragesglobal.md)
+- [Inventaires](parparametragesglobal.md)
+- [Types](parparametragesglobal.md)
+- [Statuts litiges](parparametragesglobal.md)
+- [Natures des colis](parparametragesglobal.md)
+- [Champs fixes](parparametragesglobal.md)
 - [Import et mise à jour](parparametragesglobal.md)
 
 
