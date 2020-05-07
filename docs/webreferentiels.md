@@ -26,9 +26,7 @@ Si vous cochez, point de livraison, alors lors de [chaque mouvement de dépose](
 
 Pour valider vous cliquez sur enregistrer. 
 
-1. Il est possible d'importer une liste d'emplacement dans votre base de données. En effet, si vous avez beaucoup d'emplacements à enregistrer, il est possible que la création manuelle vous prenne trop de temps. [L’import](parparametragesglobal.md) d’une liste d'emplacements est disponible. 
-
-Vous remarquerez dans la colonne actions les 3 petits boutons : 
+Vous remarquerez les trois petits points : 
 
 Bouton | Description
 ------------ | -------------
@@ -39,7 +37,9 @@ Pour modifier un emplacement, cliquez sur la ligne souhaitée.
 
 Si vous souhaitez imprimer plusieurs emplacements, vous pouvez utiliser le bouton au-dessus de la barre de recherche, imprimer les étiquettes. (Pour quand utilisez ce bouton, il faut faire une recherche plus ciblée. En effet l'impression de tous vos emplacements n'est pas forcément nécessaire.)
 
-Et pour finir, vous aurez la possibilité d'utiliser la barre de recherche pour cibler un emplacement ou plusieurs. 
+Et pour finir, vous aurez la possibilité d'utiliser la barre de recherche pour cibler un emplacement ou plusieurs.
+
+2. Il est possible d'importer une liste d'emplacement dans votre base de données. En effet, si vous avez beaucoup d'emplacements à enregistrer, il est possible que la création manuelle vous prenne trop de temps. [L’import](parparametragesglobal.md) d’une liste d'emplacements est disponible. 
 
 
 ## Fournisseurs
@@ -50,9 +50,9 @@ Le tableau contient :
 
 Fonctionnalité | Description
 ------------ | -------------
-Action | Permet de supprimer avec le bouton `corbeille` 
+Trois points | Permet d'afficher le bouton `corbeille`, pour supprimer le transporteur 
 Nom | Il s'agit du nom donné à votre fournisseur
-Code de référence | 
+Code de référence | Correspond à un code que vous attriubez à votre fournisseur 
 De plus, pour modifier les informations d'un fournisseur, cliquez sur la ligne correspondante dans le tableau.
 
 Il y a plusieurs façons d’incrémenter la liste de vos fournisseurs : 
@@ -64,7 +64,7 @@ Pour valider, vous cliquez sur enregistrer.
 
 2. Il est possible de créer un fournisseur lors de l'enregistrement d'un [arrivage](webtracabilites.md), en utilisant le petit bouton '+' à droite du champ fournisseurs. 
 
-De plus il est possible de chercher un fournisseur grâce à la barre de recherche. 
+De plus il est possible de chercher un fournisseur grâce à la barre de recherche, en haut à gauche de votre page. 
 
 ## Chauffeurs 
 
@@ -74,7 +74,7 @@ Le tableau contient :
 
 Fonctionnalité | Description
 ------------ | -------------
-Action | Permet de supprimer avec le bouton `corbeille` 
+Trois points | Permet d'afficher le bouton `corbeille`, pour supprimer le transporteur 
 Nom | Il s'agit du nom du chauffeur
 Prénom | Il s'agit du prénom du chauffeur
 DocumentID | Il s'agit de l'ID du document permettant d'identifier le chauffeur
@@ -107,9 +107,9 @@ Le tableau contient :
 
 Fonctionnalité | Description
 ------------ | -------------
-Action | Permet de supprimer avec le bouton `corbeille` 
+Trois points | Permet d'afficher le bouton `corbeille`, pour supprimer le transporteur 
 Nom | Il s'agit du nom donné à votre transporteur
-Code | 
+Codede de référence | Correspond à un code que vous attriubez à votre fournisseur 
 Nombre de chauffeurs | Il s'agit du nombre de chauffeurs liés à votre transporteur 
 De plus, pour modifier les informations d'un transporteur, cliquez sur la ligne correspondante dans le tableau.
 
