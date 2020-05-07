@@ -33,23 +33,23 @@ Dans le tableau principal, votre préparation passera au statut de `à traiter` 
 
 ### Picking sur référence
 
-Le picking sur référence concerne les préparations qui on un article géré par référence dans celle-ci.
+Le picking sur référence concerne les préparations qui ont un article géré par référence dans celles-ci.
 
 Pour effectuer un picking sur référence, vous devez :
 
 <<<<<<< HEAD
 * Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
-* Vous y retoruverai touts les ordres de préparations. 
-* Cliquez sur la prépartion qui vous concerne. 
+* Vous y retoruverez tous les ordres de préparations. 
+* Cliquez sur la préparation qui vous concerne. 
 * Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
 * Un formulaire s'ouvrira, vous allez devoir indiquer le nombre d'article que vous souhaitez. 
 * Puis cliquez sur valider. 
 
-### Picking sur articles
+### Picking sur article
 
-Le picking sur article concerne les préparations qui on un article géré par article dans celle-ci.
+Le picking sur article concerne les préparations qui ont un article géré par article dans celles-ci.
 
-Pour effectuer un picking sur référence, vous devez :
+Pour effectuer un picking sur article, vous devez :
 
 * Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
 * Vous y retoruverai touts les ordres de préparations. 
@@ -66,9 +66,9 @@ Lors de l'exécution de vos ordres, il est possible que les pièces ne soient pa
 
 Les ordres de livraisons sont liés aux [demandes de livraison](webdemandes.md). Chaque demande, impliquera un ordre de préparation. Lors de la validation de la préparation. Un ordre de livraison sera créé et il permettra de relier l'emplacement de préparation à l'emplacement de livraison. 
 
-Pour traiter un ordre de livraison, il faut cliquer celui que vous devait faire. 
+Pour traiter un ordre de livraison, il faut cliquer sur la ligne de l'ordre à traiter.  
 
-Vous allez vous retrouver sur l'ordre de livraison. Vous y retoruverai les articles liés. Vous retrouverez les informations qui concerne votre livraison en haut de la page. 
+Vous allez vous retrouver sur le détail de l'ordre de livraison. Vous y retoruverez les articles liés. Vous retrouverez les informations qui concerne votre livraison en haut de la page. 
 
 - Numéro de votre livraison, 
 - Statut, `traité` ou `à traiter`,
@@ -77,29 +77,29 @@ Vous allez vous retrouver sur l'ordre de livraison. Vous y retoruverai les artic
 - Point de livraison, 
 - Date de livraison.
 
-Dans le tableau en dessous, vous y retrouverai la liste des articles. Avec les informations suivantes : 
+Dans le tableau en-dessous, vous trouverez la liste des articles. Avec les informations suivantes : 
 
 Informations | Description
 ------------ | -------------
 - Référence | Qui concerne votre article, 
 - Libellé |Il s'agit du nom donné, 
-- Emplacement | Le lieu ou est l'article
+- Emplacement | Le lieu où est l'article
 - Quantité |La quantité disponible en stock
 
 Pour voir son statut, vous pouvez cliquer sur les articles. 
 
-Grace au bouton en haut à doirte vous pouvez faire afficher les actions suivantes : 
+Grâce au bouton en haut à droite vous pouvez faire afficher les actions suivantes : 
 
 Actions | Description
 ------------ | -------------
 Finir la livraion | Permet de valider la livraiosn
 Supprimer | Pemret de supprimer l'ordre de livraison 
-Lien vers la demande de livraion | Afin de pouvoir visualider la demande de livraion  
-Lien vers l'ordre de préparation | Afin de pouvoir visualider l'ordre de préparation  
+Lien vers la demande de livraion | Afin de pouvoir visualiser la demande de livraion  
+Lien vers l'ordre de préparation | Afin de pouvoir visualiser l'ordre de préparation  
 
 Pour finaliser l'ordre cliquez sur `Valider`. 
 
-Vous pouvez retouver votre ordre, dans `ordre de livraion`. 
+Vous trouverez votre ordre, dans `ordre de livraion`. 
 
 ## Ordre de collecte
 
