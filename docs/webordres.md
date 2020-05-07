@@ -25,7 +25,7 @@ Type | Indique la typologie d'article concerné
 
 Pour effectuer votre préparation, rendez-vous, dans l'ordre en cliquant sur la ligne de l'ordre souhaité. 
 
-Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de livraison. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés, et enfin la possibilité de lister les articles et références dont vous avez besoin. 
+Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de préparation. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés, et enfin la possibilité de lister les articles et références dont vous avez besoin. 
 
 Puis vous pouvez valider ou bien supprimer l'ordre. 
 
@@ -37,12 +37,14 @@ Le picking sur référence concerne les préparations qui on un article géré p
 
 Pour effectuer un picking sur référence, vous devez :
 
+<<<<<<< HEAD
 * Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
 * Vous y retoruverai touts les ordres de préparations. 
 * Cliquez sur la prépartion qui vous concerne. 
 * Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
 * Un formulaire s'ouvrira, vous allez devoir indiquer le nombre d'article que vous souhaitez. 
 * Puis cliquez sur valider. 
+
 
 ### Picking sur articles
 
