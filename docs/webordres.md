@@ -11,7 +11,7 @@ La fonctionnalité d'ordre regroupe les ordres de collecte et de livraison. Elle
 
 ## Ordre de préparation
 
-Après une demande de livraison, l'ordre de préparation s'affiche dans le tableau. Dans la page des ordres de livraison vous y retrouverez aussi la possibilité de filtrer et d'exporter les informations du tableau au format CSV. 
+Après une demande de livraison, l'ordre de préparation s'affiche dans le tableau. Dans la page des ordres de préparation vous y retrouverez aussi la possibilité de filtrer et d'exporter les informations du tableau au format CSV. 
 
 Le tableau regroupe les colonnes suivantes : 
 
@@ -29,7 +29,7 @@ Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de 
 
 Puis vous pouvez valider ou bien supprimer l'ordre. 
 
-Dans le tableau principal, votre préparation passera au statut de `"à traiter"` à `"traité"`. 
+Dans le tableau principal, votre préparation passera au statut de `à traiter` à `préparé`. 
 
 ### Picking sur référence
 
@@ -65,6 +65,41 @@ Lors de l'exécution de vos ordres, il est possible que les pièces ne soient pa
 ## Ordre de livraison
 
 Les ordres de livraisons sont liés aux [demandes de livraison](webdemandes.md). Chaque demande, impliquera un ordre de préparation. Lors de la validation de la préparation. Un ordre de livraison sera créé et il permettra de relier l'emplacement de préparation à l'emplacement de livraison. 
+
+Pour traiter un ordre de livraison, il faut cliquer celui que vous devait faire. 
+
+Vous allez vous retrouver sur l'ordre de livraison. Vous y retoruverai les articles liés. Vous retrouverez les informations qui concerne votre livraison en haut de la page. 
+
+- Numéro de votre livraison, 
+- Statut, `traité` ou `à traiter`,
+- Opérateur,
+- Demandeur, 
+- Point de livraison, 
+- Date de livraison.
+
+Dans le tableau en dessous, vous y retrouverai la liste des articles. Avec les informations suivantes : 
+
+Informations | Description
+------------ | -------------
+- Référence | Qui concerne votre article, 
+- Libellé |Il s'agit du nom donné, 
+- Emplacement | Le lieu ou est l'article
+- Quantité |La quantité disponible en stock
+
+Pour voir son statut, vous pouvez cliquer sur les articles. 
+
+Grace au bouton en haut à doirte vous pouvez faire afficher les actions suivantes : 
+
+Actions | Description
+------------ | -------------
+Finir la livraion | Permet de valider la livraiosn
+Supprimer | Pemret de supprimer l'ordre de livraison 
+Lien vers la demande de livraion | Afin de pouvoir visualider la demande de livraion  
+Lien vers l'ordre de préparation | Afin de pouvoir visualider l'ordre de préparation  
+
+Pour finaliser l'ordre cliquez sur `Valider`. 
+
+Vous pouvez retouver votre ordre, dans `ordre de livraion`. 
 
 ## Ordre de collecte
 
