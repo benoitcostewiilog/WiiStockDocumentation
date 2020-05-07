@@ -45,7 +45,6 @@ Pour effectuer un picking sur référence, vous devez :
 * Un formulaire s'ouvrira, vous allez devoir indiquer le nombre d'article que vous souhaitez. 
 * Puis cliquez sur valider. 
 
-
 ### Picking sur articles
 
 Le picking sur article concerne les préparations qui on un article géré par article dans celle-ci.
