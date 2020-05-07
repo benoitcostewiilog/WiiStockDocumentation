@@ -33,6 +33,7 @@ Dans le tableau principal, votre préparation passera au statut de `à traiter` 
 
 ### Picking sur référence
 
+<<<<<<< HEAD
 Le picking sur référence concerne les préparations qui ont un article géré par référence dans celles-ci.
 
 Pour effectuer un picking sur référence, vous devez :
@@ -42,20 +43,35 @@ Pour effectuer un picking sur référence, vous devez :
 * Vous y retoruverez tous les ordres de préparations. 
 * Cliquez sur la préparation qui vous concerne. 
 * Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
+=======
+Le picking sur référence concerne les préparations qui ont une référence gérée par référence.  
+
+Pour effectuer un picking sur référence, vous devez :
+
+* Allez dans la fonctionnalité `Ordre`, puis `Préparation`. 
+* Vous y retrouverez tous les ordres de préparations. 
+* Cliquez sur la prépartion qui vous concerne. 
+* Vous y retrouverez les articles qui concerne votre ordre.
+* Cliquez sur les trois boutons. 
+>>>>>>> 169f3ff05471dce1f1035f1fdccf11f38a84f3f6
 * Un formulaire s'ouvrira, vous allez devoir indiquer le nombre d'article que vous souhaitez. 
 * Puis cliquez sur valider. 
 
 ### Picking sur article
 
+<<<<<<< HEAD
 Le picking sur article concerne les préparations qui ont un article géré par article dans celles-ci.
+=======
+Le picking sur article concerne les préparations qui ont une référence gérée par article.
+>>>>>>> 169f3ff05471dce1f1035f1fdccf11f38a84f3f6
 
 Pour effectuer un picking sur article, vous devez :
 
 * Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
-* Vous y retoruverai touts les ordres de préparations. 
+* Vous y retrouverez tous les ordres de préparations. 
 * Cliquez sur la prépartion qui vous concerne. 
-* Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
-* Remplissez les champs obligatoires, puis validez. 
+* Puis cliquez sur les trois boutons, puis séléctionner, pour ouvrir le formulaire de séléction d'article
+* Choisissez les quantités des articles que vous voulez préparer sans dépasser la limite demandée dans la demande de livraison 
 * Enfin pour finir la préparation, vous pouvez cliquez sur "Valider" en haut à droite de votre écran.  
 
 ### Picking partiel
