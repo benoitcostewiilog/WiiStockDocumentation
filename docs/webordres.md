@@ -33,18 +33,29 @@ Dans le tableau principal, votre préparation passera au statut de `"à traiter"
 
 ### Picking sur référence
 
-Pour une livraison :
+Le picking sur référence concerne les préparations qui on un article géré par référence dans celle-ci.
 
 Pour effectuer un picking sur référence, vous devez :
 
-* Aller dans la fonctionnalité Livraison 
-* Appuyer sur Nouvelle demande de livraison 
-* Remplir le premier formulaire
-* Chercher une référence, vous arriverez sur la liste de toutes les références de votre stock. Vous allez pouvoir modifier la référence, la supprimer, voir les mouvements de stock liés ou bien l'ajouter à votre ordre. Vous avez aussi la possiblité de créer un article de référence depuis cette page
+* Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
+* Vous y retoruverai touts les ordres de préparations. 
+* Cliquez sur la prépartion qui vous concerne. 
+* Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
+* Un formulaire s'ouvrira, vous allez devoir indiquer le nombre d'article que vous souhaitez. 
+* Puis cliquez sur valider. 
 
 ### Picking sur articles
 
+Le picking sur article concerne les préparations qui on un article géré par article dans celle-ci.
 
+Pour effectuer un picking sur référence, vous devez :
+
+* Aller dans la fonctionnalité `Ordre`, puis `Préparation`. 
+* Vous y retoruverai touts les ordres de préparations. 
+* Cliquez sur la prépartion qui vous concerne. 
+* Puis ajoutez l'article qui est géré par référence, dans votre préparation. 
+* Remplissez les champs obligatoires, puis validez. 
+* Enfin pour finir la préparation, vous pouvez cliquez sur "Valider" en haut à droite de votre écran.  
 
 ### Picking partiel
 
