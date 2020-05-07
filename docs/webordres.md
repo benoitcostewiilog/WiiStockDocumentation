@@ -25,7 +25,7 @@ Type | Indique la typologie d'article concerné
 
 Pour effectuer votre préparation, rendez-vous, dans l'ordre en cliquant sur la ligne de l'ordre souhaité. 
 
-Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de livraison. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés, et enfin la possibilité de lister les articles et références dont vous avez besoin. 
+Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de préparation. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés, et enfin la possibilité de lister les articles et références dont vous avez besoin. 
 
 Puis vous pouvez valider ou bien supprimer l'ordre. 
 
@@ -40,7 +40,7 @@ Pour effectuer un picking sur référence, vous devez :
 * Aller dans la fonctionnalité Livraison 
 * Appuyer sur Nouvelle demande de livraison 
 * Remplir le premier formulaire
-* Chercher une référence, vous arriverez sur la liste de toutes les références de votre stock. Vous allez pouvoir modifier la référence, la supprimer, voir les mouvements de stock liés ou bien l'ajouter à votre ordre. Vous avez aussi la possiblité de créer un article de référence depuis cette page
+* Chercher une référence, vous arriverez sur la liste de toutes les références de votre stock. Vous allez pouvoir modifier la référence, la supprimer, voir les mouvements de stock liés ou bien l'ajouter à votre ordre. Vous avez aussi la possiblité de créer un article de référence depuis cette page.
 
 ### Picking sur articles
 
