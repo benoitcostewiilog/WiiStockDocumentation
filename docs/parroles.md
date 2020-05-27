@@ -6,7 +6,7 @@ sidebar_label: Rôles
 
 ## Avant de commencer - le principe des rôles
 
-Un rôle permet de donner accés aux fonctionnalités de l'application. Un rôle permet de manière générale de consulter / modifier / supprimer ou exporter une donnée liée à une fonctionnalité.
+Un rôle permet de donner accès aux fonctionnalités de l'application. Un rôle permet, de manière générale, la consultation / modification / suppression ou exportation d'une donnée liée à une fonctionnalité.
 
 L'application permet de créer un rôle qui pourra être affecté à un ou plusieurs utilisateurs de l'application.
 
@@ -21,80 +21,80 @@ L'application permet de créer un rôle qui pourra être affecté à un ou plusi
 
 ## Créer un nouveau rôle
 
-Depuis le menu `Paramétrage / Rôle` la liste des rôles s'ouvre. 
+Depuis le menu `Paramétrage / Rôle`, la liste des rôles s'ouvre. 
 
 Cliquez sur le bouton `+ Nouveau rôle`, le formulaire s'ouvre.
- - Saisir le libellé du rôle : exemple : Super Admin
+ - Saisir le libellé du rôle : (Ex : Super Admin)
 
-Dans les menus de paramétrage liés aux diffèrentes fonctions, vous pourrez paramétrer le rôle. 
+Dans les menus de paramétrage liés aux différentes fonctions, vous pourrez paramétrer le rôle. 
 
 ## Les menus de paramétrage
 ### Menu Paramétrage
 Paramètre | Description
 ------------ | -------------
-afficher paramétrage global | Permet de donner accès au sous menu paramétrage global
-afficher rôles | Permet de donner accès au sous menu rôle
-afficher utilisateurs | Permet de donner accès au sous menu utilisateurs
-afficher champs libres | Permet de donner accès au sous menu champs libres
-afficher exports | Permet de donner accès au sous menu exports
-afficher types | Permet de donner accès au sous menu types
-afficher statuts litiges | Permet de donner accès au sous menu statuts litiges
-afficher nature colis | Permet de donner accès au sous menu nature colis
-afficher champs fixes | Permet de donner accès au sous menu champs fixes
-modifier | Permet de donner les droits de modification sur toutes les fonctionnalités du menu paramétrage
-supprimer | Permet de donner les droits de suppression sur toutes les fonctionnalités du menu paramétrage
-afficher inventaires | Permet de donner accès au sous menu inventaire
-afficher import et mise à jour | Permet de donner accès au sous menu import et mise à jour
+afficher paramétrage global | Permet de donner accès au sous menu paramétrage global.
+afficher rôles | Permet de donner accès au sous menu rôle.
+afficher utilisateurs | Permet de donner accès au sous menu utilisateurs.
+afficher champs libres | Permet de donner accès au sous menu champs libres.
+afficher exports | Permet de donner accès au sous menu exports.
+afficher types | Permet de donner accès au sous menu types.
+afficher statuts litiges | Permet de donner accès au sous menu statuts litiges.
+afficher nature colis | Permet de donner accès au sous menu nature colis.
+afficher champs fixes | Permet de donner accès au sous menu champs fixes.
+modifier | Permet de donner les droits de modification sur toutes les fonctionnalités du menu paramétrage.
+supprimer | Permet de donner les droits de suppression sur toutes les fonctionnalités du menu paramétrage.
+afficher inventaires | Permet de donner accès au sous menu inventaire.
+afficher import et mise à jour | Permet de donner accès au sous menu import et mise à jour.
 
 ### Menu Stock
 Paramètre | Description
 ------------ | -------------
-afficher articles | Permet de donner accès au sous menu articles 
-afficher références | Permet de donner accès au sous menu références
-afficher articles fournisseurs | Permet de donner accès au sous menu articles fournisseurs
-afficher mouvements de stock | Permet de donner accès au sous menu mouvements de stock 
-afficher alertes | Permet de donner accès au sous menu alertes
-créer | Permet de donner les droits de création sur toutes les fonctionnalités du menu stock
-modifier | Permet de donner les droits de modification sur toutes les fonctionnalités du menu stock
-gestionnaire d'inventaire | Permet de donner les droits de traitement des anomalies d'inventaire sur le menu stock et l'application mobile
-supprimer | Permet de donner les droits de suppression sur toutes les fonctionnalités du menu stock
-exporter | Permet de donner les droits d'export sur toutes les fonctionnalités du menu stock
+afficher articles | Permet de donner accès au sous menu articles.
+afficher références | Permet de donner accès au sous menu références.
+afficher articles fournisseurs | Permet de donner accès au sous menu articles fournisseurs.
+afficher mouvements de stock | Permet de donner accès au sous menu mouvements de stock. 
+afficher alertes | Permet de donner accès au sous menu alertes.
+créer | Permet de donner les droits de création sur toutes les fonctionnalités du menu stock.
+modifier | Permet de donner les droits de modification sur toutes les fonctionnalités du menu stock.
+gestionnaire d'inventaire | Permet de donner les droits de traitement des anomalies d'inventaire sur le menu stock et l'application mobile.
+supprimer | Permet de donner les droits de suppression sur toutes les fonctionnalités du menu stock.
+exporter | Permet de donner les droits d'export sur toutes les fonctionnalités du menu stock.
 
 ### Menu Référentiel
 
 Paramètre | Description
 ------------ | -------------
-afficher fournisseurs | Permet de donner accès au sous menu fournisseurs
-afficher emplacements | Permet de donner accès au sous menu emplacements
-afficher chauffeurs | Permet de donner accès au sous menu chauffeurs
-afficher transporteurs | Permet de donner accès au sous menu transporteurs 
-créer | Permet de donner les droits de création sur le menu référentiel
-modifier | Permet de donner les droits de modification sur le menu référentiel
-supprimer | Permet de donner les droits de suppression sur le menu référentiel
+afficher fournisseurs | Permet de donner accès au sous menu fournisseurs.
+afficher emplacements | Permet de donner accès au sous menu emplacements.
+afficher chauffeurs | Permet de donner accès au sous menu chauffeurs.
+afficher transporteurs | Permet de donner accès au sous menu transporteurs. 
+créer | Permet de donner les droits de création sur le menu référentiel.
+modifier | Permet de donner les droits de modification sur le menu référentiel.
+supprimer | Permet de donner les droits de suppression sur le menu référentiel.
 
 
 ### Menu Accueil
 
 Paramètre | Description
 ------------ | -------------
-afficher indicateurs | Permet d'afficher ou non les tableaux de bord et autres indicateurs présents sur l'accueil
-afficher indicateur fiabilité monétaire | Permet d'afficher ou masquer le diagramme  de fiabilité monétaire présent sur le premier tableau de bord de l'accueil
-afficher indicateur fiabililité par référence | Permet de consulter l'indicateur de fiabilité dans le menu + du premier tableau de bord
+afficher indicateurs | Permet d'afficher ou non les tableaux de bord et autres indicateurs présents sur l'accueil.
+afficher indicateur fiabilité monétaire | Permet d'afficher ou masquer le diagramme  de fiabilité monétaire présent sur le premier tableau de bord de l'accueil.
+afficher indicateur fiabilité par référence | Permet de consulter l'indicateur de fiabilité dans le menu + du premier tableau de bord.
 
 ### Menu Traçabilité
 
 Paramètre | Description
 ------------ | -------------
-afficher arrivages | Permet de donner accès au sous menu flux. arrivages
-afficher mouvements | Permet de donner accès au sous menu mouvements de traçabilités
-afficher acheminements | Permet de donner accès au sous menu acheminements 
-afficher associations BR | Permet de donner accès au sous menu acheminements
-afficher encours | Permet de donner accès au sous menu encours
-afficher urgences | Permet de donner accès au sous menu urgences
-créer | Permet de donner les droits de création sur le menu traçabilité
-modifier | Permet de donner les droits de modification sur le menu traçabilité
-supprimer | Permet de donner les droits de modification sur le menu traçabilité
-exporter | Permet de donner les droits d'export de données sur le menu traçabilité
+afficher arrivages | Permet de donner accès au sous menu flux - arrivages.
+afficher mouvements | Permet de donner accès au sous menu mouvements de traçabilités.
+afficher acheminements | Permet de donner accès au sous menu acheminements. 
+afficher associations BR | Permet de donner accès au sous menu acheminements.
+afficher encours | Permet de donner accès au sous menu encours.
+afficher urgences | Permet de donner accès au sous menu urgences.
+créer | Permet de donner les droits de création sur le menu traçabilité.
+modifier | Permet de donner les droits de modification sur le menu traçabilité.
+supprimer | Permet de donner les droits de modification sur le menu traçabilité.
+exporter | Permet de donner les droits d'export de données sur le menu traçabilité.
 lister tous les arrivages | Le droit d'affichage par défaut limite l'accès aux arrivages sur lesquels un utilisateur est positionné comme acheteur. Ce droit permet de rendre visible tous les arrivages de la base (même si votre utilisateur n'est pas acheteur).
 
 ### Menu Qualité
@@ -110,30 +110,30 @@ traiter les litiges | Permet à l'utilisateur de modifier le statut d'un litige 
 
 Paramètre | Description
 ------------ | -------------
-afficher collectes | Permet de donner accès au sous menu collecte
-afficher livraisons | Permet de donner accès au sous menu livraisons
-afficher manutentions | Permet de donner accès au sous menu manutention (services)
-créer | Permet de donner les droits de création sur tout le menu demande
-modifier | Permet de donner les droits de modification sur tout le menu demande
-supprimer | Permet de donner les droits de suppression sur tout le menu demande
-exporter | Permet de donner les droits d'export sur tout le menu demande
+afficher collectes | Permet de donner accès au sous menu collecte.
+afficher livraisons | Permet de donner accès au sous menu livraisons.
+afficher manutentions | Permet de donner accès au sous menu manutention (services).
+créer | Permet de donner les droits de création sur tout le menu demande.
+modifier | Permet de donner les droits de modification sur tout le menu demande.
+supprimer | Permet de donner les droits de suppression sur tout le menu demande.
+exporter | Permet de donner les droits d'export sur tout le menu demande.
 
 ### Menu Ordre
 Paramètre | Description
 ------------ | -------------
-afficher collectes | Permet de donner accès au sous menu collectes. Permet l'accès aux ordres de collectes depuis les demandes
-afficher livraisons | Permet de donner accès au sous menu livraisons. Permet l'accès aux ordres de livraison depuis les ordres de préparations
-afficher préparations | Permet de donners accès au sous menu préparations. Permet l'accès aux ordres de préparation depuis les demandes de livraison
-afficher réceptions | Permet l'accès aux ordres de réceptions
-création référence depuis réception | Permet à l'utilisateur d'afficher un formulaire rapide de création de référence depuis la réception
-créer | Permet de donner les droits de création sur tout le menu ordre
-modifier | Permet de donner les droits de modification sur tout le menu ordre
-supprimer | Permet de donner les droits de suppression sur tout le menu ordre
-exporter | Permet de donner les droits d'export sur tout le menu ordre
+afficher collectes | Permet de donner accès au sous menu collectes. Permet l'accès aux ordres de collectes depuis les demandes.
+afficher livraisons | Permet de donner accès au sous menu livraisons. Permet l'accès aux ordres de livraison depuis les ordres de préparations.
+afficher préparations | Permet de donner accès au sous menu préparations. Permet l'accès aux ordres de préparation depuis les demandes de livraison.
+afficher réceptions | Permet l'accès aux ordres de réceptions.
+création référence depuis réception | Permet à l'utilisateur d'afficher un formulaire rapide de création de référence depuis la réception.
+créer | Permet de donner les droits de création sur tout le menu ordre.
+modifier | Permet de donner les droits de modification sur tout le menu ordre.
+supprimer | Permet de donner les droits de suppression sur tout le menu ordre.
+exporter | Permet de donner les droits d'export sur tout le menu ordre.
 ### Menu Nomade
 Paramètre | Description
 ------------ | -------------
-Accès stock | Permet d'accéder aux traitements liés au stock depuis l'application mobile / transfert / préparation / livraison / collecte / inventaire
+Accès stock | Permet d'accéder aux traitements liés au stock depuis l'application mobile / transfert / préparation / livraison / collecte / inventaire.
 Accès Traçabilité | Permet d'accéder aux traitements liés à la traçabilité depuis l'application mobile / Prise / Dépose.
 Accès Demande | Permet d'accéder aux traitements liés au demandes de manutention et services depuis l'application mobile.
 
@@ -153,10 +153,10 @@ L'étape suivante du paramétrage consiste à associer un rôle à chaque utilis
 
 ### Suppression d'un rôle
 
-Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle, en cliquant sur l'icone corbeille. 
+Dans la colonne actions de la liste des rôles, vous pouvez supprimer un rôle en cliquant sur l'icône corbeille. 
 
-> Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut pas être supprimé, pour cela il faut préalablement dissocier tous les utilisateurs de ce rôle.
+> Lorsqu'un rôle est déjà associé à un ou plusieurs utilisateurs , il ne peut pas être supprimé. Pour cela, il faut préalablement dissocier tous les utilisateurs de ce rôle.
 
 ### Modification d'un rôle
 
-Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle, en cliquant sur l'icône crayon. 
+Dans la colonne actions de la liste des rôles, vous pouvez modifier un rôle en cliquant sur l'icône crayon. 
