@@ -7,15 +7,15 @@ sidebar_label: Traçabilité
 
 ## Flux - Identification des flux arrivage
 
-L'application Wiistock propose en premier temps une réception, puis une mise en stock. 
+L'application WiiStock propose en premier temps une réception, puis une mise en stock. 
 
 La réception correspond à l'identification du flux d'arrivage. En effet faire la réception puis la mise en stock en même temps n'est pas possible. Grâce à la fonctionnalité arrivage il est possible pour vous de réceptionner vos colis et de les envoyer dans une zone en attente de mise en stock (réception).
 
-La fonctionnalité arrivage se trouve dans le module traçabilité. Quand vous cliquez sur la fonctionnalité `arrivage`, vous arriverez sur un tableau qui regroupe tous les arrivages enregistrés. 
+La fonctionnalité arrivage se trouve dans le module traçabilité. Quand vous cliquez sur la fonctionnalité `arrivage`, vous arrivez sur un tableau qui regroupe tous les arrivages enregistrés. 
 
 Ce tableau contient les informations suivantes :
 - Date, 
-- Numéro d' arrivage, 
+- Numéro d'arrivage, 
 - Transporteur, 
 - Numéro de commande, 
 - Fournisseur, 
@@ -23,30 +23,30 @@ Ce tableau contient les informations suivantes :
 
 Les colonnes du tableau d'arrivage sont paramétrables, c'est-à-dire qu'elles peuvent être masquées du tableau si vous le désirez. 
 
-Sur la page, vous verrez aussi, une liste de `filtres` permettant de trouver un arrivage plus facilement. 
+Sur la page, vous verrez aussi une liste de `filtres` permettant de trouver un arrivage plus facilement. 
 
 Pour utiliser un filtre une fois la manipulation faite, il vous faudra cliquer sur le bouton `filtrer` en haut à droite de votre écran. 
 
-Vous aurez la possibilité d'exporter votre tableau (pour faire un export il faut ajouter un ou plusieurs filtres) dans un tableau excel grâce au bouton `Exporter au format CSV`.  
+Vous aurez la possibilité d'exporter votre tableau (pour faire un export il faut ajouter un ou plusieurs filtres) dans un tableau Excel grâce au bouton `Exporter au format CSV`.  
 
 Enfin, l'application est munie d'une barre de recherche au-dessus à droite du tableau afin de pouvoir rechercher directement un arrivage. 
 
 ### Création d'un arrivage 
 
-Pour créer un arrivage il vous faudra cliquer sur le bouton `nouvel arrivage`. Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. 
+Pour créer un arrivage, il vous faudra cliquer sur le bouton `nouvel arrivage`. Cette fonctionnalité permettra d'ouvrir un formulaire de création d’arrivage. 
 
 Champs | Description
 ------------ | -------------
-Fournisseur | Permet de renseigner le fournisseur de l'arrivage
-Transporteur | Permet de renseigner le transporteur des colis 
-Numéro de commande BL | Correspond au numéro de commande attribué, par le bon de livraison
-Destinataire | Nous indique le destinataire 
-Statut | Conforme ou réservé 
-Acheteur | Permet de savoir qui est l'acheteur 
+Fournisseur | Permet de renseigner le fournisseur de l'arrivage.
+Transporteur | Permet de renseigner le transporteur des colis.
+Numéro de commande BL | Correspond au numéro de commande attribué par le bon de livraison.
+Destinataire | Nous indique le destinataire. 
+Statut | Conforme ou réservé.
+Acheteur | Permet de savoir qui est l'acheteur.
 
-De plus vous devez indiquer les colis que vous souhaitez recevoir. Bien sûr ils sont paramétrables en amont. Rendez-vous dans la partie [Paramétrage Global](parparametragesglobal.md).  
+De plus, vous devez indiquer les colis que vous souhaitez recevoir. Bien sûr ils sont paramétrables en amont. Rendez-vous dans la partie [Paramétrage Global](parparametragesglobal.md).  
 
-Certains champs sont obligatoires, ils sont munis d'une astérisque. [Vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non](parparametragesglobal.md). Vous pouvez voir à côté de certains champs un `bouton plus`, il va permettre de créer un nouveau fournisseur, transporteur,… s'ils ne sont pas dans votre base de données.  
+Certains champs sont obligatoires et sont munis d'un astérisque. [Vous pouvez paramétrer les champs que vous voulez voir obligatoires ou non](parparametragesglobal.md). Vous pouvez voir à côté de certains champs un `bouton plus`. Celui-ci va permettre de créer un nouveau fournisseur, transporteur(...) s'ils ne sont pas dans votre base de données.  
 
 Pour valider la création, cliquez sur le bouton `enregistrer`. Une fois l'enregistrement créé, dans les [paramètres vous pourrez choisir si vous êtes redirigé dans l'arrivage ou bien si un formulaire d'arrivage se recrée automatiquement pour pouvoir en remplir un nouveau](parparametragesglobal.md). 
 
@@ -65,29 +65,29 @@ L'un concernant les colis de votre arrivage et le second concernant les litiges 
 
 Il vous sera possible après la création d'un arrivage, d'ajouter un colis ou plusieurs grâce au bouton `ajouter colis.` 
 
-Vous pourrez imprimer le ou les colis, grâce au bouton `Imprimer colis.` 
+Vous pourrez imprimer le ou les colis grâce au bouton `Imprimer colis.` 
 
 Pour attribuer un `litige` à un `arrivage`, il vous faut cliquez sur `nouveau litige`. [Chaque litige est visible dans le module qualité, litiges.](webqualites.md)
-Après avoir cliqué sur nouveau litige, un formulaire s'ouvrira, et vous permettra de créer votre propre litige. 
+Après avoir cliqué sur nouveau litige, un formulaire s'ouvrira et vous permettra de créer votre propre litige. 
 
 Il sera possible pour vous de définir : 
 - Type, 
 - Statut, 
 - De laisser un commentaire,
 - De choisir le colis concerné par le litige,
-- Vous pouvez glisser une pièce jointe,
+- De glisser une pièce jointe,
 - Qualifier ce litige d’urgent ou non. 
 
-Puis vous cliquerez sur enregistrer. Votre litige sera visible dans le tableau à droite, celui qui renseigne tous les litiges. 
+Puis vous cliquerez sur enregistrer. Votre litige sera visible dans le tableau à droite, qui renseigne tous les litiges. 
 
-Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock, grâce à la fonctionnalité [Réception](webordres.md). 
+Vous venez de créer un arrivage, maintenant vous pouvez le mettre en stock grâce à la fonctionnalité [Réception](webordres.md). 
 
 
 ## Mouvement de traçabilité
 
-Les mouvements de traçabilité permettent de savoir où se trouvent les produits, colis, articles,… avant la mise en stock. Cela permet de déplacer d'un emplacement A à un emplacement B un ou plusieurs objets, tout en gardant les informations nécessaires de tracabilité liées aux colis, produits ou articles. Cette fonctionnalité est traitable sur l'application web et également sur l'application mobile.  
+Les mouvements de traçabilité permettent de savoir où se trouvent les produits, colis, articles (...) avant la mise en stock. Cela permet de déplacer d'un emplacement A à un emplacement B un ou plusieurs objets, tout en gardant les informations nécessaires de traçabilité liées aux colis, produits ou articles. Cette fonctionnalité est traitable sur l'application web et également sur l'application mobile.  
 
-Pour se rendre sur la fonctionnalité `mouvement` il faut cliquer sur le module traçabilité puis mouvement. Vous arriverez sur le tableau de tous les mouvements. 
+Pour se rendre sur la fonctionnalité `mouvement`, il faut cliquer sur le module traçabilité puis mouvement. Vous arriverez sur le tableau de tous les mouvements. 
 
 Ce tableau ne concerne pas uniquement les arrivages et les réceptions, il concerne aussi toutes les pièces qui ont été déplacées grâce à l'application. 
 
@@ -95,22 +95,22 @@ Il regroupe les informations suivantes :
 
 - Issu de 
 - Date 
-- Of et autres (colis et piéce) 
+- Of et autres (colis et pièce) 
 - Référence
 - Libellé
 - L’emplacement 
 - Types (dépose où prise)
 
-Vous allez retrouver en haut de l’écran, des filtres afin d'affiner vos recherches. Mais aussi une barre de recherche juste en dessous. 
+Vous allez retrouver en haut de l’écran des filtres afin d'affiner vos recherches, mais aussi une barre de recherche juste en dessous. 
 
-Vous retrouverez aussi la possibilité d'exporter au format csv une liste de ce tableau. Nous allons ensuite voir comment on crée un mouvement. Il y a deux Type de mouvement : 
+Vous retrouverez aussi la possibilité d'exporter au format CSV une liste de ce tableau. Nous allons ensuite voir comment créer un mouvement. Il y a deux Type de mouvement : 
 
 - Prise, 
 - Dépose.
 
-La prise permet de communiquer à l'application, « je prends cette référence à cet emplacement, à cette heure-ci ». La dépose elle, indique à l'application "je dépose cette référence à cet emplacement à cette heure-ci ». 
+La prise permet de communiquer à l'application, (Ex : Je prends cette référence à cet emplacement, à cette heure-ci ) La dépose, indique à l'application "je dépose cette référence à cet emplacement à cette heure-ci ». 
 
-Pour créer un mouvement cliquez sur nouveau mouvement. Puis sélectionnez les champs obligatoires pour valider ce mouvement : 
+Pour créer un mouvement, cliquez sur nouveau mouvement, puis sélectionnez les champs obligatoires pour valider ce mouvement : 
 
 - Emplacement de prise, 
 - Of et autres, (Colis et pièces)  
@@ -125,16 +125,16 @@ L'association BR est une fonctionnalité qui permet d'associer un arrivage à un
 
 Pour faire cette action, il faut vous rendre dans le module `Traçabilité`, puis sur la fonctionnalité `Association BR`. Cette fonctionnalité va vous rediriger vers la liste de toutes les associations BR déjà créées. Vous y retrouverez des filtres, en haut de votre écran, ce qui vous permettra de trier plus facilement. 
 
-Vous y retrouverez aussi un tableau regroupant toutes les associations de Bons de Réception, regroupant les informations suivantes : 
+Vous y retrouverez également un tableau regroupant toutes les associations de Bons de Réception, rassemblant les informations suivantes : 
 -	Action 
 -	Date 
 -	Arrivage 
 -	Réception 
 -	Utilisateur 
 
-Vous pouvez aussi retrouver juste au-dessus à droite du tableau, une barre de recherche.
+Vous pouvez aussi retrouver juste au-dessus à droite du tableau une barre de recherche.
 
-Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur le bouton `Association BR`. Cette action va immédiatement ouvrir un formulaire de création. Il vous faudra remplir le numéro d’arrivage, s'il y en a plusieurs vous pouvez cliquer sur le bouton `plus` pour ajouter un nouvel arrivage. 
+Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur le bouton `Association BR`. Cette action va immédiatement ouvrir un formulaire de création. Il vous faudra remplir le numéro d’arrivage. S'il y en a plusieurs vous pouvez cliquer sur le bouton `plus` pour ajouter un nouvel arrivage. 
 
 Puis vous devrez remplir le numéro de réception. Si vous voulez associer un bon de réception sans arrivage vous cliquez sur le bouton `sans arrivage`. Cette action fera disparaître le libellé des arrivages. 
 Pour finaliser votre création, cliquez sur enregistrer. Une fois la création faite, vous aurez la possibilité de retrouver votre `Bon de Réception` dans votre tableau. 

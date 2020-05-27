@@ -4,15 +4,15 @@ title: Généralités sur l'interface web
 sidebar_label: Généralités
 ---
 
-## Follow GT / Wiistock
+## Follow GT / WiiStock
 
-Une application de gestion de stock et flux logistiques en entrepôt pour faciliter le métier des logisticiens/magasiniers opérateurs en entrepôt.
+Une application de gestion de stock et flux logistiques en entrepôt pour faciliter le métier des logisticiens/magasiniers/opérateurs en entrepôt.
 
 ### Traçabilité 
 
 - [Identification d'un flux](webtracabilites.md)
 - [Arrivage](webtracabilites.md)
-- [Mouvemement de traçabilité](webtracabilites.md)
+- [Mouvement de traçabilité](webtracabilites.md)
 - [Association BR](webtracabilites.md)
 - [Acheminement](webtracabilites.md)
 - [En cours](webtracabilites.md)
@@ -34,7 +34,7 @@ Une application de gestion de stock et flux logistiques en entrepôt pour facili
 - [Ordre de collecte](webordres.md)
 - [Ordre de livraison](webordres.md)
 - [Ordre de préparation](webordres.md)
-- [Ordre de récéption](webordres.md)
+- [Ordre de réception](webordres.md)
 
 ### Stock 
 
