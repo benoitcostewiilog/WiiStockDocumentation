@@ -331,7 +331,7 @@ On peut modifier tous les champs de paramétrages d'une nature. La modification 
 
 ## Champs fixes
 
-Ce menu liste les diffèrents champs fixes liés à la fonction arrivage et à la fonction réception. 
+Ce menu liste les différents champs fixes liés à la fonction arrivage et à la fonction réception. 
 Contrairement aux champs libres, les champs fixes ne peuvent pas être supprimés et on ne peut pas en créer de nouveaux.  
 
 Cependant on peut modifier le paramétrage d'un champ fixe, ci-dessous les différentes possibilités de paramétrage : 

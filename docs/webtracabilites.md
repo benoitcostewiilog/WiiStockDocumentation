@@ -9,7 +9,7 @@ sidebar_label: Traçabilité
 
 L'application WiiStock propose en premier temps une réception, puis une mise en stock. 
 
-La réception correspond à l'identification du flux d'arrivage. En effet faire la réception puis la mise en stock en même temps n'est pas possible. Grâce à la fonctionnalité arrivage il est possible pour vous de réceptionner vos colis et de les envoyer dans une zone en attente de mise en stock (réception).
+La réception correspond à l'identification du flux d'arrivage. En effet faire la réception puis la mise en stock en même temps n'est pas possible. Grâce à la fonctionnalité arrivage, il est possible pour vous de réceptionner vos colis et de les envoyer dans une zone en attente de mise en stock (réception).
 
 La fonctionnalité arrivage se trouve dans le module traçabilité. Quand vous cliquez sur la fonctionnalité `arrivage`, vous arrivez sur un tableau qui regroupe tous les arrivages enregistrés. 
 
@@ -134,12 +134,11 @@ Vous y retrouverez également un tableau regroupant toutes les associations de B
 
 Vous pouvez aussi retrouver juste au-dessus à droite du tableau une barre de recherche.
 
-Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur le bouton `Association BR`. Cette action va immédiatement ouvrir un formulaire de création. Il vous faudra remplir le numéro d’arrivage. S'il y en a plusieurs vous pouvez cliquer sur le bouton `plus` pour ajouter un nouvel arrivage. 
-
-Puis vous devrez remplir le numéro de réception. Si vous voulez associer un bon de réception sans arrivage vous cliquez sur le bouton `sans arrivage`. Cette action fera disparaître le libellé des arrivages. 
+Pour associer un bon de réception à un arrivage, il faut que vous cliquiez sur le bouton `Association BR`. Cette action va immédiatement ouvrir un formulaire de création. Il vous faudra remplir le numéro d’arrivage. S'il y en a plusieurs vous pouvez cliquer sur le bouton `plus` pour ajouter un nouvel arrivage, puis vous devrez remplir le numéro de réception. 
+Si vous le souhaitez, vous pouvez associer un bon de réception sans arrivage, vous devrez cliquez sur le bouton `sans arrivage`. Cette action fera disparaître le libellé des arrivages. 
 Pour finaliser votre création, cliquez sur enregistrer. Une fois la création faite, vous aurez la possibilité de retrouver votre `Bon de Réception` dans votre tableau. 
 
-Si vous le souhaitez vous pouvez exporter votre tableau sous forme de tableur Excel. 
+Si vous le souhaitez, vous pouvez exporter votre tableau sous forme de tableur Excel. 
 
 ## Acheminement
 
@@ -154,30 +153,30 @@ Vous y retrouverez un tableau avec plusieurs informations pertinentes :
 - Nombre de pièce
 - Le statut
   
-Pour créer un nouvel acheminement il faut cliquer sur `nouvel acheminement`.   
+Pour créer un nouvel acheminement, il faut cliquer sur `nouvel acheminement`.   
 
-Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise, et emplacement de dépose. Pour finaliser la création, cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
+Après cette action, un formulaire s'ouvrira. Il vous faut remplir les champs colis, demandeur, destinataire, emplacement de prise et emplacement de dépose. Pour finaliser la création, cliquez sur enregistrer. Après la création, vous pourrez voir votre acheminement dans le tableau. 
 
-Si vous souhaitez voir quel acheminement a été fait ou pas, il faut regarder dans la colonne statut. Il y à deux statut possible. `à traiter` et `traité`.  
+Si vous souhaitez voir quel acheminement a été fait ou pas, il faut regarder dans la colonne statut. Il y a deux statuts possibles :" `à traiter` et `traité`".  
 
-Si vous souhaitez rechercher votre acheminement, vous pouvez le faire de manière simple, en utilisant les filtres en haut de votre écran ou bien la barre de recherche juste en dessous du bouton filtrer. Si vous souhaitez imprimer, modifier ou supprimer votre d'acheminement, vous pourrez utiliser les 3 boutons dans la colonne action. Le premier sert à imprimer, le deuxième à modifier et le troisième à supprimer.
+Si vous souhaitez rechercher votre acheminement, vous pouvez le faire de manière simple en utilisant les filtres en haut de votre écran ou bien la barre de recherche juste en dessous du bouton filtrer. Si vous souhaitez imprimer, modifier ou supprimer votre d'acheminement, vous pourrez utiliser les 3 boutons dans la colonne action. Le premier sert à imprimer, le deuxième à modifier et le troisième à supprimer.
 
 
 ## Encours
 
 La fonctionnalité des encours permet de visualiser la durée d'un objet sur un emplacement. Les encours sont liés à des emplacements, qui sont eux-mêmes liés à des délais de traçabilité que vous pourrez paramétrer dans le référentiel des emplacements. 
 
-Si les colis déposés sur les emplacements d'encours dépassent le délai de tracabilité préalablement paramétré alors la ou les lignes de colis apparaîtront en rouge sur votre écran. 
+Si les colis déposés sur les emplacements d'encours dépassent le délai de traçabilité préalablement paramétré, alors la ou les lignes de colis apparaîtront en rouge sur votre écran. 
 
-Afin de fixer un délai de traçabilité et pour attribuer un emplacement à une zone d’encours, vous vous rendrez dans référentiel, emplacement. Vous pourrez soit modifier un emplacement déjà existant et lui attribuer un délai de traçabilité ou bien créer un nouvel emplacement et lui ajouter un délai de traçabilité.   
+Afin de fixer un délai de traçabilité et pour attribuer un emplacement à une zone d’encours, vous devez vous rendrez dans référentiel puis emplacement. Vous pourrez soit modifier un emplacement déjà existant et lui attribuer un délai de traçabilité ou bien créer un nouvel emplacement et lui ajouter un délai de traçabilité.   
 
-Sur l'écran des encours, vous allez pouvoir visualiser plusieurs tableaux selon le nombre d'emplacements d'encours, autrement dit un tableau par emplacement d'encours, ci dessous le détail des champs disponibles sur ces tableaux : 
+Sur l'écran des encours, vous allez pouvoir visualiser plusieurs tableaux selon le nombre d'emplacements d'encours. Autrement dit un tableau par emplacement d'encours. Ci dessous le détail des champs disponibles sur ces tableaux : 
 
 Champs Emplacement d'encours | Description
 ------------ | -------------
-Colis | Indique le ou les numéros de colis présents sur l'emplacement
-Date de dépose  | Indique la date de dépose du colis sur l'emplacement
-Délai | Indique le temps passé du colis sur l'emplacement
+Colis | Indique le ou les numéros de colis présents sur l'emplacement.
+Date de dépose  | Indique la date de dépose du colis sur l'emplacement.
+Délai | Indique le temps passé du colis sur l'emplacement.
 
 ## Urgences
 
