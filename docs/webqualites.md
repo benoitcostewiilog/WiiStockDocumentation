@@ -7,7 +7,7 @@ sidebar_label: Litiges
 
 ## Litiges
 
-La fonctionnalité litige, permet de traiter la gestion des colis/articles non conformes à votre attente. Les litiges peuvent être liés à des arrivages ou des réceptions. Il est possible d'attribuer un ou plusieurs litiges à un ou plusieurs colis. Le type et le statut du litige sont paramétrables, cela permet d'adapter la solution Wiistock selon le type d'anomalie que vous pourriez rencontrer. 
+La fonctionnalité litige permet de traiter la gestion des colis/articles non conformes à votre attente. Les litiges peuvent être liés à des arrivages ou des réceptions. Il est possible d'attribuer un ou plusieurs litiges à un ou plusieurs colis. Le type et le statut du litige sont paramétrables, cela permet d'adapter la solution Wiistock selon le type d'anomalie que vous pourriez rencontrer. 
 
 Ce module regroupe sous forme de tableau tous les litiges sur arrivage et réception. 
 

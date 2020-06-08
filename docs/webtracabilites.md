@@ -182,20 +182,20 @@ Délai | Indique le temps passé du colis sur l'emplacement.
 
 ### Concept des urgences
 
-Il est possible qu'un acheteur ou des acheteurs aient besoin d'une commande en urgence, ils pourront identifier des commandes urgentes dans cette fonction. Dès l'arrivage de la commande en urgence, l'opérateur sera informé que la commande est en urgence et pourra donc la traiter en priorité, aussi les acheteurs seront informés par mail de l'arrivage de leur commande. 
+Il est possible qu'un acheteur ou des acheteurs aient besoin d'une commande en urgence, ils pourront identifier des commandes urgentes dans cette fonction. Dès l'arrivage de la commande en urgence, l'opérateur sera informé que la commande est en urgence et pourra donc la traiter en priorité. Aussi les acheteurs seront informés par mail de l'arrivage de leur commande. 
 
 ### Création d'une urgence
 
-Sur l'application Web, l'acheteur devra se rendre sur le module `Traçabilité`, `Urgence`. Puis il faudra cliquer sur `nouvelle urgence`. Il vous faudra remplir les champs obligatoires qui sont essentiels pour l'activation de l'urgence : 
+Sur l'application Web, l'acheteur devra se rendre sur le module `Traçabilité`, `Urgence` puis cliquer sur `nouvelle urgence`. Il vous faudra remplir les champs obligatoires qui sont essentiels pour l'activation de l'urgence : 
 
 Champs de création d'une urgence | Description
 ------------ | -------------
-Fourchette de livraison entre le et le | L'urgence sera active uniquement entre la date de début indiquée et la date de fin
-N°de commande | Renseignez le numéro de commande
-Numéro de poste | Renseignez le numéro de poste en urgence figurant sur la commande ou sur le BL
-Fournisseur | Sélectionnez l'intitulé du fournisseur lié à la commande, il doit préalablement figurer dans le référentiel fournisseur
-Transporteur | Sélectionnez l'intitulé du transporteur lié à la commande, il doit préalablement figurer dans le référentiel transporteur
-Numéro de tracking transporteur | Champ textuel libre non obligatoire,si disponible vous pouvez renseigner le numéro de tracking transporteur de la commande
+Fourchette de livraison entre le et le | L'urgence sera active uniquement entre la date de début indiquée et la date de fin.
+N° de commande | Renseignez le numéro de commande.
+Numéro de poste | Renseignez le numéro de poste en urgence figurant sur la commande ou sur le BL.
+Fournisseur | Sélectionnez l'intitulé du fournisseur lié à la commande. Il doit préalablement figurer dans le référentiel fournisseur
+Transporteur | Sélectionnez l'intitulé du transporteur lié à la commande. Il doit préalablement figurer dans le référentiel transporteur.
+Numéro de tracking transporteur | Champ textuel libre non obligatoire. Si disponible, vous pouvez renseigner le numéro de tracking transporteur de la commande.
 
 L'urgence se déclenchera lors de la création d'un arrivage lors de la fourchette de livraison et si les champs renseignés ci-dessous correspondent à l'urgence :    
 * Fournisseur 
@@ -203,11 +203,11 @@ L'urgence se déclenchera lors de la création d'un arrivage lors de la fourchet
 * Numéro commande
 * Destinataire  
 
-Suite à cela l'opérateur visualisera un message l'informant du caractère urgent de l'arrivage et du numéro de poste en urgence, aussi le ou les acheteurs recevront un mail les informant de l'arrivage de la commande urgente.  
+Suite à cela, l'opérateur visualisera un message l'informant du caractère urgent de l'arrivage et du numéro de poste en urgence. Aussi le ou les acheteurs recevront un mail les informant de l'arrivage de la commande urgente.  
 
 ### Urgence sur référence gérée à l'article
 
-Il est aussi possible de paramétrer un caractère urgent sur une référence gérée à l'article. Lors de la réception , l'opérateur sera alors averti de l'urgence et l'utilisateur sera averti de la réception de la référence en urgence. 
+Il est aussi possible de paramétrer un caractère urgent sur une référence gérée à l'article. Lors de la réception, l'opérateur sera alors averti de l'urgence et l'utilisateur sera averti de la réception de la référence en urgence. 
 
 Afin d'indiquer une urgence sur une référence gérée à l'article, dans le sous menu "Référence", cliquez sur le bouton crayon pour accéder à la fenêtre de modification de la référence et activez le bouton `Urgence`.
 
