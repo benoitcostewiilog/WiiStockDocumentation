@@ -8,7 +8,7 @@ sidebar_label: Demandes
 
 ## Demandes
 
-L'application Wiistock permet de générer des demandes de collecte, de livraison et de manutention. Chacune des demandes créées dans l'application génère à son tour des ordres. Ces ordres permettent de réaliser les actions demandées, les opérateurs pourront les traiter avec l'application mobile.  
+L'application WiiStock permet de générer des demandes de collecte, de livraison et de manutention. Chacune des demandes créées dans l'application génère à son tour des ordres. Ces ordres permettent de réaliser les actions demandées, les opérateurs pourront ainsi les traiter avec l'application mobile.  
 
 ## Demandes de collecte
 
