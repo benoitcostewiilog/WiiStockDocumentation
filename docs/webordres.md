@@ -17,13 +17,13 @@ Le tableau regroupe les colonnes suivantes :
 
 Informations | Description
 ------------ | -------------
-Numéro | Permet de lier la demande à l'ordre
-Statut | Permet de savoir si l'ordre est bien traité
-Date de création | Permet de savoir quand a été créé l'ordre
-Opérateur | Indique la personne qui a traité l'ordre
-Type | Indique la typologie d'article concerné
+Numéro | Permet de lier la demande à l'ordre.
+Statut | Permet de savoir si l'ordre est bien traité.
+Date de création | Permet de savoir quand a été créé l'ordre.
+Opérateur | Indique la personne qui a traité l'ordre.
+Type | Indique la typologie d'article concerné.
 
-Pour effectuer votre préparation, rendez-vous, dans l'ordre en cliquant sur la ligne de l'ordre souhaité. 
+Pour effectuer votre préparation, rendez-vous dans l'ordre en cliquant sur la ligne de l'ordre souhaité. 
 
 Après avoir cliqué dessus, vous serez redirigé vers le détail de l'ordre de préparation. Vous y retouverez le détail de l'ordre, mais aussi le tableau des articles et références demandés, et enfin la possibilité de lister les articles et références dont vous avez besoin. 
 
