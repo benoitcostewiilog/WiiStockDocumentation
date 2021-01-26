@@ -3,8 +3,9 @@ id: parautres
 title: Quelques astuces
 sidebar_label: Aller plus loin
 ---
-
+# Titre 1
 ## Follow GT / WiiStock 
+### Titre 3
 
 Une application de gestion de stock et flux logistiques en entrepots pour facliter le métier des logisticiens/magazinier/opérateurs. 
 
